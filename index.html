@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Recevez des notifications en temps réel pour les perturbations sur la ligne IDFM C01382 (Métro 12)">
+    <meta name="theme-color" content="#667eea">
+    <title>Notifications IDFM - Ligne C01382</title>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #667eea;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 16px;
+        }
+
+        .notification-panel {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .notification-status {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #ddd;
+        }
+
+        .status-dot.active {
+            background: #10b981;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #5568d3;
+        }
+
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .info-box {
+            background: #f3f4f6;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 15px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .disruptions-container {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .disruptions-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .disruptions-header h2 {
+            font-size: 22px;
+            color: #333;
+        }
+
+        .last-check {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .disruption-card {
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+            transition: box-shadow 0.3s;
+        }
+
+        .disruption-card:hover {
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .disruption-card.new {
+            border-left: 4px solid #ef4444;
+            background: #fef2f2;
+        }
+
+        .severity {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .severity.blocking {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .severity.information {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .severity.unknown {
+            background: #f3f4f6;
+            color: #374151;
+        }
+
+        .disruption-message {
+            color: #333;
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+
+        .no-disruptions {
+            text-align: center;
+            padding: 40px;
+            color: #10b981;
+            font-size: 18px;
+        }
+
+        .no-disruptions::before {
+            content: "✓";
+            display: block;
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚇 Notifications IDFM</h1>
+            <p class="subtitle">Recevez des alertes en temps réel pour la ligne C01382</p>
+        </header>
+
+        <div class="notification-panel">
+            <div class="notification-status">
+                <div class="status-indicator">
+                    <div class="status-dot" id="statusDot"></div>
+                    <span id="statusText">Notifications désactivées</span>
+                </div>
+                <button id="enableNotifications">Activer les notifications</button>
+            </div>
+            <div class="info-box">
+                💡 Les notifications vous alerteront automatiquement lorsqu'une nouvelle perturbation est détectée sur la ligne C01382.
+            </div>
+        </div>
+
+        <div class="disruptions-container">
+            <div class="disruptions-header">
+                <h2>Perturbations actuelles</h2>
+                <div class="last-check" id="lastCheck">Dernière vérification: jamais</div>
+            </div>
+            <div id="disruptionsList">
+                <div class="no-disruptions">Chargement...</div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Données fournies par IDFM Mobilités • Mise à jour toutes les 5 minutes</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

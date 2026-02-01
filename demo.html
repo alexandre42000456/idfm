@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Démo - Notifications IDFM</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .panel {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .description {
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin: 5px;
+        }
+
+        button:hover {
+            background: #5568d3;
+        }
+
+        button.secondary {
+            background: #10b981;
+        }
+
+        button.secondary:hover {
+            background: #059669;
+        }
+
+        button.danger {
+            background: #ef4444;
+        }
+
+        button.danger:hover {
+            background: #dc2626;
+        }
+
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .status {
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-weight: 500;
+        }
+
+        .status.success {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .status.error {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .status.info {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .code-block {
+            background: #f3f4f6;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+
+        .instructions {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+
+        .instructions h3 {
+            color: #92400e;
+            margin-bottom: 10px;
+        }
+
+        .instructions ol {
+            margin-left: 20px;
+            color: #78350f;
+        }
+
+        .instructions li {
+            margin: 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="panel">
+            <h1>🧪 Démo - Notifications IDFM</h1>
+            <p class="description">
+                Cette page permet de tester le système de notifications sans attendre le workflow GitHub Actions.
+                Vous pouvez simuler différents scénarios de perturbations et voir comment les notifications se comportent.
+            </p>
+        </div>
+
+        <div class="panel">
+            <h2>1. Activer les notifications</h2>
+            <p class="description">
+                Première étape: demander la permission d'afficher des notifications dans votre navigateur.
+            </p>
+            <button id="requestPermission">Demander la permission</button>
+            <div id="permissionStatus"></div>
+        </div>
+
+        <div class="panel">
+            <h2>2. Tester les notifications</h2>
+            <p class="description">
+                Une fois les permissions accordées, vous pouvez tester différents types de notifications.
+            </p>
+            <button id="testSimple" class="secondary">Notification simple</button>
+            <button id="testDisruption" class="secondary">Simulation perturbation</button>
+            <button id="testMultiple" class="secondary">Perturbations multiples</button>
+        </div>
+
+        <div class="panel">
+            <h2>3. Manipuler le fichier JSON</h2>
+            <p class="description">
+                Pour tester avec le système réel, vous devez modifier le fichier <code>data/disruptions.json</code>.
+            </p>
+
+            <div class="instructions">
+                <h3>📝 Instructions</h3>
+                <ol>
+                    <li>Ouvrir le fichier <code>data/disruptions.json</code></li>
+                    <li>Changer <code>"hasNewDisruptions": false</code> en <code>true</code></li>
+                    <li>Modifier le <code>lastCheck</code> avec un nouveau timestamp</li>
+                    <li>Sauvegarder le fichier</li>
+                    <li>Retourner sur <a href="index.html">index.html</a></li>
+                    <li>Attendre 30 secondes maximum</li>
+                    <li>Une notification devrait apparaître</li>
+                </ol>
+            </div>
+
+            <div class="code-block">{
+  "lastCheck": "2026-02-01T15:30:00Z",
+  "hasNewDisruptions": true,  ← Changer à true
+  "disruptionCount": 1,
+  "disruptions": [...]
+}</div>
+
+            <button id="copyJson">Copier un exemple JSON</button>
+        </div>
+
+        <div class="panel">
+            <h2>4. Service Worker</h2>
+            <p class="description">
+                Vérifier que le Service Worker est correctement enregistré.
+            </p>
+            <button id="checkServiceWorker">Vérifier le Service Worker</button>
+            <button id="unregisterServiceWorker" class="danger">Désinscrire le SW</button>
+            <div id="swStatus"></div>
+        </div>
+
+        <div class="panel">
+            <h2>📚 Informations utiles</h2>
+            <div class="status info">
+                <strong>Console DevTools:</strong> Ouvrez la console (F12) pour voir les logs détaillés
+                du système de notifications.
+            </div>
+            <div class="status info">
+                <strong>Application DevTools:</strong> Allez dans Application → Service Workers pour
+                voir l'état du Service Worker en temps réel.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // État
+        let permissionGranted = false;
+
+        // Éléments DOM
+        const requestBtn = document.getElementById('requestPermission');
+        const testSimpleBtn = document.getElementById('testSimple');
+        const testDisruptionBtn = document.getElementById('testDisruption');
+        const testMultipleBtn = document.getElementById('testMultiple');
+        const copyJsonBtn = document.getElementById('copyJson');
+        const checkSwBtn = document.getElementById('checkServiceWorker');
+        const unregisterSwBtn = document.getElementById('unregisterServiceWorker');
+        const permissionStatus = document.getElementById('permissionStatus');
+        const swStatus = document.getElementById('swStatus');
+
+        // Vérifier le support des notifications
+        if (!('Notification' in window)) {
+            permissionStatus.innerHTML = '<div class="status error">❌ Les notifications ne sont pas supportées par ce navigateur</div>';
+            requestBtn.disabled = true;
+        } else {
+            updatePermissionStatus();
+        }
+
+        // Demander la permission
+        requestBtn.addEventListener('click', async () => {
+            const permission = await Notification.requestPermission();
+            updatePermissionStatus();
+        });
+
+        // Mettre à jour le statut de permission
+        function updatePermissionStatus() {
+            const permission = Notification.permission;
+            permissionGranted = permission === 'granted';
+
+            if (permission === 'granted') {
+                permissionStatus.innerHTML = '<div class="status success">✅ Permissions accordées - Vous pouvez maintenant tester les notifications</div>';
+                requestBtn.disabled = true;
+                enableTestButtons();
+            } else if (permission === 'denied') {
+                permissionStatus.innerHTML = '<div class="status error">❌ Permissions refusées - Vérifiez les paramètres de votre navigateur</div>';
+                disableTestButtons();
+            } else {
+                permissionStatus.innerHTML = '<div class="status info">⏳ En attente de permission</div>';
+                disableTestButtons();
+            }
+        }
+
+        function enableTestButtons() {
+            testSimpleBtn.disabled = false;
+            testDisruptionBtn.disabled = false;
+            testMultipleBtn.disabled = false;
+        }
+
+        function disableTestButtons() {
+            testSimpleBtn.disabled = true;
+            testDisruptionBtn.disabled = true;
+            testMultipleBtn.disabled = true;
+        }
+
+        // Test notification simple
+        testSimpleBtn.addEventListener('click', () => {
+            new Notification('Test simple', {
+                body: 'Ceci est une notification de test',
+                icon: 'https://via.placeholder.com/192',
+            });
+        });
+
+        // Test notification perturbation
+        testDisruptionBtn.addEventListener('click', () => {
+            new Notification('🚨 Nouvelle perturbation IDFM', {
+                body: 'Métro 12 : Travaux de modernisation - Trafic interrompu',
+                icon: 'https://via.placeholder.com/192',
+                badge: 'https://via.placeholder.com/96',
+                tag: 'idfm-test',
+                requireInteraction: true,
+            });
+        });
+
+        // Test perturbations multiples
+        testMultipleBtn.addEventListener('click', () => {
+            new Notification('🚨 3 nouvelles perturbations IDFM', {
+                body: '3 perturbations détectées sur la ligne C01382',
+                icon: 'https://via.placeholder.com/192',
+                badge: 'https://via.placeholder.com/96',
+                tag: 'idfm-test-multiple',
+                requireInteraction: true,
+                vibrate: [200, 100, 200],
+            });
+        });
+
+        // Copier exemple JSON
+        copyJsonBtn.addEventListener('click', () => {
+            const exampleJson = `{
+  "lastCheck": "${new Date().toISOString()}",
+  "hasNewDisruptions": true,
+  "disruptionCount": 1,
+  "disruptions": [
+    {
+      "id": "test-disruption-${Date.now()}",
+      "severity": "bloquante",
+      "status": "active",
+      "cause": "travaux",
+      "messages": [
+        {
+          "text": "Métro 12 : Test - Trafic perturbé",
+          "channel": "titre"
+        }
+      ]
+    }
+  ]
+}`;
+
+            navigator.clipboard.writeText(exampleJson).then(() => {
+                alert('✅ JSON copié dans le presse-papiers!\n\nCollez-le dans data/disruptions.json');
+            }).catch(() => {
+                alert('❌ Erreur lors de la copie. Copiez manuellement depuis la console.');
+                console.log(exampleJson);
+            });
+        });
+
+        // Vérifier le Service Worker
+        checkSwBtn.addEventListener('click', async () => {
+            if (!('serviceWorker' in navigator)) {
+                swStatus.innerHTML = '<div class="status error">❌ Service Workers non supportés</div>';
+                return;
+            }
+
+            const registrations = await navigator.serviceWorker.getRegistrations();
+
+            if (registrations.length === 0) {
+                swStatus.innerHTML = '<div class="status info">ℹ️ Aucun Service Worker enregistré. Allez sur index.html pour l\'enregistrer.</div>';
+            } else {
+                let html = '<div class="status success">✅ Service Worker(s) enregistré(s):</div>';
+                registrations.forEach((reg, i) => {
+                    html += `<div class="code-block">
+Service Worker ${i + 1}:
+- Scope: ${reg.scope}
+- État: ${reg.active ? 'Actif' : 'Inactif'}
+</div>`;
+                });
+                swStatus.innerHTML = html;
+            }
+        });
+
+        // Désinscrire le Service Worker
+        unregisterSwBtn.addEventListener('click', async () => {
+            if (!('serviceWorker' in navigator)) {
+                return;
+            }
+
+            const registrations = await navigator.serviceWorker.getRegistrations();
+
+            for (const registration of registrations) {
+                await registration.unregister();
+            }
+
+            swStatus.innerHTML = '<div class="status success">✅ Tous les Service Workers ont été désenregistrés</div>';
+        });
+
+        // Initialisation
+        disableTestButtons();
+        console.log('🧪 Page de démo chargée - Ouvrez la console pour plus d\'informations');
+    </script>
+</body>
+</html>
