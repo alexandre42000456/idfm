@@ -18,6 +18,17 @@ const lastCheckElement = document.getElementById('lastCheck');
 document.addEventListener('DOMContentLoaded', () => {
     console.log('🚀 Application IDFM Notifications démarrée');
 
+    // Détection Safari iOS
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
+
+    // Sur iOS, les notifications nécessitent que l'app soit installée
+    if (isIOS && !isStandalone) {
+        showIOSInstallPrompt();
+        enableButton.disabled = true;
+        return;
+    }
+
     // Vérifier le support des notifications
     if (!('Notification' in window)) {
         statusText.textContent = 'Notifications non supportées par ce navigateur';
@@ -207,6 +218,29 @@ function displayDisruptions(disruptions) {
             </div>
         `;
     }).join('');
+}
+
+// Afficher les instructions d'installation pour iOS
+function showIOSInstallPrompt() {
+    statusText.textContent = 'Installation requise pour iOS';
+
+    const installInstructions = document.createElement('div');
+    installInstructions.className = 'info-box';
+    installInstructions.style.marginTop = '15px';
+    installInstructions.style.background = '#fef3c7';
+    installInstructions.style.borderLeftColor = '#f59e0b';
+    installInstructions.innerHTML = `
+        <strong>📱 Sur Safari iOS, installez l'application :</strong>
+        <ol style="margin: 10px 0 0 20px; line-height: 1.8;">
+            <li>Appuyez sur le bouton Partager <span style="font-size: 18px;">⎋</span></li>
+            <li>Sélectionnez "Sur l'écran d'accueil"</li>
+            <li>Appuyez sur "Ajouter"</li>
+            <li>Ouvrez l'app depuis l'écran d'accueil</li>
+        </ol>
+    `;
+
+    const panel = document.querySelector('.notification-panel');
+    panel.appendChild(installInstructions);
 }
 
 // Envoyer une notification pour les nouvelles perturbations
