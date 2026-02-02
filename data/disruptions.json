@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-02T13:13:41.243870Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "lastCheck": "2026-02-02T14:07:25.584671Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260208T220000",
+          "end": "20260209T043000"
+        },
+        {
           "begin": "20260201T220000",
           "end": "20260202T043000"
         },
         {
           "begin": "20260215T220000",
           "end": "20260216T043000"
-        },
-        {
-          "begin": "20260208T220000",
-          "end": "20260209T043000"
         }
       ],
       "messages": [
@@ -48,6 +48,10 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260204T220000",
+          "end": "20260205T043000"
+        },
+        {
           "begin": "20260128T220000",
           "end": "20260129T043000"
         },
@@ -62,10 +66,6 @@
         {
           "begin": "20260211T220000",
           "end": "20260212T043000"
-        },
-        {
-          "begin": "20260204T220000",
-          "end": "20260205T043000"
         }
       ],
       "messages": [
@@ -84,36 +84,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "dfd6dab0-0034-11f1-ba8d-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260202T133930",
-          "end": "20260202T134030"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Malaise voyageur sur le quai - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un malaise voyageur sur le quai à Lamarck - Caulaincourt .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Malaise voyageur sur le quai - Trafic perturbé",
-          "channel": "titre"
         }
       ]
     },
