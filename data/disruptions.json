@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-02T12:01:58.384145Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-02-02T13:13:41.243870Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -84,6 +84,36 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "dfd6dab0-0034-11f1-ba8d-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260202T133930",
+          "end": "20260202T134030"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Malaise voyageur sur le quai - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un malaise voyageur sur le quai à Lamarck - Caulaincourt .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Malaise voyageur sur le quai - Trafic perturbé",
+          "channel": "titre"
         }
       ]
     },
