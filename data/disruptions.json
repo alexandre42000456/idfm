@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-02T08:04:17.336904Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-02-02T08:57:14.985686Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260201T220000",
-          "end": "20260202T043000"
-        },
-        {
           "begin": "20260208T220000",
           "end": "20260209T043000"
+        },
+        {
+          "begin": "20260201T220000",
+          "end": "20260202T043000"
         },
         {
           "begin": "20260215T220000",
@@ -48,6 +48,10 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260204T220000",
+          "end": "20260205T043000"
+        },
+        {
           "begin": "20260128T220000",
           "end": "20260129T043000"
         },
@@ -62,10 +66,6 @@
         {
           "begin": "20260211T220000",
           "end": "20260212T043000"
-        },
-        {
-          "begin": "20260204T220000",
-          "end": "20260205T043000"
         }
       ],
       "messages": [
@@ -84,6 +84,36 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "d4176f7e-0010-11f1-bf2c-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260202T092128",
+          "end": "20260202T092228"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Malaise voyageur à bord du train - Reprise progressive / trafic reste très perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste très perturbé sur toute la ligne en répercussion d'un malaise voyageur à bord du train à Pigalle .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Reprise progressive / trafic reste très perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Malaise voyageur à bord du train - Reprise progressive / trafic reste très perturbé",
+          "channel": "titre"
         }
       ]
     },
