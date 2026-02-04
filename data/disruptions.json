@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-04T19:54:44.749051Z",
+  "lastCheck": "2026-02-04T20:19:09.276842Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260208T220000",
+          "end": "20260209T043000"
+        },
+        {
           "begin": "20260201T220000",
           "end": "20260202T043000"
         },
         {
           "begin": "20260215T220000",
           "end": "20260216T043000"
-        },
-        {
-          "begin": "20260208T220000",
-          "end": "20260209T043000"
         }
       ],
       "messages": [
@@ -48,16 +48,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260204T220000",
+          "end": "20260205T043000"
+        },
+        {
           "begin": "20260304T220000",
           "end": "20260305T043000"
         },
         {
           "begin": "20260225T220000",
           "end": "20260226T043000"
-        },
-        {
-          "begin": "20260204T220000",
-          "end": "20260205T043000"
         },
         {
           "begin": "20260218T220000",
@@ -121,36 +121,6 @@
         },
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
-        }
-      ]
-    },
-    {
-      "id": "2d105992-01fb-11f1-9140-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260204T195108",
-          "end": "20260204T195208"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison de personnes sur les voies à Marcadet - Poissonniers .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
           "channel": "titre"
         }
       ]
