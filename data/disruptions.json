@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-02-04T14:55:20.663981Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-02-04T15:30:50.623095Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
     {
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260208T220000",
-          "end": "20260209T043000"
-        },
-        {
           "begin": "20260201T220000",
           "end": "20260202T043000"
         },
         {
           "begin": "20260215T220000",
           "end": "20260216T043000"
+        },
+        {
+          "begin": "20260208T220000",
+          "end": "20260209T043000"
         }
       ],
       "messages": [
@@ -48,16 +48,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260204T220000",
-          "end": "20260205T043000"
-        },
-        {
           "begin": "20260304T220000",
           "end": "20260305T043000"
         },
         {
           "begin": "20260225T220000",
           "end": "20260226T043000"
+        },
+        {
+          "begin": "20260204T220000",
+          "end": "20260205T043000"
         },
         {
           "begin": "20260218T220000",
@@ -88,31 +88,39 @@
       ]
     },
     {
-      "id": "fc68826c-01d0-11f1-b9bf-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
+      "id": "5e1f695a-01d9-11f1-9a5b-0a58a9feac02",
+      "severity": "bloquante",
+      "status": "future",
+      "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260204T145034",
-          "end": "20260204T145134"
+          "begin": "20260205T220000",
+          "end": "20260206T043000"
+        },
+        {
+          "begin": "20260212T220000",
+          "end": "20260213T043000"
+        },
+        {
+          "begin": "20260219T220000",
+          "end": "20260220T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
         },
         {
-          "text": "<p>Le trafic reprend progressivement entre Porte de Versailles et Mairie d'Issy en répercussion d'un bagage oublié dans un train à Mairie d'Issy .</p>",
+          "text": "<p>Du 5 février au 19 février, le jeudi dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
         },
         {
-          "text": "Reprise progressive",
+          "text": "Trafic interrompu",
           "channel": "cbiv"
         },
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "titre"
         }
       ]
