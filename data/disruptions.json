@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-02-04T16:09:07.642594Z",
+  "lastCheck": "2026-02-04T17:03:53.772129Z",
   "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
@@ -126,23 +126,23 @@
       ]
     },
     {
-      "id": "36163cc4-01e1-11f1-b9bf-0a58a9feac02",
+      "id": "f7c9adc0-01ea-11f1-b9bf-0a58a9feac02",
       "severity": "perturbée",
       "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260204T164637",
-          "end": "20260204T164737"
+          "begin": "20260204T175511",
+          "end": "20260204T175611"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
           "channel": "notification"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'une gêne à la fermeture des portes d'un train à Madeleine .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un bagage oublié dans un train à Mairie d'Aubervilliers .</p>",
           "channel": "moteur"
         },
         {
@@ -150,7 +150,7 @@
           "channel": "cbiv"
         },
         {
-          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
           "channel": "titre"
         }
       ]
