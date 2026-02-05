@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-02-05T22:50:38.696669Z",
+  "lastCheck": "2026-02-05T23:11:48.948102Z",
   "hasNewDisruptions": false,
   "disruptionCount": 4,
   "disruptions": [
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260215T220000",
+          "end": "20260216T043000"
+        },
+        {
           "begin": "20260208T220000",
           "end": "20260209T043000"
         },
         {
           "begin": "20260201T220000",
           "end": "20260202T043000"
-        },
-        {
-          "begin": "20260215T220000",
-          "end": "20260216T043000"
         }
       ],
       "messages": [
@@ -48,24 +48,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
-        },
-        {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
-        },
-        {
-          "begin": "20260225T220000",
-          "end": "20260226T043000"
+          "begin": "20260211T220000",
+          "end": "20260212T043000"
         },
         {
           "begin": "20260204T220000",
           "end": "20260205T043000"
         },
         {
-          "begin": "20260211T220000",
-          "end": "20260212T043000"
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
+        },
+        {
+          "begin": "20260225T220000",
+          "end": "20260226T043000"
+        },
+        {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         }
       ],
       "messages": [
@@ -94,34 +94,34 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260205T220000",
-          "end": "20260206T043000"
+          "begin": "20260219T220000",
+          "end": "20260220T043000"
         },
         {
           "begin": "20260212T220000",
           "end": "20260213T043000"
         },
         {
-          "begin": "20260219T220000",
-          "end": "20260220T043000"
+          "begin": "20260205T220000",
+          "end": "20260206T043000"
         }
       ],
       "messages": [
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
+          "channel": "titre"
         },
         {
           "text": "<p>Jusqu'au 19 février, le jeudi dès 22:00, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
         },
         {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
         },
         {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
         }
       ]
     },
