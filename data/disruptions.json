@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-05T09:25:14.250549Z",
+  "lastCheck": "2026-02-05T10:05:58.769745Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -121,36 +121,6 @@
         },
         {
           "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "a7c75450-026a-11f1-9a5b-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260205T091032",
-          "end": "20260205T091132"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un malaise voyageur à bord du train à Saint-Lazare .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
