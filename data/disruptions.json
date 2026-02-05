@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-05T21:57:03.966056Z",
+  "lastCheck": "2026-02-05T22:19:33.206953Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -52,12 +52,12 @@
           "end": "20260219T043000"
         },
         {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
-        },
-        {
           "begin": "20260225T220000",
           "end": "20260226T043000"
+        },
+        {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         },
         {
           "begin": "20260204T220000",
@@ -84,36 +84,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "f189ae56-02d5-11f1-972a-0a58a9feac02",
-      "severity": "bloquante",
-      "status": "past",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20260205T215959",
-          "end": "20260205T220000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Du 5 février au 19 février, le jeudi dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
         }
       ]
     },
