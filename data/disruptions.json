@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-02-05T08:33:59.664528Z",
-  "hasNewDisruptions": true,
+  "lastCheck": "2026-02-05T09:25:14.250549Z",
+  "hasNewDisruptions": false,
   "disruptionCount": 5,
   "disruptions": [
     {
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260215T220000",
-          "end": "20260216T043000"
-        },
-        {
           "begin": "20260201T220000",
           "end": "20260202T043000"
+        },
+        {
+          "begin": "20260215T220000",
+          "end": "20260216T043000"
         },
         {
           "begin": "20260208T220000",
@@ -48,6 +48,10 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
+        },
+        {
           "begin": "20260211T220000",
           "end": "20260212T043000"
         },
@@ -56,16 +60,12 @@
           "end": "20260205T043000"
         },
         {
-          "begin": "20260225T220000",
-          "end": "20260226T043000"
-        },
-        {
           "begin": "20260304T220000",
           "end": "20260305T043000"
         },
         {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
+          "begin": "20260225T220000",
+          "end": "20260226T043000"
         }
       ],
       "messages": [
@@ -139,19 +139,19 @@
       "messages": [
         {
           "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
-          "channel": "notification"
+          "channel": "titre"
         },
         {
           "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un malaise voyageur à bord du train à Saint-Lazare .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
+          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
+          "channel": "notification"
         },
         {
-          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
-          "channel": "titre"
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     },
