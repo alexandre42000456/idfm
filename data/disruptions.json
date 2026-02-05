@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-05T11:27:33.977102Z",
+  "lastCheck": "2026-02-05T11:55:36.774423Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 5,
+  "disruptionCount": 6,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -126,13 +126,43 @@
       ]
     },
     {
-      "id": "334b3fb8-0285-11f1-b66e-0a58a9feac02",
+      "id": "bd069c0a-0287-11f1-b66e-0a58a9feac02",
+      "severity": "bloquante",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260205T123932",
+          "end": "20260206T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Altercation entre voyageurs - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Concorde et Montparnasse Bienvenue en raison d'une altercation entre voyageurs à Notre-Dame-des-Champs . <br>Heure de reprise estimée : 13:30.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Altercation entre voyageurs - Trafic interrompu",
+          "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "c53902c0-0285-11f1-9a5b-0a58a9feac02",
       "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260205T122230",
+          "begin": "20260205T122419",
           "end": "20260206T043000"
         }
       ],
@@ -142,7 +172,7 @@
           "channel": "notification"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison de personnes sur les voies à Jules Joffrin .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion de personnes sur les voies à Jules Joffrin .</p>",
           "channel": "moteur"
         },
         {
