@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-06T06:29:13.683959Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-02-06T07:28:18.537779Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -56,16 +56,16 @@
           "end": "20260205T043000"
         },
         {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
         },
         {
           "begin": "20260225T220000",
           "end": "20260226T043000"
         },
         {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         }
       ],
       "messages": [
@@ -94,16 +94,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260212T220000",
-          "end": "20260213T043000"
-        },
-        {
           "begin": "20260219T220000",
           "end": "20260220T043000"
         },
         {
           "begin": "20260205T220000",
           "end": "20260206T043000"
+        },
+        {
+          "begin": "20260212T220000",
+          "end": "20260213T043000"
         }
       ],
       "messages": [
@@ -122,6 +122,36 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "86545bf2-0327-11f1-ae32-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260206T074247",
+          "end": "20260206T074347"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trains stationnent",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Des trains stationnent entre Mairie d'Issy et Porte de Versailles vers Mairie d'Aubervilliers en raison d'une gêne à la fermeture des portes d'un train à Porte de Versailles .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trains stationnent",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trains stationnent",
+          "channel": "titre"
         }
       ]
     },
