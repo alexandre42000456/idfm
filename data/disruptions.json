@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-02-06T22:59:01.703659Z",
-  "hasNewDisruptions": true,
+  "lastCheck": "2026-02-06T23:23:00.940982Z",
+  "hasNewDisruptions": false,
   "disruptionCount": 5,
   "disruptions": [
     {
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260208T220000",
-          "end": "20260209T043000"
-        },
-        {
           "begin": "20260201T220000",
           "end": "20260202T043000"
         },
         {
           "begin": "20260215T220000",
           "end": "20260216T043000"
+        },
+        {
+          "begin": "20260208T220000",
+          "end": "20260209T043000"
         }
       ],
       "messages": [
@@ -48,24 +48,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
-        },
-        {
           "begin": "20260211T220000",
           "end": "20260212T043000"
-        },
-        {
-          "begin": "20260204T220000",
-          "end": "20260205T043000"
         },
         {
           "begin": "20260304T220000",
           "end": "20260305T043000"
         },
         {
+          "begin": "20260204T220000",
+          "end": "20260205T043000"
+        },
+        {
           "begin": "20260225T220000",
           "end": "20260226T043000"
+        },
+        {
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
         }
       ],
       "messages": [
@@ -94,16 +94,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260212T220000",
-          "end": "20260213T043000"
+          "begin": "20260219T220000",
+          "end": "20260220T043000"
         },
         {
           "begin": "20260205T220000",
           "end": "20260206T043000"
         },
         {
-          "begin": "20260219T220000",
-          "end": "20260220T043000"
+          "begin": "20260212T220000",
+          "end": "20260213T043000"
         }
       ],
       "messages": [
@@ -139,19 +139,19 @@
       "messages": [
         {
           "text": "Métro 12 : Altercation entre voyageurs - Trafic perturbé",
-          "channel": "notification"
+          "channel": "titre"
         },
         {
           "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'une altercation entre voyageurs à Marcadet - Poissonniers .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
+          "text": "Métro 12 : Altercation entre voyageurs - Trafic perturbé",
+          "channel": "notification"
         },
         {
-          "text": "Métro 12 : Altercation entre voyageurs - Trafic perturbé",
-          "channel": "titre"
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     },
