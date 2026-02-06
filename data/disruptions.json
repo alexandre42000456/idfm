@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-06T21:58:33.510006Z",
+  "lastCheck": "2026-02-06T22:19:38.559712Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -48,24 +48,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260211T220000",
-          "end": "20260212T043000"
-        },
-        {
           "begin": "20260218T220000",
           "end": "20260219T043000"
+        },
+        {
+          "begin": "20260211T220000",
+          "end": "20260212T043000"
         },
         {
           "begin": "20260204T220000",
           "end": "20260205T043000"
         },
         {
-          "begin": "20260225T220000",
-          "end": "20260226T043000"
-        },
-        {
           "begin": "20260304T220000",
           "end": "20260305T043000"
+        },
+        {
+          "begin": "20260225T220000",
+          "end": "20260226T043000"
         }
       ],
       "messages": [
@@ -94,16 +94,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260219T220000",
-          "end": "20260220T043000"
-        },
-        {
           "begin": "20260212T220000",
           "end": "20260213T043000"
         },
         {
           "begin": "20260205T220000",
           "end": "20260206T043000"
+        },
+        {
+          "begin": "20260219T220000",
+          "end": "20260220T043000"
         }
       ],
       "messages": [
@@ -122,36 +122,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "1bcaf76e-039f-11f1-91b8-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260206T215859",
-          "end": "20260206T215959"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident technique sur un train à Mairie d'Issy .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
-          "channel": "titre"
         }
       ]
     },
