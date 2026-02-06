@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-06T18:36:40.961357Z",
+  "lastCheck": "2026-02-06T19:24:34.244158Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 6,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -48,24 +48,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260211T220000",
-          "end": "20260212T043000"
-        },
-        {
           "begin": "20260218T220000",
           "end": "20260219T043000"
+        },
+        {
+          "begin": "20260211T220000",
+          "end": "20260212T043000"
         },
         {
           "begin": "20260204T220000",
           "end": "20260205T043000"
         },
         {
-          "begin": "20260225T220000",
-          "end": "20260226T043000"
-        },
-        {
           "begin": "20260304T220000",
           "end": "20260305T043000"
+        },
+        {
+          "begin": "20260225T220000",
+          "end": "20260226T043000"
         }
       ],
       "messages": [
@@ -94,16 +94,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260219T220000",
-          "end": "20260220T043000"
-        },
-        {
           "begin": "20260212T220000",
           "end": "20260213T043000"
         },
         {
           "begin": "20260205T220000",
           "end": "20260206T043000"
+        },
+        {
+          "begin": "20260219T220000",
+          "end": "20260220T043000"
         }
       ],
       "messages": [
@@ -126,44 +126,14 @@
       ]
     },
     {
-      "id": "8678d14e-0386-11f1-972a-0a58a9feac02",
+      "id": "1b1fd02c-038c-11f1-80b2-0a58a9feac02",
       "severity": "perturbée",
       "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260206T190107",
-          "end": "20260206T190207"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation à Mairie d'Issy .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "titre"
-        }
-      ]
-    },
-    {
-      "id": "a282d738-0389-11f1-ae32-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260206T192635",
-          "end": "20260207T043000"
+          "begin": "20260206T194226",
+          "end": "20260206T194326"
         }
       ],
       "messages": [
