@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-07T11:10:23.115600Z",
+  "lastCheck": "2026-02-07T11:33:20.080224Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -118,36 +118,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "cbdfcb22-040b-11f1-ae32-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260207T105503",
-          "end": "20260207T105603"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Intervention des équipes techniques - Reprise progressive / trafic reste perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en raison d'une intervention des équipes techniques à Porte de Versailles .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Reprise progressive / trafic reste perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Intervention des équipes techniques - Reprise progressive / trafic reste perturbé",
-          "channel": "titre"
         }
       ]
     },
