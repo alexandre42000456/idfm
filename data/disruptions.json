@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-07T19:58:22.241583Z",
+  "lastCheck": "2026-02-07T20:21:31.260490Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -44,24 +44,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260225T220000",
-          "end": "20260226T043000"
-        },
-        {
-          "begin": "20260204T220000",
-          "end": "20260205T043000"
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
         },
         {
           "begin": "20260304T220000",
           "end": "20260305T043000"
         },
         {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
+          "begin": "20260225T220000",
+          "end": "20260226T043000"
         },
         {
           "begin": "20260211T220000",
           "end": "20260212T043000"
+        },
+        {
+          "begin": "20260204T220000",
+          "end": "20260205T043000"
         }
       ],
       "messages": [
@@ -90,16 +90,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260205T220000",
-          "end": "20260206T043000"
+          "begin": "20260212T220000",
+          "end": "20260213T043000"
         },
         {
           "begin": "20260219T220000",
           "end": "20260220T043000"
         },
         {
-          "begin": "20260212T220000",
-          "end": "20260213T043000"
+          "begin": "20260205T220000",
+          "end": "20260206T043000"
         }
       ],
       "messages": [
@@ -118,36 +118,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "d521990a-0455-11f1-80b2-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260207T194506",
-          "end": "20260207T194606"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en raison d'un bagage oublié dans un train  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Reprise progressive / trafic reste perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
-          "channel": "titre"
         }
       ]
     },
