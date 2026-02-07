@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-02-07T09:53:27.081879Z",
+  "lastCheck": "2026-02-07T10:01:26.345005Z",
   "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260208T220000",
-          "end": "20260209T043000"
-        },
-        {
           "begin": "20260215T220000",
           "end": "20260216T043000"
+        },
+        {
+          "begin": "20260208T220000",
+          "end": "20260209T043000"
         }
       ],
       "messages": [
@@ -44,24 +44,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
-        },
-        {
-          "begin": "20260204T220000",
-          "end": "20260205T043000"
-        },
-        {
           "begin": "20260225T220000",
           "end": "20260226T043000"
+        },
+        {
+          "begin": "20260211T220000",
+          "end": "20260212T043000"
         },
         {
           "begin": "20260218T220000",
           "end": "20260219T043000"
         },
         {
-          "begin": "20260211T220000",
-          "end": "20260212T043000"
+          "begin": "20260204T220000",
+          "end": "20260205T043000"
+        },
+        {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         }
       ],
       "messages": [
@@ -90,16 +90,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260205T220000",
-          "end": "20260206T043000"
+          "begin": "20260212T220000",
+          "end": "20260213T043000"
         },
         {
           "begin": "20260219T220000",
           "end": "20260220T043000"
         },
         {
-          "begin": "20260212T220000",
-          "end": "20260213T043000"
+          "begin": "20260205T220000",
+          "end": "20260206T043000"
         }
       ],
       "messages": [
@@ -122,31 +122,31 @@
       ]
     },
     {
-      "id": "d52ff82a-0409-11f1-9a83-0a58a9feac02",
-      "severity": "bloquante",
+      "id": "ac64c636-040a-11f1-9a83-0a58a9feac02",
+      "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260207T104446",
+          "begin": "20260207T104945",
           "end": "20260208T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Intervention des équipes techniques - Trafic interrompu",
+          "text": "Métro 12 : Intervention des équipes techniques - Reprise progressive / trafic reste perturbé",
           "channel": "notification"
         },
         {
-          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Montparnasse Bienvenue en raison d'une intervention des équipes techniques à Porte de Versailles . <br>Heure de reprise estimée : 11:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en raison d'une intervention des équipes techniques à Porte de Versailles .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Trafic interrompu",
+          "text": "Reprise progressive / trafic reste perturbé",
           "channel": "cbiv"
         },
         {
-          "text": "Métro 12 : Intervention des équipes techniques - Trafic interrompu",
+          "text": "Métro 12 : Intervention des équipes techniques - Reprise progressive / trafic reste perturbé",
           "channel": "titre"
         }
       ]
