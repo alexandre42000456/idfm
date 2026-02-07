@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-02-07T10:01:26.345005Z",
+  "lastCheck": "2026-02-07T10:31:15.395439Z",
   "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260215T220000",
-          "end": "20260216T043000"
-        },
-        {
           "begin": "20260208T220000",
           "end": "20260209T043000"
+        },
+        {
+          "begin": "20260215T220000",
+          "end": "20260216T043000"
         }
       ],
       "messages": [
@@ -44,24 +44,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260225T220000",
-          "end": "20260226T043000"
-        },
-        {
-          "begin": "20260211T220000",
-          "end": "20260212T043000"
-        },
-        {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         },
         {
           "begin": "20260204T220000",
           "end": "20260205T043000"
         },
         {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
+          "begin": "20260225T220000",
+          "end": "20260226T043000"
+        },
+        {
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
+        },
+        {
+          "begin": "20260211T220000",
+          "end": "20260212T043000"
         }
       ],
       "messages": [
@@ -90,16 +90,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260212T220000",
-          "end": "20260213T043000"
+          "begin": "20260205T220000",
+          "end": "20260206T043000"
         },
         {
           "begin": "20260219T220000",
           "end": "20260220T043000"
         },
         {
-          "begin": "20260205T220000",
-          "end": "20260206T043000"
+          "begin": "20260212T220000",
+          "end": "20260213T043000"
         }
       ],
       "messages": [
@@ -122,14 +122,14 @@
       ]
     },
     {
-      "id": "ac64c636-040a-11f1-9a83-0a58a9feac02",
+      "id": "cbdfcb22-040b-11f1-ae32-0a58a9feac02",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260207T104945",
-          "end": "20260208T043000"
+          "begin": "20260207T105503",
+          "end": "20260207T105603"
         }
       ],
       "messages": [
