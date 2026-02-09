@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-09T07:43:17.017939Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-02-09T08:29:30.403705Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260208T220000",
-          "end": "20260209T043000"
-        },
-        {
           "begin": "20260215T220000",
           "end": "20260216T043000"
+        },
+        {
+          "begin": "20260208T220000",
+          "end": "20260209T043000"
         }
       ],
       "messages": [
@@ -44,8 +44,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
+        },
+        {
           "begin": "20260225T220000",
           "end": "20260226T043000"
+        },
+        {
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
         },
         {
           "begin": "20260211T220000",
@@ -54,14 +62,6 @@
         {
           "begin": "20260204T220000",
           "end": "20260205T043000"
-        },
-        {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
-        },
-        {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
         }
       ],
       "messages": [
@@ -90,16 +90,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260205T220000",
-          "end": "20260206T043000"
+          "begin": "20260212T220000",
+          "end": "20260213T043000"
         },
         {
           "begin": "20260219T220000",
           "end": "20260220T043000"
         },
         {
-          "begin": "20260212T220000",
-          "end": "20260213T043000"
+          "begin": "20260205T220000",
+          "end": "20260206T043000"
         }
       ],
       "messages": [
@@ -118,6 +118,36 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "db498c5e-058e-11f1-8203-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260209T091046",
+          "end": "20270209T091046"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
+          "channel": "email ascenseur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
+          "channel": "moteur"
+        },
+        {
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne ascenseur situé Quai <> Couloir, dir. Marie d'Aubervilliers",
+          "channel": "sms ascenseurs"
         }
       ]
     },
