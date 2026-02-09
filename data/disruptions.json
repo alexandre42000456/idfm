@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-09T18:01:22.412718Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 5,
+  "lastCheck": "2026-02-09T19:21:40.590668Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -118,36 +118,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "326c269a-05da-11f1-b561-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260209T180513",
-          "end": "20260209T180613"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une gêne à la fermeture des portes d'un train à Assemblée Nationale .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
-          "channel": "titre"
         }
       ]
     },
