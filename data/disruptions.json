@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-09T13:14:59.564022Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 5,
+  "lastCheck": "2026-02-09T14:19:31.344474Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260215T220000",
-          "end": "20260216T043000"
-        },
-        {
           "begin": "20260208T220000",
           "end": "20260209T043000"
+        },
+        {
+          "begin": "20260215T220000",
+          "end": "20260216T043000"
         }
       ],
       "messages": [
@@ -44,24 +44,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
+          "begin": "20260204T220000",
+          "end": "20260205T043000"
         },
         {
           "begin": "20260304T220000",
           "end": "20260305T043000"
         },
         {
-          "begin": "20260225T220000",
-          "end": "20260226T043000"
-        },
-        {
           "begin": "20260211T220000",
           "end": "20260212T043000"
         },
         {
-          "begin": "20260204T220000",
-          "end": "20260205T043000"
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
+        },
+        {
+          "begin": "20260225T220000",
+          "end": "20260226T043000"
         }
       ],
       "messages": [
@@ -90,16 +90,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260205T220000",
-          "end": "20260206T043000"
-        },
-        {
           "begin": "20260219T220000",
           "end": "20260220T043000"
         },
         {
           "begin": "20260212T220000",
           "end": "20260213T043000"
+        },
+        {
+          "begin": "20260205T220000",
+          "end": "20260206T043000"
         }
       ],
       "messages": [
@@ -148,36 +148,6 @@
         {
           "text": "Autre",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "33568df6-05b8-11f1-8f4c-0a58a9feac02",
-      "severity": "information",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260209T140643",
-          "end": "20260209T141643"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Mairie d'Aubervilliers Remise en marche de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
-          "channel": "email ascenseur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Remise en marche de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
-          "channel": "moteur"
-        },
-        {
-          "text": "Remise en marche d'un ascenseur",
-          "channel": "titre"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Remise en état ascenseur situé Quai <> Couloir, dir. Marie d'Aubervilliers",
-          "channel": "sms ascenseurs"
         }
       ]
     }
