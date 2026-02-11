@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-02-11T07:37:35.933847Z",
+  "lastCheck": "2026-02-11T08:08:25.313632Z",
   "hasNewDisruptions": false,
   "disruptionCount": 4,
   "disruptions": [
@@ -44,10 +44,6 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
-        },
-        {
           "begin": "20260211T220000",
           "end": "20260212T043000"
         },
@@ -58,6 +54,10 @@
         {
           "begin": "20260225T220000",
           "end": "20260226T043000"
+        },
+        {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         },
         {
           "begin": "20260311T220000",
@@ -90,12 +90,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260219T220000",
-          "end": "20260220T043000"
-        },
-        {
           "begin": "20260212T220000",
           "end": "20260213T043000"
+        },
+        {
+          "begin": "20260219T220000",
+          "end": "20260220T043000"
         }
       ],
       "messages": [
