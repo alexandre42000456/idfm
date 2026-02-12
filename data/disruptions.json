@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-02-12T18:05:44.159272Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-02-12T19:16:02.843515Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
     {
@@ -118,36 +118,6 @@
       ]
     },
     {
-      "id": "e77dff28-0813-11f1-9c9f-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260212T140811",
-          "end": "20270212T140811"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
-          "channel": "moteur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
-          "channel": "email ascenseur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur situé Quai <> Couloir, dir. Marie d'Aubervilliers",
-          "channel": "sms ascenseurs"
-        }
-      ]
-    },
-    {
       "id": "3110838a-f6cc-11f0-9188-0a58a9feac02",
       "severity": "information",
       "status": "active",
@@ -174,6 +144,36 @@
         {
           "text": "Autre",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "5a16691c-0846-11f1-8203-0a58a9feac02",
+      "severity": "information",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260212T200918",
+          "end": "20260212T201918"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Mairie d'Aubervilliers Remise en marche de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
+          "channel": "email ascenseur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Remise en marche de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
+          "channel": "moteur"
+        },
+        {
+          "text": "Remise en marche d'un ascenseur",
+          "channel": "titre"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Remise en état ascenseur situé Quai <> Couloir, dir. Marie d'Aubervilliers",
+          "channel": "sms ascenseurs"
         }
       ]
     }
