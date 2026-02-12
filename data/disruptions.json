@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-12T08:06:47.434270Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-02-12T09:01:43.721262Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260215T220000",
-          "end": "20260216T043000"
-        },
-        {
           "begin": "20260208T220000",
           "end": "20260209T043000"
+        },
+        {
+          "begin": "20260215T220000",
+          "end": "20260216T043000"
         }
       ],
       "messages": [
@@ -48,16 +48,16 @@
           "end": "20260219T043000"
         },
         {
-          "begin": "20260211T220000",
-          "end": "20260212T043000"
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         },
         {
           "begin": "20260311T220000",
           "end": "20260312T043000"
         },
         {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
+          "begin": "20260211T220000",
+          "end": "20260212T043000"
         },
         {
           "begin": "20260225T220000",
@@ -114,6 +114,36 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "e3dbcd3e-07e9-11f1-9c9f-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260212T090728",
+          "end": "20270212T090728"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 1, direction Marie d'Aubervilliers",
+          "channel": "moteur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 1, direction Marie d'Aubervilliers",
+          "channel": "email ascenseur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne ascenseur situé Quai 1, dir. Marie d'Aubervilliers",
+          "channel": "sms ascenseurs"
         }
       ]
     },
