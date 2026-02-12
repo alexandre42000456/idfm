@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-02-12T15:07:06.608262Z",
+  "lastCheck": "2026-02-12T16:04:06.503286Z",
   "hasNewDisruptions": false,
   "disruptionCount": 5,
   "disruptions": [
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260208T220000",
-          "end": "20260209T043000"
-        },
-        {
           "begin": "20260215T220000",
           "end": "20260216T043000"
+        },
+        {
+          "begin": "20260208T220000",
+          "end": "20260209T043000"
         }
       ],
       "messages": [
@@ -44,24 +44,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
-        },
-        {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
+          "begin": "20260211T220000",
+          "end": "20260212T043000"
         },
         {
           "begin": "20260311T220000",
           "end": "20260312T043000"
         },
         {
-          "begin": "20260211T220000",
-          "end": "20260212T043000"
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
         },
         {
           "begin": "20260225T220000",
           "end": "20260226T043000"
+        },
+        {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         }
       ],
       "messages": [
@@ -130,16 +130,16 @@
       ],
       "messages": [
         {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
-          "channel": "email ascenseur"
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
         },
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
           "channel": "moteur"
         },
         {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
+          "channel": "email ascenseur"
         },
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur situé Quai <> Couloir, dir. Marie d'Aubervilliers",
