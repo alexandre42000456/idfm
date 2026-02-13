@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-13T18:50:45.061598Z",
+  "lastCheck": "2026-02-13T19:32:06.220915Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 5,
+  "disruptionCount": 6,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -44,6 +44,14 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
+        },
+        {
+          "begin": "20260311T220000",
+          "end": "20260312T043000"
+        },
+        {
           "begin": "20260225T220000",
           "end": "20260226T043000"
         },
@@ -54,14 +62,6 @@
         {
           "begin": "20260211T220000",
           "end": "20260212T043000"
-        },
-        {
-          "begin": "20260311T220000",
-          "end": "20260312T043000"
-        },
-        {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
         }
       ],
       "messages": [
@@ -90,12 +90,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260219T220000",
-          "end": "20260220T043000"
-        },
-        {
           "begin": "20260212T220000",
           "end": "20260213T043000"
+        },
+        {
+          "begin": "20260219T220000",
+          "end": "20260220T043000"
         }
       ],
       "messages": [
@@ -143,6 +143,36 @@
         },
         {
           "text": "Métro 12 : Bagage oublié sur un quai - Trafic perturbé",
+          "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "6b34875c-0912-11f1-a4ee-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260213T202645",
+          "end": "20260213T202745"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un ajustement de l'intervalle entre les trains  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trafic perturbé",
           "channel": "titre"
         }
       ]
