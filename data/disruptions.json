@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-13T19:32:06.220915Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 6,
+  "lastCheck": "2026-02-13T20:01:22.681183Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -44,14 +44,6 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
-        },
-        {
-          "begin": "20260311T220000",
-          "end": "20260312T043000"
-        },
-        {
           "begin": "20260225T220000",
           "end": "20260226T043000"
         },
@@ -62,6 +54,14 @@
         {
           "begin": "20260211T220000",
           "end": "20260212T043000"
+        },
+        {
+          "begin": "20260311T220000",
+          "end": "20260312T043000"
+        },
+        {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         }
       ],
       "messages": [
@@ -90,12 +90,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260212T220000",
-          "end": "20260213T043000"
-        },
-        {
           "begin": "20260219T220000",
           "end": "20260220T043000"
+        },
+        {
+          "begin": "20260212T220000",
+          "end": "20260213T043000"
         }
       ],
       "messages": [
@@ -114,36 +114,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "6e32d7f8-090b-11f1-a4ee-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260213T193643",
-          "end": "20260213T193743"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié sur un quai - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un bagage oublié sur un quai à Montparnasse Bienvenue .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié sur un quai - Trafic perturbé",
-          "channel": "titre"
         }
       ]
     },
