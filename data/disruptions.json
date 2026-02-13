@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-13T16:29:57.536758Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-02-13T17:23:17.682466Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -114,6 +114,36 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "b16795f6-08ff-11f1-810f-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260213T181342",
+          "end": "20260214T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié sur un quai - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un bagage oublié sur un quai à Montparnasse Bienvenue .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié sur un quai - Trafic perturbé",
+          "channel": "titre"
         }
       ]
     },
