@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-02-14T23:00:41.384271Z",
+  "lastCheck": "2026-02-14T23:27:12.544260Z",
   "hasNewDisruptions": false,
   "disruptionCount": 5,
   "disruptions": [
@@ -44,20 +44,20 @@
           "end": "20260226T043000"
         },
         {
-          "begin": "20260311T220000",
-          "end": "20260312T043000"
-        },
-        {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
+          "begin": "20260211T220000",
+          "end": "20260212T043000"
         },
         {
           "begin": "20260218T220000",
           "end": "20260219T043000"
         },
         {
-          "begin": "20260211T220000",
-          "end": "20260212T043000"
+          "begin": "20260311T220000",
+          "end": "20260312T043000"
+        },
+        {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         }
       ],
       "messages": [
@@ -86,12 +86,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260212T220000",
-          "end": "20260213T043000"
-        },
-        {
           "begin": "20260219T220000",
           "end": "20260220T043000"
+        },
+        {
+          "begin": "20260212T220000",
+          "end": "20260213T043000"
         }
       ],
       "messages": [
@@ -157,11 +157,7 @@
       "messages": [
         {
           "text": "Funiculaire FUN - Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Information - Autre",
-          "channel": "notification"
-        },
-        {
-          "text": "Autre",
-          "channel": "cbiv"
+          "channel": "titre"
         },
         {
           "text": "<p>❄ Météo France place la région Ile-de-France en vigilance orange Neige - Verglas ce dimanche 15 février.<br>Avant de vous déplacer, consultez l’état du trafic de votre ligne.</p>",
@@ -169,7 +165,11 @@
         },
         {
           "text": "Funiculaire FUN - Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Information - Autre",
-          "channel": "titre"
+          "channel": "notification"
+        },
+        {
+          "text": "Autre",
+          "channel": "cbiv"
         }
       ]
     }
