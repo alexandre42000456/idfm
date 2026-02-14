@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-02-14T16:13:18.515166Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-02-14T16:48:49.011677Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
     {
@@ -144,13 +144,13 @@
       ]
     },
     {
-      "id": "bb99e4f4-09bb-11f1-9239-0a58a9feac02",
+      "id": "e50f76e0-09c1-11f1-9b8a-0a58a9feac02",
       "severity": "information",
       "status": "active",
       "cause": "information",
       "application_periods": [
         {
-          "begin": "20260214T163934",
+          "begin": "20260214T172330",
           "end": "20260216T043000"
         }
       ],
@@ -164,7 +164,7 @@
           "channel": "cbiv"
         },
         {
-          "text": "<p>❄ Météo France place la région Ile-de-France en vigilance orange Neige - Verglas ce dimanche 15 février.<br>L'exploitation des lignes de Métro, RER et Tramway risque d'être perturbée.<br>Avant de vous déplacer, consultez l’état du trafic de votre ligne.</p>",
+          "text": "<p>❄ Météo France place la région Ile-de-France en vigilance orange Neige - Verglas ce dimanche 15 février.<br>Avant de vous déplacer, consultez l’état du trafic de votre ligne.</p>",
           "channel": "moteur"
         },
         {
