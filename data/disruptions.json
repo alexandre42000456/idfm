@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-14T15:40:17.910949Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-02-14T15:54:53.536448Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -40,12 +40,8 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
-        },
-        {
-          "begin": "20260211T220000",
-          "end": "20260212T043000"
+          "begin": "20260225T220000",
+          "end": "20260226T043000"
         },
         {
           "begin": "20260311T220000",
@@ -56,8 +52,12 @@
           "end": "20260305T043000"
         },
         {
-          "begin": "20260225T220000",
-          "end": "20260226T043000"
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
+        },
+        {
+          "begin": "20260211T220000",
+          "end": "20260212T043000"
         }
       ],
       "messages": [
@@ -86,12 +86,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260219T220000",
-          "end": "20260220T043000"
-        },
-        {
           "begin": "20260212T220000",
           "end": "20260213T043000"
+        },
+        {
+          "begin": "20260219T220000",
+          "end": "20260220T043000"
         }
       ],
       "messages": [
@@ -140,6 +140,36 @@
         {
           "text": "Autre",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "bb99e4f4-09bb-11f1-9239-0a58a9feac02",
+      "severity": "information",
+      "status": "active",
+      "cause": "information",
+      "application_periods": [
+        {
+          "begin": "20260214T163934",
+          "end": "20260216T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Funiculaire FUN - Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Information - Autre",
+          "channel": "notification"
+        },
+        {
+          "text": "Autre",
+          "channel": "cbiv"
+        },
+        {
+          "text": "<p>❄ Météo France place la région Ile-de-France en vigilance orange Neige - Verglas ce dimanche 15 février.<br>L'exploitation des lignes de Métro, RER et Tramway risque d'être perturbée.<br>Avant de vous déplacer, consultez l’état du trafic de votre ligne.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Funiculaire FUN - Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Information - Autre",
+          "channel": "titre"
         }
       ]
     }
