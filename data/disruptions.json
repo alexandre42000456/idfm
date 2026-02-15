@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-15T13:16:04.813727Z",
+  "lastCheck": "2026-02-15T13:54:01.634571Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "bca7393a-e9b0-11f0-ac5b-0a58a9feac02",
@@ -140,36 +140,6 @@
         {
           "text": "Autre",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "4b878c28-0a67-11f1-9b8a-0a58a9feac02",
-      "severity": "information",
-      "status": "past",
-      "cause": "information",
-      "application_periods": [
-        {
-          "begin": "20260215T130509",
-          "end": "20260215T130609"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Funiculaire FUN - Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Information - Autre",
-          "channel": "notification"
-        },
-        {
-          "text": "Autre",
-          "channel": "cbiv"
-        },
-        {
-          "text": "<p>❄ Météo France place la région Ile-de-France en vigilance orange Neige - Verglas ce dimanche 15 février.<br>Avant de vous déplacer, consultez l’état du trafic de votre ligne.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Funiculaire FUN - Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Information - Autre",
-          "channel": "titre"
         }
       ]
     }
