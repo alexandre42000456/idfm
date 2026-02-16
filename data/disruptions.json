@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-02-16T17:52:56.444729Z",
-  "hasNewDisruptions": true,
+  "lastCheck": "2026-02-16T18:24:24.264865Z",
+  "hasNewDisruptions": false,
   "disruptionCount": 4,
   "disruptions": [
     {
@@ -86,7 +86,7 @@
     {
       "id": "915f201a-0b5e-11f1-b9dd-0a58a9feac02",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
