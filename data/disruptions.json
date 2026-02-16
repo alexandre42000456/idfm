@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-02-16T14:33:38.426052Z",
+  "lastCheck": "2026-02-16T15:10:36.209508Z",
   "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
@@ -10,10 +10,6 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260311T220000",
-          "end": "20260312T043000"
-        },
-        {
           "begin": "20260211T220000",
           "end": "20260212T043000"
         },
@@ -22,12 +18,16 @@
           "end": "20260219T043000"
         },
         {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
+        },
+        {
           "begin": "20260225T220000",
           "end": "20260226T043000"
         },
         {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
+          "begin": "20260311T220000",
+          "end": "20260312T043000"
         }
       ],
       "messages": [
@@ -56,12 +56,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260212T220000",
-          "end": "20260213T043000"
-        },
-        {
           "begin": "20260219T220000",
           "end": "20260220T043000"
+        },
+        {
+          "begin": "20260212T220000",
+          "end": "20260213T043000"
         }
       ],
       "messages": [
@@ -84,13 +84,13 @@
       ]
     },
     {
-      "id": "366f7b18-0b41-11f1-b327-0a58a9feac02",
+      "id": "4f17721c-0b49-11f1-b9dd-0a58a9feac02",
       "severity": "bloquante",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260216T150707",
+          "begin": "20260216T160451",
           "end": "20260216T163000"
         }
       ],
@@ -100,7 +100,7 @@
           "channel": "notification"
         },
         {
-          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Porte de Versailles en raison d'un objet bloquant la voie à Corentin Celton. <br>Reprise estimée : 17:00.<br>Bus de remplacement.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "text": "<p>Le trafic est interrompu et des Bus de remplacement sont prévue entre Mairie d'Issy et Pte de Versailles en raison d'un objet bloquant la voie à Corentin Celton. <br>Reprise estimée : 19:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
           "channel": "moteur"
         },
         {
