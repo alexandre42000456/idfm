@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-02-16T15:55:26.517291Z",
+  "lastCheck": "2026-02-16T16:29:05.977440Z",
   "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
@@ -10,8 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
+        },
+        {
           "begin": "20260211T220000",
           "end": "20260212T043000"
+        },
+        {
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
         },
         {
           "begin": "20260225T220000",
@@ -20,14 +28,6 @@
         {
           "begin": "20260311T220000",
           "end": "20260312T043000"
-        },
-        {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
-        },
-        {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
         }
       ],
       "messages": [
@@ -84,31 +84,31 @@
       ]
     },
     {
-      "id": "c8668a96-0b4d-11f1-9e08-0a58a9feac02",
-      "severity": "bloquante",
+      "id": "f27bbf76-0b53-11f1-b9dd-0a58a9feac02",
+      "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260216T163711",
+          "begin": "20260216T172209",
           "end": "20260216T190000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Objet bloquant la voie - Trafic interrompu",
+          "text": "Métro 12 : Objet bloquant la voie - Trafic très perturbé",
           "channel": "notification"
         },
         {
-          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Porte de Versailles en raison d'un objet bloquant la voie à Corentin Celton. <br>Reprise estimée : 19:00.<br>Bus de remplacement.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "text": "<p>Le trafic est très perturbé sur toute la ligne en répercussion d'un objet bloquant la voie à Corentin Celton .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Trafic interrompu",
+          "text": "Trafic très perturbé",
           "channel": "cbiv"
         },
         {
-          "text": "Métro 12 : Objet bloquant la voie - Trafic interrompu",
+          "text": "Métro 12 : Objet bloquant la voie - Trafic très perturbé",
           "channel": "titre"
         }
       ]
