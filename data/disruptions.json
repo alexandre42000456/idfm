@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-02-17T17:32:37.622204Z",
+  "lastCheck": "2026-02-17T18:29:48.373304Z",
   "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
@@ -14,16 +14,16 @@
           "end": "20260226T043000"
         },
         {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
+          "begin": "20260311T220000",
+          "end": "20260312T043000"
         },
         {
           "begin": "20260304T220000",
           "end": "20260305T043000"
         },
         {
-          "begin": "20260311T220000",
-          "end": "20260312T043000"
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
         }
       ],
       "messages": [
@@ -52,12 +52,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260219T220000",
-          "end": "20260220T043000"
-        },
-        {
           "begin": "20260212T220000",
           "end": "20260213T043000"
+        },
+        {
+          "begin": "20260219T220000",
+          "end": "20260220T043000"
         }
       ],
       "messages": [
@@ -80,31 +80,31 @@
       ]
     },
     {
-      "id": "37982ffc-0c1e-11f1-9e08-0a58a9feac02",
+      "id": "ded74746-0c26-11f1-b1a9-0a58a9feac02",
       "severity": "perturbée",
-      "status": "past",
+      "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260217T172731",
-          "end": "20260217T172831"
+          "begin": "20260217T183149",
+          "end": "20260218T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Personnes sur les voies - Reprise progressive",
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic reprend progressivement sur toute la ligne en raison de personnes sur les voies à Concorde .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un bagage oublié dans un train à Aimé Césaire .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Personnes sur les voies - Reprise progressive",
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
           "channel": "notification"
         },
         {
-          "text": "Reprise progressive",
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
