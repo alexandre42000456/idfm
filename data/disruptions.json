@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-02-18T09:29:32.184427Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-02-18T10:10:50.669436Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
     {
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
-        },
-        {
-          "begin": "20260225T220000",
-          "end": "20260226T043000"
-        },
-        {
           "begin": "20260311T220000",
           "end": "20260312T043000"
         },
         {
           "begin": "20260304T220000",
           "end": "20260305T043000"
+        },
+        {
+          "begin": "20260225T220000",
+          "end": "20260226T043000"
+        },
+        {
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
         }
       ],
       "messages": [
@@ -88,16 +88,16 @@
       ],
       "messages": [
         {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-02-20",
-          "channel": "email ascenseur"
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
         },
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-02-20",
           "channel": "moteur"
         },
         {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-02-20",
+          "channel": "email ascenseur"
         },
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-02-20 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
@@ -106,14 +106,14 @@
       ]
     },
     {
-      "id": "35151d96-0ca3-11f1-b327-0a58a9feac02",
+      "id": "83eeb8ee-0caf-11f1-b9dd-0a58a9feac02",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260218T092130",
-          "end": "20260219T043000"
+          "begin": "20260218T104834",
+          "end": "20260218T104934"
         }
       ],
       "messages": [
