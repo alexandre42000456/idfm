@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-18T07:59:05.180581Z",
+  "lastCheck": "2026-02-18T08:41:53.170307Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -76,31 +76,61 @@
       ]
     },
     {
-      "id": "10017064-0c9d-11f1-8d49-0a58a9feac02",
-      "severity": "bloquante",
+      "id": "5b0cfb06-0ca1-11f1-b327-0a58a9feac02",
+      "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260218T083844",
+          "begin": "20260218T091049",
+          "end": "20270218T091049"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-02-20",
+          "channel": "email ascenseur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-02-20",
+          "channel": "moteur"
+        },
+        {
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-02-20 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "sms ascenseurs"
+        }
+      ]
+    },
+    {
+      "id": "35151d96-0ca3-11f1-b327-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260218T092130",
           "end": "20260219T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Incident technique sur un train - Trafic interrompu",
+          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
           "channel": "notification"
         },
         {
-          "text": "<p>Le trafic est interrompu entre Jules Joffrin et Concorde en raison d'un incident technique sur un train à Saint-Lazare. <br>Reprise estimée : 09:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident technique sur un train à Saint-Lazare .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Trafic interrompu",
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         },
         {
-          "text": "Métro 12 : Incident technique sur un train - Trafic interrompu",
+          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
           "channel": "titre"
         }
       ]
