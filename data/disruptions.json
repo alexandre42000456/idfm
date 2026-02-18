@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-02-18T10:10:50.669436Z",
-  "hasNewDisruptions": true,
+  "lastCheck": "2026-02-18T11:04:06.240063Z",
+  "hasNewDisruptions": false,
   "disruptionCount": 5,
   "disruptions": [
     {
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260311T220000",
-          "end": "20260312T043000"
-        },
-        {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
-        },
-        {
           "begin": "20260225T220000",
           "end": "20260226T043000"
         },
         {
           "begin": "20260218T220000",
           "end": "20260219T043000"
+        },
+        {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
+        },
+        {
+          "begin": "20260311T220000",
+          "end": "20260312T043000"
         }
       ],
       "messages": [
@@ -119,19 +119,19 @@
       "messages": [
         {
           "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
-          "channel": "notification"
+          "channel": "titre"
         },
         {
           "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident technique sur un train à Saint-Lazare .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
+          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
+          "channel": "notification"
         },
         {
-          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
-          "channel": "titre"
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     },
