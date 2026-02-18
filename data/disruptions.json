@@ -1,12 +1,12 @@
 {
-  "lastCheck": "2026-02-18T20:23:26.284886Z",
+  "lastCheck": "2026-02-18T21:00:34.408063Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
       "severity": "bloquante",
-      "status": "future",
+      "status": "active",
       "cause": "travaux",
       "application_periods": [
         {
@@ -14,12 +14,12 @@
           "end": "20260219T043000"
         },
         {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
-        },
-        {
           "begin": "20260225T220000",
           "end": "20260226T043000"
+        },
+        {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         },
         {
           "begin": "20260311T220000",
@@ -72,36 +72,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "671cdfac-0cff-11f1-9e08-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260218T201941",
-          "end": "20260218T202041"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Malaise voyageur sur le quai - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un malaise voyageur sur le quai à Convention .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Malaise voyageur sur le quai - Trafic perturbé",
-          "channel": "titre"
         }
       ]
     },
