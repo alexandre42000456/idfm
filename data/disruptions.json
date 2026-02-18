@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-18T06:13:57.735128Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "lastCheck": "2026-02-18T07:16:08.421506Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
+        },
+        {
           "begin": "20260225T220000",
           "end": "20260226T043000"
         },
         {
           "begin": "20260311T220000",
           "end": "20260312T043000"
-        },
-        {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
         },
         {
           "begin": "20260218T220000",
@@ -71,36 +71,6 @@
         },
         {
           "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "04958f96-0c8c-11f1-b9dd-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260218T063332",
-          "end": "20260218T063432"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'une panne de signalisation entre Mairie d'Issy et Vaugirard .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
