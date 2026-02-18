@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-18T07:16:08.421506Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-02-18T07:59:05.180581Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -10,8 +10,8 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
         },
         {
           "begin": "20260225T220000",
@@ -22,8 +22,8 @@
           "end": "20260312T043000"
         },
         {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         }
       ],
       "messages": [
@@ -72,6 +72,36 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "10017064-0c9d-11f1-8d49-0a58a9feac02",
+      "severity": "bloquante",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260218T083844",
+          "end": "20260219T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident technique sur un train - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Jules Joffrin et Concorde en raison d'un incident technique sur un train à Saint-Lazare. <br>Reprise estimée : 09:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Incident technique sur un train - Trafic interrompu",
+          "channel": "titre"
         }
       ]
     },
