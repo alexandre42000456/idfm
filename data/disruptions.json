@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-19T16:08:36.098214Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-02-19T17:08:48.240652Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
-        },
-        {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
+          "begin": "20260225T220000",
+          "end": "20260226T043000"
         },
         {
           "begin": "20260311T220000",
           "end": "20260312T043000"
         },
         {
-          "begin": "20260225T220000",
-          "end": "20260226T043000"
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
+        },
+        {
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
         }
       ],
       "messages": [
@@ -71,6 +71,36 @@
         },
         {
           "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "74606b60-0db4-11f1-9e08-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260219T175656",
+          "end": "20260220T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison de l'actionnement d'un signal d'alarme à Concorde .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
