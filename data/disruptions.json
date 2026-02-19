@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-19T05:20:06.198634Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-02-19T06:16:16.464980Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260225T220000",
-          "end": "20260226T043000"
-        },
-        {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
-        },
-        {
           "begin": "20260311T220000",
           "end": "20260312T043000"
         },
         {
           "begin": "20260304T220000",
           "end": "20260305T043000"
+        },
+        {
+          "begin": "20260225T220000",
+          "end": "20260226T043000"
+        },
+        {
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
         }
       ],
       "messages": [
@@ -71,6 +71,66 @@
         },
         {
           "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "eacbdc22-0d54-11f1-9e08-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260219T063235",
+          "end": "20260219T065613"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident technique - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident technique à Concorde .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident technique - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "89848f96-0d58-11f1-b327-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260219T065820",
+          "end": "20260219T065920"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Manoeuvre de train retardée - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'une manoeuvre de train retardée à Mairie d'Issy .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Manoeuvre de train retardée - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
