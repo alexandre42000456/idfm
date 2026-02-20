@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-20T16:28:34.064245Z",
+  "lastCheck": "2026-02-20T17:05:48.041132Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
-        },
-        {
           "begin": "20260218T220000",
           "end": "20260219T043000"
         },
         {
-          "begin": "20260225T220000",
-          "end": "20260226T043000"
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         },
         {
           "begin": "20260311T220000",
           "end": "20260312T043000"
+        },
+        {
+          "begin": "20260225T220000",
+          "end": "20260226T043000"
         }
       ],
       "messages": [
@@ -42,36 +42,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "4811eca4-0e73-11f1-b1a9-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260220T164222",
-          "end": "20260220T164322"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Malaise voyageur à bord du train - Reprise progressive",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic reprend progressivement entre Concorde et Jules Joffrin en répercussion d'un malaise voyageur à bord du train à Saint-Lazare .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Reprise progressive",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Malaise voyageur à bord du train - Reprise progressive",
-          "channel": "titre"
         }
       ]
     },
