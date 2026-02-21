@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-21T19:15:06.260525Z",
+  "lastCheck": "2026-02-21T19:36:21.574765Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260311T220000",
-          "end": "20260312T043000"
-        },
-        {
           "begin": "20260304T220000",
           "end": "20260305T043000"
+        },
+        {
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
         },
         {
           "begin": "20260225T220000",
           "end": "20260226T043000"
         },
         {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
+          "begin": "20260311T220000",
+          "end": "20260312T043000"
         }
       ],
       "messages": [
@@ -42,36 +42,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "dcecb3b2-0f50-11f1-b9dd-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260221T190743",
-          "end": "20260221T190843"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un ajustement de l'intervalle entre les trains  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trafic perturbé",
-          "channel": "titre"
         }
       ]
     },
