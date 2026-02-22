@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-22T11:41:15.895110Z",
+  "lastCheck": "2026-02-22T11:52:39.783153Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -42,36 +42,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "ddcdeee2-0fda-11f1-b9dd-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260222T113548",
-          "end": "20260222T113648"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident voyageur - Reprise progressive / trafic reste perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en raison d'un incident voyageur  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Reprise progressive / trafic reste perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Incident voyageur - Reprise progressive / trafic reste perturbé",
-          "channel": "titre"
         }
       ]
     },
