@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-22T11:25:47.045012Z",
+  "lastCheck": "2026-02-22T11:41:15.895110Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -42,36 +42,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "31a5b38a-0fd9-11f1-b327-0a58a9feac02",
-      "severity": "bloquante",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260222T112457",
-          "end": "20260222T112557"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident voyageur - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est interrompu entre Jules Joffrin et Front Populaire en raison d'un incident voyageur. <br>Reprise estimée : 11:50.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Incident voyageur - Trafic interrompu",
-          "channel": "titre"
         }
       ]
     },
