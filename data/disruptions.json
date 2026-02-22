@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-22T10:26:00.690136Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 2,
+  "lastCheck": "2026-02-22T10:48:33.135956Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -42,6 +42,66 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "31a5b38a-0fd9-11f1-b327-0a58a9feac02",
+      "severity": "bloquante",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260222T112457",
+          "end": "20260222T112557"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident voyageur - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Jules Joffrin et Front Populaire en raison d'un incident voyageur. <br>Reprise estimée : 11:50.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Incident voyageur - Trafic interrompu",
+          "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "ddcdeee2-0fda-11f1-b9dd-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260222T113548",
+          "end": "20260222T113648"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident voyageur - Reprise progressive / trafic reste perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en raison d'un incident voyageur  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Incident voyageur - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
         }
       ]
     },
