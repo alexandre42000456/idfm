@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-22T23:57:45.523337Z",
+  "lastCheck": "2026-02-23T01:44:25.919888Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -41,36 +41,6 @@
         },
         {
           "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "204adfda-1041-11f1-9e08-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260222T234740",
-          "end": "20260222T234840"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un bagage oublié dans un train à Mairie d'Issy .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Reprise progressive / trafic reste perturbé",
           "channel": "cbiv"
         }
       ]
