@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-23T06:44:38.969116Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 2,
+  "lastCheck": "2026-02-23T07:41:43.186549Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260218T220000",
-          "end": "20260219T043000"
-        },
-        {
           "begin": "20260311T220000",
           "end": "20260312T043000"
+        },
+        {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         },
         {
           "begin": "20260225T220000",
           "end": "20260226T043000"
         },
         {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
+          "begin": "20260218T220000",
+          "end": "20260219T043000"
         }
       ],
       "messages": [
@@ -42,6 +42,36 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "520fed1e-108a-11f1-9e08-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260223T083011",
+          "end": "20260223T083111"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident technique sur un train à Montparnasse Bienvenue .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
+          "channel": "titre"
         }
       ]
     },
