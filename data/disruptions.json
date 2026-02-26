@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-26T19:08:14.406836Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 7,
+  "lastCheck": "2026-02-26T19:50:54.356019Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 6,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
+        },
+        {
           "begin": "20260225T220000",
           "end": "20260226T043000"
         },
         {
           "begin": "20260311T220000",
           "end": "20260312T043000"
-        },
-        {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
         }
       ],
       "messages": [
@@ -128,36 +128,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "8e4acb54-133d-11f1-9e08-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260226T190049",
-          "end": "20260226T190149"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un bagage oublié dans un train  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
-          "channel": "titre"
         }
       ]
     },
