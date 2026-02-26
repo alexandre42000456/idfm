@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-02-26T18:10:21.174722Z",
+  "lastCheck": "2026-02-26T19:08:14.406836Z",
   "hasNewDisruptions": true,
   "disruptionCount": 7,
   "disruptions": [
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
-        },
-        {
           "begin": "20260225T220000",
           "end": "20260226T043000"
         },
         {
           "begin": "20260311T220000",
           "end": "20260312T043000"
+        },
+        {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         }
       ],
       "messages": [
@@ -132,36 +132,6 @@
       ]
     },
     {
-      "id": "b636e0ae-133c-11f1-b9dd-0a58a9feac02",
-      "severity": "bloquante",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260226T185529",
-          "end": "20260227T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est interrompu entre Front Populaire et Mairie d'Aubervilliers en raison d'un bagage oublié dans un train à Mairie d'Aubervilliers. <br>Reprise estimée : 19:30.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
-          "channel": "titre"
-        }
-      ]
-    },
-    {
       "id": "8e4acb54-133d-11f1-9e08-0a58a9feac02",
       "severity": "perturbée",
       "status": "past",
@@ -187,6 +157,36 @@
         },
         {
           "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
+          "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "02842bae-1344-11f1-b9dd-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260226T194623",
+          "end": "20260226T194723"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un bagage oublié dans un train à Mairie d'Aubervilliers .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
           "channel": "titre"
         }
       ]
