@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-02-26T17:35:15.896251Z",
+  "lastCheck": "2026-02-26T18:10:21.174722Z",
   "hasNewDisruptions": true,
   "disruptionCount": 7,
   "disruptions": [
@@ -132,44 +132,44 @@
       ]
     },
     {
-      "id": "b1a920e2-1337-11f1-8d49-0a58a9feac02",
-      "severity": "perturbée",
+      "id": "b636e0ae-133c-11f1-b9dd-0a58a9feac02",
+      "severity": "bloquante",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260226T182022",
+          "begin": "20260226T185529",
           "end": "20260227T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
           "channel": "notification"
         },
         {
-          "text": "<p>Le trafic est perturbé entre Saint-Georges et Mairie d'Aubervilliers en raison d'une panne de signalisation à Abbesses .</p>",
+          "text": "<p>Le trafic est interrompu entre Front Populaire et Mairie d'Aubervilliers en raison d'un bagage oublié dans un train à Mairie d'Aubervilliers. <br>Reprise estimée : 19:30.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
           "channel": "moteur"
         },
         {
-          "text": "Trafic perturbé",
+          "text": "Trafic interrompu",
           "channel": "cbiv"
         },
         {
-          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
           "channel": "titre"
         }
       ]
     },
     {
-      "id": "1666a12a-1339-11f1-b327-0a58a9feac02",
+      "id": "8e4acb54-133d-11f1-9e08-0a58a9feac02",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260226T183032",
-          "end": "20260227T043000"
+          "begin": "20260226T190049",
+          "end": "20260226T190149"
         }
       ],
       "messages": [
