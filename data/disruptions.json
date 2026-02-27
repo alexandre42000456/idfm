@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-27T09:03:33.842392Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 6,
+  "lastCheck": "2026-02-27T09:54:14.080848Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -128,36 +128,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "1712c1f2-13b7-11f1-b327-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260227T093054",
-          "end": "20260227T093154"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un bagage oublié dans un train à Porte de Versailles .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
-          "channel": "titre"
         }
       ]
     },
