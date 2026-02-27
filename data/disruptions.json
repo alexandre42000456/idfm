@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-02-27T19:09:10.517573Z",
-  "hasNewDisruptions": true,
+  "lastCheck": "2026-02-27T19:44:52.617870Z",
+  "hasNewDisruptions": false,
   "disruptionCount": 4,
   "disruptions": [
     {
@@ -14,12 +14,12 @@
           "end": "20260305T043000"
         },
         {
-          "begin": "20260311T220000",
-          "end": "20260312T043000"
-        },
-        {
           "begin": "20260225T220000",
           "end": "20260226T043000"
+        },
+        {
+          "begin": "20260311T220000",
+          "end": "20260312T043000"
         }
       ],
       "messages": [
