@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-27T20:00:35.449445Z",
+  "lastCheck": "2026-02-27T20:30:52.942344Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -68,36 +68,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "b3eef300-140d-11f1-b327-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260227T194914",
-          "end": "20260227T195014"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Altercation entre voyageurs - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'une altercation entre voyageurs à Sèvres - Babylone .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Altercation entre voyageurs - Trafic perturbé",
-          "channel": "titre"
         }
       ]
     },
