@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-02-28T19:39:12.335919Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-02-28T19:47:56.553627Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
     {
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260225T220000",
+          "end": "20260226T043000"
+        },
+        {
           "begin": "20260311T220000",
           "end": "20260312T043000"
         },
         {
           "begin": "20260304T220000",
           "end": "20260305T043000"
-        },
-        {
-          "begin": "20260225T220000",
-          "end": "20260226T043000"
         }
       ],
       "messages": [
@@ -102,14 +102,14 @@
       ]
     },
     {
-      "id": "c943e274-14da-11f1-9e08-0a58a9feac02",
+      "id": "4bef2d76-14dd-11f1-8d49-0a58a9feac02",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260228T201940",
-          "end": "20260301T043000"
+          "begin": "20260228T203538",
+          "end": "20260228T203638"
         }
       ],
       "messages": [
