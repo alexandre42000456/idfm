@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-28T19:02:18.437706Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-02-28T19:26:05.487849Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260225T220000",
+          "end": "20260226T043000"
+        },
+        {
           "begin": "20260311T220000",
           "end": "20260312T043000"
         },
         {
           "begin": "20260304T220000",
           "end": "20260305T043000"
-        },
-        {
-          "begin": "20260225T220000",
-          "end": "20260226T043000"
         }
       ],
       "messages": [
@@ -68,6 +68,66 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "3821e26e-14da-11f1-8d49-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260228T201417",
+          "end": "20260228T201517"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Panne de portes de train - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une panne de portes de train  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Panne de portes de train - Trafic perturbé",
+          "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "c943e274-14da-11f1-9e08-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260228T201940",
+          "end": "20260301T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident voyageur à Montparnasse Bienvenue .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
+          "channel": "titre"
         }
       ]
     },
