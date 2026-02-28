@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-02-28T20:28:20.222037Z",
+  "lastCheck": "2026-02-28T20:46:29.154639Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -68,36 +68,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "3821e26e-14da-11f1-8d49-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260228T201417",
-          "end": "20260228T201517"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Panne de portes de train - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une panne de portes de train  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Panne de portes de train - Trafic perturbé",
-          "channel": "titre"
         }
       ]
     },
