@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-02T08:29:26.864441Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 5,
+  "lastCheck": "2026-03-02T09:07:12.020357Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -67,36 +67,6 @@
         },
         {
           "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "faca3016-1609-11f1-9e08-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260302T082804",
-          "end": "20260302T082904"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une gêne à la fermeture des portes d'un train à Porte de La Chapelle .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
