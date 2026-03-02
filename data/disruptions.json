@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-02T07:55:21.726678Z",
+  "lastCheck": "2026-03-02T08:29:26.864441Z",
   "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
-        },
-        {
           "begin": "20260311T220000",
           "end": "20260312T043000"
+        },
+        {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         },
         {
           "begin": "20260225T220000",
@@ -72,36 +72,6 @@
       ]
     },
     {
-      "id": "21c93594-15a2-11f1-b1a9-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260301T200902",
-          "end": "20270301T200902"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-03-03",
-          "channel": "moteur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-03-03",
-          "channel": "email ascenseur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-03-03 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "sms ascenseurs"
-        }
-      ]
-    },
-    {
       "id": "faca3016-1609-11f1-9e08-0a58a9feac02",
       "severity": "perturbée",
       "status": "past",
@@ -115,19 +85,49 @@
       "messages": [
         {
           "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
-          "channel": "notification"
+          "channel": "titre"
         },
         {
           "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une gêne à la fermeture des portes d'un train à Porte de La Chapelle .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
+          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
+          "channel": "notification"
         },
         {
-          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "76b02dd4-160f-11f1-8d49-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260302T091141",
+          "end": "20270302T091141"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
+          "channel": "email ascenseur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
+          "channel": "moteur"
+        },
+        {
+          "text": "Panne d'un ascenseur",
           "channel": "titre"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne ascenseur situé Quai <> Couloir, dir. Marie d'Aubervilliers",
+          "channel": "sms ascenseurs"
         }
       ]
     },
