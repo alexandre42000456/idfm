@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-02T19:09:22.666214Z",
+  "lastCheck": "2026-03-02T19:47:43.767827Z",
   "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
@@ -72,31 +72,31 @@
       ]
     },
     {
-      "id": "5424fd3e-166a-11f1-b1a9-0a58a9feac02",
+      "id": "82aec050-166e-11f1-b1a9-0a58a9feac02",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260302T195857",
-          "end": "20260303T043000"
+          "begin": "20260302T202736",
+          "end": "20260302T202836"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Bagage oublié sur un quai - Reprise progressive / trafic reste perturbé",
+          "text": "Métro 12 : Bagage oublié sur un quai - Trafic perturbé",
           "channel": "notification"
         },
         {
-          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un bagage oublié sur un quai à Mairie d'Aubervilliers .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un bagage oublié sur un quai à Mairie d'Aubervilliers .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Reprise progressive / trafic reste perturbé",
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         },
         {
-          "text": "Métro 12 : Bagage oublié sur un quai - Reprise progressive / trafic reste perturbé",
+          "text": "Métro 12 : Bagage oublié sur un quai - Trafic perturbé",
           "channel": "titre"
         }
       ]
