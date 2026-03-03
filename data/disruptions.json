@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-03T13:47:16.508716Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "lastCheck": "2026-03-03T14:30:41.401037Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260311T220000",
-          "end": "20260312T043000"
-        },
-        {
           "begin": "20260304T220000",
           "end": "20260305T043000"
+        },
+        {
+          "begin": "20260311T220000",
+          "end": "20260312T043000"
         }
       ],
       "messages": [
@@ -68,36 +68,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "ec517ea2-1700-11f1-9e08-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260303T135628",
-          "end": "20260303T135728"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident affectant les voies - Reprise progressive / trafic reste très perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic reprend mais reste très perturbé sur toute la ligne en répercussion d'un incident affectant les voies à Assemblée Nationale .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Reprise progressive / trafic reste très perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Incident affectant les voies - Reprise progressive / trafic reste très perturbé",
-          "channel": "titre"
         }
       ]
     },
