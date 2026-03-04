@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-03-04T08:59:26.120323Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-03-04T09:39:19.472674Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
     {
@@ -72,36 +72,6 @@
       ]
     },
     {
-      "id": "0de896ba-179f-11f1-81e8-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260304T084849",
-          "end": "20260305T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Métro en panne - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un métro en panne à Notre-Dame-des-Champs .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Métro en panne - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
       "id": "782404ea-17a1-11f1-b852-0a58a9feac02",
       "severity": "perturbée",
       "status": "active",
@@ -128,6 +98,36 @@
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
           "channel": "sms ascenseurs"
+        }
+      ]
+    },
+    {
+      "id": "1e1ac580-17a9-11f1-9b4c-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260304T095929",
+          "end": "20260304T100029"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Métro en panne - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un métro en panne à Notre-Dame-des-Champs .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Métro en panne - Trafic perturbé",
+          "channel": "titre"
         }
       ]
     },
