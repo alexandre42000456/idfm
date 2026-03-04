@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-04T05:15:08.135276Z",
+  "lastCheck": "2026-03-04T05:59:03.840250Z",
   "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260311T220000",
-          "end": "20260312T043000"
-        },
-        {
           "begin": "20260304T220000",
           "end": "20260305T043000"
+        },
+        {
+          "begin": "20260311T220000",
+          "end": "20260312T043000"
         }
       ],
       "messages": [
@@ -72,13 +72,13 @@
       ]
     },
     {
-      "id": "4deeadc0-1787-11f1-929f-0a58a9feac02",
+      "id": "9da8e57e-178c-11f1-9b4c-0a58a9feac02",
       "severity": "bloquante",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260304T055928",
+          "begin": "20260304T063808",
           "end": "20260305T043000"
         }
       ],
@@ -88,7 +88,7 @@
           "channel": "notification"
         },
         {
-          "text": "<p>Le trafic est interrompu entre Porte de Versailles et Concorde et perturbé sur le reste de la ligne en raison d'un métro en panne à Notre-Dame-des-Champs. <br>Reprise estimée : 06:45.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "text": "<p>Le trafic est interrompu entre Porte de Versailles et Concorde et perturbé sur le reste de la ligne en raison d'un métro en panne à Notre-Dame-des-Champs. <br>Reprise estimée : 08:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
           "channel": "moteur"
         },
         {
