@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-03-04T06:43:33.414213Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-03-04T07:26:09.128048Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
     {
@@ -72,31 +72,31 @@
       ]
     },
     {
-      "id": "9da8e57e-178c-11f1-9b4c-0a58a9feac02",
-      "severity": "bloquante",
+      "id": "4d7739bc-179a-11f1-9b4c-0a58a9feac02",
+      "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260304T063808",
+          "begin": "20260304T081416",
           "end": "20260305T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Métro en panne - Trafic interrompu",
+          "text": "Métro 12 : Métro en panne - Reprise progressive / trafic reste perturbé",
           "channel": "notification"
         },
         {
-          "text": "<p>Le trafic est interrompu entre Porte de Versailles et Concorde et perturbé sur le reste de la ligne en raison d'un métro en panne à Notre-Dame-des-Champs. <br>Reprise estimée : 08:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en raison d'un métro en panne à Notre-Dame-des-Champs .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Trafic interrompu",
+          "text": "Reprise progressive / trafic reste perturbé",
           "channel": "cbiv"
         },
         {
-          "text": "Métro 12 : Métro en panne - Trafic interrompu",
+          "text": "Métro 12 : Métro en panne - Reprise progressive / trafic reste perturbé",
           "channel": "titre"
         }
       ]
