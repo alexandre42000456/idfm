@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-04T07:26:09.128048Z",
+  "lastCheck": "2026-03-04T07:55:04.928952Z",
   "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260311T220000",
-          "end": "20260312T043000"
-        },
-        {
           "begin": "20260304T220000",
           "end": "20260305T043000"
+        },
+        {
+          "begin": "20260311T220000",
+          "end": "20260312T043000"
         }
       ],
       "messages": [
@@ -72,31 +72,31 @@
       ]
     },
     {
-      "id": "4d7739bc-179a-11f1-9b4c-0a58a9feac02",
+      "id": "0de896ba-179f-11f1-81e8-0a58a9feac02",
       "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260304T081416",
+          "begin": "20260304T084849",
           "end": "20260305T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Métro en panne - Reprise progressive / trafic reste perturbé",
+          "text": "Métro 12 : Métro en panne - Trafic perturbé",
           "channel": "notification"
         },
         {
-          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en raison d'un métro en panne à Notre-Dame-des-Champs .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un métro en panne à Notre-Dame-des-Champs .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Reprise progressive / trafic reste perturbé",
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         },
         {
-          "text": "Métro 12 : Métro en panne - Reprise progressive / trafic reste perturbé",
+          "text": "Métro 12 : Métro en panne - Trafic perturbé",
           "channel": "titre"
         }
       ]
