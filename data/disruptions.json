@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-03-05T09:33:12.039904Z",
-  "hasNewDisruptions": true,
+  "lastCheck": "2026-03-05T10:09:05.526380Z",
+  "hasNewDisruptions": false,
   "disruptionCount": 5,
   "disruptions": [
     {
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
-        },
-        {
           "begin": "20260311T220000",
           "end": "20260312T043000"
+        },
+        {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         }
       ],
       "messages": [
@@ -44,12 +44,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
-        },
-        {
           "begin": "20260401T220000",
           "end": "20260402T043000"
+        },
+        {
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
         }
       ],
       "messages": [
@@ -115,19 +115,19 @@
       "messages": [
         {
           "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
-          "channel": "notification"
+          "channel": "titre"
         },
         {
           "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une panne de signalisation à Saint-Lazare .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
+          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
+          "channel": "notification"
         },
         {
-          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
-          "channel": "titre"
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     },
