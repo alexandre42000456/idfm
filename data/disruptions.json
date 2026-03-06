@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-06T19:09:12.535563Z",
+  "lastCheck": "2026-03-06T19:45:23.393068Z",
   "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
@@ -72,31 +72,31 @@
       ]
     },
     {
-      "id": "44451746-198f-11f1-a4ee-0a58a9feac02",
+      "id": "a82a1e04-1990-11f1-952b-0a58a9feac02",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260306T195958",
-          "end": "20260307T043000"
+          "begin": "20260306T201023",
+          "end": "20260306T201123"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste très perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
           "channel": "notification"
         },
         {
-          "text": "<p>Le trafic reprend mais reste très perturbé sur toute la ligne en répercussion d'un bagage oublié dans un train  .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un bagage oublié dans un train  .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Reprise progressive / trafic reste très perturbé",
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         },
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste très perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
           "channel": "titre"
         }
       ]
