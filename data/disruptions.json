@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-09T22:57:02.398522Z",
+  "lastCheck": "2026-03-09T23:20:12.390292Z",
   "hasNewDisruptions": false,
   "disruptionCount": 3,
   "disruptions": [
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260311T220000",
-          "end": "20260312T043000"
-        },
-        {
           "begin": "20260304T220000",
           "end": "20260305T043000"
+        },
+        {
+          "begin": "20260311T220000",
+          "end": "20260312T043000"
         }
       ],
       "messages": [
@@ -44,12 +44,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
-        },
-        {
           "begin": "20260325T220000",
           "end": "20260326T043000"
+        },
+        {
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         }
       ],
       "messages": [
@@ -85,19 +85,19 @@
       "messages": [
         {
           "text": "Métro 12 : Travaux de modernisation - Autre",
-          "channel": "notification"
+          "channel": "titre"
         },
         {
           "text": "<p>Jusqu'au 12 avril, dès 22:00, tous les dimanches et certains mercredis et jeudis le trafic est interrompu sur toute la ligne en raison de travaux de modernisation. Détails et calendrier complet sur RATP.fr.</p>",
           "channel": "moteur"
         },
         {
-          "text": "Autre",
-          "channel": "cbiv"
+          "text": "Métro 12 : Travaux de modernisation - Autre",
+          "channel": "notification"
         },
         {
-          "text": "Métro 12 : Travaux de modernisation - Autre",
-          "channel": "titre"
+          "text": "Autre",
+          "channel": "cbiv"
         }
       ]
     }
