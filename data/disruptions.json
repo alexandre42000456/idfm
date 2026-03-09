@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-09T16:09:42.744845Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-03-09T17:06:47.822338Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260304T220000",
-          "end": "20260305T043000"
-        },
-        {
           "begin": "20260311T220000",
           "end": "20260312T043000"
+        },
+        {
+          "begin": "20260304T220000",
+          "end": "20260305T043000"
         }
       ],
       "messages": [
@@ -44,12 +44,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
-        },
-        {
           "begin": "20260401T220000",
           "end": "20260402T043000"
+        },
+        {
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
         }
       ],
       "messages": [
@@ -72,32 +72,62 @@
       ]
     },
     {
-      "id": "3110838a-f6cc-11f0-9188-0a58a9feac02",
+      "id": "328d783c-1bd7-11f1-bc48-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260309T174228",
+          "end": "20260310T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Personnes sur les voies - Trafic très perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est très perturbé sur toute la ligne en raison de personnes sur les voies  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic très perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Personnes sur les voies - Trafic très perturbé",
+          "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "6eaf3c4a-1bd9-11f1-a4ee-0a58a9feac02",
       "severity": "information",
       "status": "active",
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260121T141916",
+          "begin": "20260309T175855",
           "end": "20260413T043000"
         }
       ],
       "messages": [
         {
           "text": "Métro 12 : Travaux de modernisation - Autre",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Jusqu'au 12 avril, dès 22:00, tous les dimanches (sauf le 22 fév.) et certains mercredis et jeudis le trafic est interrompu sur toute la ligne en raison de travaux de modernisation. Détails et calendrier complet sur RATP.fr.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Autre",
           "channel": "notification"
+        },
+        {
+          "text": "<p>Jusqu'au 12 avril, dès 22:00, tous les dimanches et certains mercredis et jeudis le trafic est interrompu sur toute la ligne en raison de travaux de modernisation. Détails et calendrier complet sur RATP.fr.</p>",
+          "channel": "moteur"
         },
         {
           "text": "Autre",
           "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Travaux de modernisation - Autre",
+          "channel": "titre"
         }
       ]
     }
