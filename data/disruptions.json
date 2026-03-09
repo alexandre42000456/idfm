@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-09T17:55:58.506352Z",
+  "lastCheck": "2026-03-09T18:37:01.861590Z",
   "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
@@ -72,23 +72,23 @@
       ]
     },
     {
-      "id": "478b707e-1bda-11f1-81e4-0a58a9feac02",
+      "id": "0e420e4a-1be4-11f1-bc48-0a58a9feac02",
       "severity": "perturbée",
       "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260309T180149",
-          "end": "20260309T180249"
+          "begin": "20260309T191207",
+          "end": "20260309T191307"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Personnes sur les voies - Trafic très perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic très perturbé",
           "channel": "notification"
         },
         {
-          "text": "<p>Le trafic est très perturbé sur toute la ligne en raison de personnes sur les voies  .</p>",
+          "text": "<p>Le trafic est très perturbé sur toute la ligne en raison d'un bagage oublié dans un train  .</p>",
           "channel": "moteur"
         },
         {
@@ -96,7 +96,7 @@
           "channel": "cbiv"
         },
         {
-          "text": "Métro 12 : Personnes sur les voies - Trafic très perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic très perturbé",
           "channel": "titre"
         }
       ]
