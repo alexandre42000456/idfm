@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-11T09:02:57.312429Z",
+  "lastCheck": "2026-03-11T09:54:18.080554Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
@@ -40,16 +40,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         },
         {
           "begin": "20260325T220000",
           "end": "20260326T043000"
         },
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         }
       ],
       "messages": [
@@ -67,36 +67,6 @@
         },
         {
           "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "20048622-1d23-11f1-8a6f-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260311T091656",
-          "end": "20260311T091756"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison de l'actionnement d'un signal d'alarme à Concorde .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
