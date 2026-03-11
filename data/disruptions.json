@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-03-11T16:31:22.495802Z",
-  "hasNewDisruptions": true,
+  "lastCheck": "2026-03-11T17:27:42.578820Z",
+  "hasNewDisruptions": false,
   "disruptionCount": 4,
   "disruptions": [
     {
@@ -40,16 +40,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
+        },
+        {
           "begin": "20260401T220000",
           "end": "20260402T043000"
         },
         {
           "begin": "20260325T220000",
           "end": "20260326T043000"
-        },
-        {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
         }
       ],
       "messages": [
@@ -84,12 +84,12 @@
       ],
       "messages": [
         {
-          "text": "<p><span style=\"background-color:rgb(244,244,244);color:rgb(26,26,26);\">Jusqu'au 12 avril, dès 22:00, tous les dimanches et certains mercredis et jeudis le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</span></p>",
-          "channel": "moteur"
-        },
-        {
           "text": "Perturbation travaux ligne 12",
           "channel": "titre"
+        },
+        {
+          "text": "<p><span style=\"background-color:rgb(244,244,244);color:rgb(26,26,26);\">Jusqu'au 12 avril, dès 22:00, tous les dimanches et certains mercredis et jeudis le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</span></p>",
+          "channel": "moteur"
         }
       ]
     },
