@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-03-11T08:23:26.624962Z",
-  "hasNewDisruptions": true,
+  "lastCheck": "2026-03-11T09:02:57.312429Z",
+  "hasNewDisruptions": false,
   "disruptionCount": 4,
   "disruptions": [
     {
@@ -40,16 +40,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         },
         {
           "begin": "20260325T220000",
           "end": "20260326T043000"
         },
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         }
       ],
       "messages": [
@@ -85,19 +85,19 @@
       "messages": [
         {
           "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
-          "channel": "notification"
+          "channel": "titre"
         },
         {
           "text": "<p>Le trafic est perturbé sur toute la ligne en raison de l'actionnement d'un signal d'alarme à Concorde .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
+          "channel": "notification"
         },
         {
-          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
-          "channel": "titre"
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     },
