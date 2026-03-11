@@ -1,12 +1,12 @@
 {
-  "lastCheck": "2026-03-11T20:43:17.407111Z",
+  "lastCheck": "2026-03-11T21:02:37.677174Z",
   "hasNewDisruptions": false,
   "disruptionCount": 4,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
       "severity": "bloquante",
-      "status": "future",
+      "status": "active",
       "cause": "travaux",
       "application_periods": [
         {
@@ -44,12 +44,12 @@
           "end": "20260409T043000"
         },
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
-        },
-        {
           "begin": "20260325T220000",
           "end": "20260326T043000"
+        },
+        {
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         }
       ],
       "messages": [
