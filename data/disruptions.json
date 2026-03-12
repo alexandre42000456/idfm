@@ -1,12 +1,12 @@
 {
-  "lastCheck": "2026-03-12T01:48:29.728125Z",
+  "lastCheck": "2026-03-12T04:00:31.667804Z",
   "hasNewDisruptions": false,
   "disruptionCount": 4,
   "disruptions": [
     {
       "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
       "severity": "bloquante",
-      "status": "active",
+      "status": "past",
       "cause": "travaux",
       "application_periods": [
         {
