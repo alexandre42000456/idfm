@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-12T11:54:32.199737Z",
+  "lastCheck": "2026-03-12T12:27:16.424331Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 7,
+  "disruptionCount": 8,
   "disruptions": [
     {
       "id": "0caa38ec-1d64-11f1-8c38-0a58a9feac02",
@@ -32,20 +32,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260315T220000",
-          "end": "20260316T043000"
-        },
-        {
-          "begin": "20260322T220000",
-          "end": "20260323T043000"
+          "begin": "20260405T220000",
+          "end": "20260406T043000"
         },
         {
           "begin": "20260329T220000",
           "end": "20260330T043000"
         },
         {
-          "begin": "20260405T220000",
-          "end": "20260406T043000"
+          "begin": "20260322T220000",
+          "end": "20260323T043000"
+        },
+        {
+          "begin": "20260315T220000",
+          "end": "20260316T043000"
         }
       ],
       "messages": [
@@ -112,16 +112,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         },
         {
           "begin": "20260408T220000",
           "end": "20260409T043000"
         },
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
         }
       ],
       "messages": [
@@ -174,14 +174,14 @@
       ]
     },
     {
-      "id": "a1e67682-1e09-11f1-b269-0a58a9feac02",
+      "id": "dc961b14-1e0b-11f1-8a6f-0a58a9feac02",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260312T124842",
-          "end": "20260313T043000"
+          "begin": "20260312T130207",
+          "end": "20260312T130307"
         }
       ],
       "messages": [
@@ -199,6 +199,36 @@
         },
         {
           "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "607922b2-1e0e-11f1-bb0b-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260312T132058",
+          "end": "20260312T132158"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Altercation entre voyageurs - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une altercation entre voyageurs à Concorde .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Altercation entre voyageurs - Trafic perturbé",
           "channel": "titre"
         }
       ]
