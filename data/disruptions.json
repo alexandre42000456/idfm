@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-03-12T19:48:34.925115Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-03-12T20:17:22.822108Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
     {
@@ -10,8 +10,8 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260322T220000",
-          "end": "20260323T043000"
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
         },
         {
           "begin": "20260315T220000",
@@ -22,8 +22,8 @@
           "end": "20260406T043000"
         },
         {
-          "begin": "20260329T220000",
-          "end": "20260330T043000"
+          "begin": "20260322T220000",
+          "end": "20260323T043000"
         }
       ],
       "messages": [
@@ -90,16 +90,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         },
         {
           "begin": "20260325T220000",
           "end": "20260326T043000"
         },
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         }
       ],
       "messages": [
@@ -122,32 +122,32 @@
       ]
     },
     {
-      "id": "15ffcc4e-1e28-11f1-8a6f-0a58a9feac02",
+      "id": "84694a1e-1e4d-11f1-940a-0a58a9feac02",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260312T162641",
-          "end": "20260313T043000"
+          "begin": "20260312T205216",
+          "end": "20260312T205316"
         }
       ],
       "messages": [
         {
           "text": "Métro 12 : Incident technique - Trafic perturbé",
-          "channel": "titre"
+          "channel": "notification"
         },
         {
           "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident technique à Concorde</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Incident technique - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
           "text": "Trafic perturbé",
           "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Incident technique - Trafic perturbé",
+          "channel": "titre"
         }
       ]
     },
