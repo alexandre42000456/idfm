@@ -1,38 +1,8 @@
 {
-  "lastCheck": "2026-03-12T04:00:31.667804Z",
+  "lastCheck": "2026-03-12T05:16:11.558242Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "disruptionCount": 3,
   "disruptions": [
-    {
-      "id": "28f83884-ec0c-11f0-b657-0a58a9feac02",
-      "severity": "bloquante",
-      "status": "past",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20260311T220000",
-          "end": "20260312T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Jusqu'au 11 mars, le mercredi dès 22:00, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
     {
       "id": "6db718d6-01d9-11f1-9140-0a58a9feac02",
       "severity": "bloquante",
