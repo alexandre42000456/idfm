@@ -1,46 +1,8 @@
 {
-  "lastCheck": "2026-03-12T09:56:23.208919Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-03-12T10:29:51.757217Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 7,
   "disruptions": [
-    {
-      "id": "6db718d6-01d9-11f1-9140-0a58a9feac02",
-      "severity": "bloquante",
-      "status": "future",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
-        },
-        {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
-        },
-        {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Du 25 mars au 8 avril, le mercredi dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
     {
       "id": "0caa38ec-1d64-11f1-8c38-0a58a9feac02",
       "severity": "bloquante",
@@ -60,6 +22,158 @@
         {
           "text": "<p><span style=\"background-color:rgb(244,244,244);color:rgb(26,26,26);\">Jusqu'au 12 avril, dès 22:00, tous les dimanches et certains mercredis et jeudis le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</span></p>",
           "channel": "moteur"
+        }
+      ]
+    },
+    {
+      "id": "88e22942-1dfa-11f1-8a6f-0a58a9feac02",
+      "severity": "bloquante",
+      "status": "future",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260315T220000",
+          "end": "20260316T043000"
+        },
+        {
+          "begin": "20260322T220000",
+          "end": "20260323T043000"
+        },
+        {
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
+        },
+        {
+          "begin": "20260405T220000",
+          "end": "20260406T043000"
+        },
+        {
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Du 15 mars au 12 avril inclus, le dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "f480034e-1dfb-11f1-bb0b-0a58a9feac02",
+      "severity": "bloquante",
+      "status": "past",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260312T110801",
+          "end": "20260312T110901"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Jusqu'au 12 avril inclus, le dimanche dès 22:00, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
+      "severity": "bloquante",
+      "status": "future",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
+        },
+        {
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
+        },
+        {
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Du 25 mars au 8 avril, le mercredi dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "ffc50ec0-1dfb-11f1-bb0b-0a58a9feac02",
+      "severity": "bloquante",
+      "status": "future",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
+        },
+        {
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
+        },
+        {
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Du 25 mars au 8 avril, le mercredi dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "titre"
         }
       ]
     },
