@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-12T20:53:15.497928Z",
+  "lastCheck": "2026-03-12T21:19:39.234132Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "88e22942-1dfa-11f1-8a6f-0a58a9feac02",
@@ -118,36 +118,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "84694a1e-1e4d-11f1-940a-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260312T205216",
-          "end": "20260312T205316"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident technique - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident technique à Concorde</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Incident technique - Trafic perturbé",
-          "channel": "titre"
         }
       ]
     },
