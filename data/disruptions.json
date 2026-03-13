@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-13T19:51:24.881901Z",
+  "lastCheck": "2026-03-13T20:17:01.350056Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "88e22942-1dfa-11f1-8a6f-0a58a9feac02",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260329T220000",
-          "end": "20260330T043000"
-        },
-        {
           "begin": "20260405T220000",
           "end": "20260406T043000"
+        },
+        {
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
         },
         {
           "begin": "20260315T220000",
@@ -52,16 +52,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         },
         {
           "begin": "20260325T220000",
           "end": "20260326T043000"
         },
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         }
       ],
       "messages": [
@@ -118,36 +118,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "11e5d362-1f0c-11f1-b269-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260313T193533",
-          "end": "20260313T193633"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident voyageur à Saint-Lazare .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
-          "channel": "titre"
         }
       ]
     },
