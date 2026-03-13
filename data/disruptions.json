@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-13T13:46:51.137857Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 5,
+  "lastCheck": "2026-03-13T14:29:04.788305Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "88e22942-1dfa-11f1-8a6f-0a58a9feac02",
@@ -9,6 +9,10 @@
       "status": "future",
       "cause": "travaux",
       "application_periods": [
+        {
+          "begin": "20260405T220000",
+          "end": "20260406T043000"
+        },
         {
           "begin": "20260315T220000",
           "end": "20260316T043000"
@@ -20,10 +24,6 @@
         {
           "begin": "20260329T220000",
           "end": "20260330T043000"
-        },
-        {
-          "begin": "20260405T220000",
-          "end": "20260406T043000"
         }
       ],
       "messages": [
@@ -90,16 +90,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
-        },
-        {
           "begin": "20260401T220000",
           "end": "20260402T043000"
         },
         {
           "begin": "20260325T220000",
           "end": "20260326T043000"
+        },
+        {
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         }
       ],
       "messages": [
@@ -118,36 +118,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "926ededa-1ede-11f1-b269-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260313T140927",
-          "end": "20260313T141027"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Intervention des équipes techniques - Reprise progressive / trafic reste perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'une intervention des équipes techniques  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Reprise progressive / trafic reste perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Intervention des équipes techniques - Reprise progressive / trafic reste perturbé",
-          "channel": "titre"
         }
       ]
     },
