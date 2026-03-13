@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-03-13T12:46:50.204241Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-03-13T13:46:51.137857Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
     {
@@ -9,10 +9,6 @@
       "status": "future",
       "cause": "travaux",
       "application_periods": [
-        {
-          "begin": "20260405T220000",
-          "end": "20260406T043000"
-        },
         {
           "begin": "20260315T220000",
           "end": "20260316T043000"
@@ -24,6 +20,10 @@
         {
           "begin": "20260329T220000",
           "end": "20260330T043000"
+        },
+        {
+          "begin": "20260405T220000",
+          "end": "20260406T043000"
         }
       ],
       "messages": [
@@ -90,16 +90,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
+        },
+        {
           "begin": "20260401T220000",
           "end": "20260402T043000"
         },
         {
           "begin": "20260325T220000",
           "end": "20260326T043000"
-        },
-        {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
         }
       ],
       "messages": [
@@ -122,32 +122,32 @@
       ]
     },
     {
-      "id": "27ba4bc6-1eb4-11f1-bb0b-0a58a9feac02",
+      "id": "926ededa-1ede-11f1-b269-0a58a9feac02",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260313T091044",
-          "end": "20270313T091044"
+          "begin": "20260313T140927",
+          "end": "20260313T141027"
         }
       ],
       "messages": [
         {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
+          "text": "Métro 12 : Intervention des équipes techniques - Reprise progressive / trafic reste perturbé",
+          "channel": "notification"
         },
         {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'une intervention des équipes techniques  .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "email ascenseur"
+          "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
         },
         {
-          "text": "Mairie d'Aubervilliers Panne ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "sms ascenseurs"
+          "text": "Métro 12 : Intervention des équipes techniques - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
         }
       ]
     },
