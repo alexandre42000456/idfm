@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-13T18:03:48.428586Z",
+  "lastCheck": "2026-03-13T18:56:14.831935Z",
   "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260315T220000",
-          "end": "20260316T043000"
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
         },
         {
           "begin": "20260405T220000",
           "end": "20260406T043000"
         },
         {
-          "begin": "20260329T220000",
-          "end": "20260330T043000"
+          "begin": "20260315T220000",
+          "end": "20260316T043000"
         },
         {
           "begin": "20260322T220000",
@@ -52,12 +52,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
-        },
-        {
           "begin": "20260408T220000",
           "end": "20260409T043000"
+        },
+        {
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
         },
         {
           "begin": "20260401T220000",
@@ -90,12 +90,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
-        },
-        {
           "begin": "20260401T220000",
           "end": "20260402T043000"
+        },
+        {
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         },
         {
           "begin": "20260325T220000",
@@ -122,32 +122,32 @@
       ]
     },
     {
-      "id": "43bc97fc-1f04-11f1-b269-0a58a9feac02",
+      "id": "11e5d362-1f0c-11f1-b269-0a58a9feac02",
       "severity": "perturbée",
       "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260313T184001",
-          "end": "20260313T184101"
+          "begin": "20260313T193533",
+          "end": "20260313T193633"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Personnes sur les voies - Reprise progressive / trafic reste perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion de personnes sur les voies à Mairie d'Aubervilliers .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Personnes sur les voies - Reprise progressive / trafic reste perturbé",
+          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
           "channel": "notification"
         },
         {
-          "text": "Reprise progressive / trafic reste perturbé",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident voyageur à Saint-Lazare .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic perturbé",
           "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
+          "channel": "titre"
         }
       ]
     },
