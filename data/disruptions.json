@@ -1,54 +1,8 @@
 {
-  "lastCheck": "2026-03-15T21:02:34.586317Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-03-15T21:34:43.392124Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
-    {
-      "id": "88e22942-1dfa-11f1-8a6f-0a58a9feac02",
-      "severity": "bloquante",
-      "status": "active",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20260405T220000",
-          "end": "20260406T043000"
-        },
-        {
-          "begin": "20260329T220000",
-          "end": "20260330T043000"
-        },
-        {
-          "begin": "20260322T220000",
-          "end": "20260323T043000"
-        },
-        {
-          "begin": "20260315T220000",
-          "end": "20260316T043000"
-        },
-        {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Du 15 mars au 12 avril inclus, le dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
     {
       "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
       "severity": "bloquante",
@@ -122,6 +76,82 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "3d883a44-20b2-11f1-8c38-0a58a9feac02",
+      "severity": "bloquante",
+      "status": "past",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260315T215959",
+          "end": "20260315T220000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Du 15 mars au 12 avril inclus, le dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
+      "severity": "bloquante",
+      "status": "active",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260315T220000",
+          "end": "20260316T043000"
+        },
+        {
+          "begin": "20260322T220000",
+          "end": "20260323T043000"
+        },
+        {
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
+        },
+        {
+          "begin": "20260405T220000",
+          "end": "20260406T043000"
+        },
+        {
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Jusqu'au 12 avril inclus, le dimanche dès 22:00, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "titre"
         }
       ]
     },
