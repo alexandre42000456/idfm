@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-16T18:10:02.731830Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-03-16T19:18:58.498512Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
@@ -122,6 +122,36 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "a439ad40-216b-11f1-bb0b-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260316T200913",
+          "end": "20270316T200913"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-03-18",
+          "channel": "email ascenseur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-03-18",
+          "channel": "moteur"
+        },
+        {
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-03-18 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud",
+          "channel": "sms ascenseurs"
         }
       ]
     },
