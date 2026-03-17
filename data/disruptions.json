@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-17T18:40:58.527396Z",
+  "lastCheck": "2026-03-17T19:39:41.851710Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 6,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
@@ -126,44 +126,14 @@
       ]
     },
     {
-      "id": "07939b12-222a-11f1-8c38-0a58a9feac02",
+      "id": "4b4f0786-2231-11f1-b269-0a58a9feac02",
       "severity": "perturbée",
       "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260317T184619",
-          "end": "20260317T184719"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident nécessitant l’intervention du conducteur à Aimé Césaire .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
-          "channel": "titre"
-        }
-      ]
-    },
-    {
-      "id": "e5c127f6-222f-11f1-b269-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260317T193128",
-          "end": "20260318T043000"
+          "begin": "20260317T194045",
+          "end": "20260317T194145"
         }
       ],
       "messages": [
