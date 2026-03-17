@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-17T17:54:09.530627Z",
+  "lastCheck": "2026-03-17T18:40:58.527396Z",
   "hasNewDisruptions": true,
   "disruptionCount": 6,
   "disruptions": [
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
-        },
-        {
           "begin": "20260408T220000",
           "end": "20260409T043000"
+        },
+        {
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         },
         {
           "begin": "20260325T220000",
@@ -126,44 +126,14 @@
       ]
     },
     {
-      "id": "11f89fd2-2228-11f1-b269-0a58a9feac02",
+      "id": "07939b12-222a-11f1-8c38-0a58a9feac02",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260317T183332",
-          "end": "20260317T185805"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident d'exploitation  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "titre"
-        }
-      ]
-    },
-    {
-      "id": "7b5539c6-2229-11f1-8c38-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260317T184521",
-          "end": "20260318T043000"
+          "begin": "20260317T184619",
+          "end": "20260317T184719"
         }
       ],
       "messages": [
@@ -181,6 +151,36 @@
         },
         {
           "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
+          "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "e5c127f6-222f-11f1-b269-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260317T193128",
+          "end": "20260318T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident d'exploitation  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "titre"
         }
       ]
