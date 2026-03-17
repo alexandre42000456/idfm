@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-17T13:59:55.467524Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 5,
+  "lastCheck": "2026-03-17T14:56:52.780341Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         },
         {
           "begin": "20260401T220000",
           "end": "20260402T043000"
         },
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
         }
       ],
       "messages": [
@@ -48,16 +48,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
+        },
+        {
           "begin": "20260401T220000",
           "end": "20260402T043000"
         },
         {
           "begin": "20260408T220000",
           "end": "20260409T043000"
-        },
-        {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
         }
       ],
       "messages": [
@@ -86,12 +86,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
+        },
+        {
           "begin": "20260329T220000",
           "end": "20260330T043000"
         },
         {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
+          "begin": "20260315T220000",
+          "end": "20260316T043000"
         },
         {
           "begin": "20260405T220000",
@@ -100,10 +104,6 @@
         {
           "begin": "20260322T220000",
           "end": "20260323T043000"
-        },
-        {
-          "begin": "20260315T220000",
-          "end": "20260316T043000"
         }
       ],
       "messages": [
@@ -122,36 +122,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "fb9320c2-2205-11f1-8c38-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260317T142914",
-          "end": "20260317T143014"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une panne de signalisation à Porte de Versailles .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
-          "channel": "titre"
         }
       ]
     },
