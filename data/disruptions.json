@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-17T06:41:17.250115Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "lastCheck": "2026-03-17T07:39:36.722055Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 6,
   "disruptions": [
     {
       "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
@@ -14,12 +14,12 @@
           "end": "20260326T043000"
         },
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
-        },
-        {
           "begin": "20260401T220000",
           "end": "20260402T043000"
+        },
+        {
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         }
       ],
       "messages": [
@@ -52,12 +52,12 @@
           "end": "20260409T043000"
         },
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
-        },
-        {
           "begin": "20260325T220000",
           "end": "20260326T043000"
+        },
+        {
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         }
       ],
       "messages": [
@@ -90,20 +90,20 @@
           "end": "20260330T043000"
         },
         {
-          "begin": "20260405T220000",
-          "end": "20260406T043000"
-        },
-        {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
-        },
-        {
           "begin": "20260315T220000",
           "end": "20260316T043000"
         },
         {
           "begin": "20260322T220000",
           "end": "20260323T043000"
+        },
+        {
+          "begin": "20260405T220000",
+          "end": "20260406T043000"
+        },
+        {
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
         }
       ],
       "messages": [
@@ -152,6 +152,36 @@
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-03-18 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud",
           "channel": "sms ascenseurs"
+        }
+      ]
+    },
+    {
+      "id": "dc2cb3ac-21d2-11f1-bb0b-0a58a9feac02",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260317T082631",
+          "end": "20260318T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Panne de signalisation - Reprise progressive / trafic reste très perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste très perturbé sur toute la ligne en répercussion d'une panne de signalisation  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Reprise progressive / trafic reste très perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Panne de signalisation - Reprise progressive / trafic reste très perturbé",
+          "channel": "titre"
         }
       ]
     },
