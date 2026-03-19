@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-19T13:45:54.508852Z",
+  "lastCheck": "2026-03-19T14:35:02.967218Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 6,
+  "disruptionCount": 7,
   "disruptions": [
     {
       "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
-        },
-        {
           "begin": "20260408T220000",
           "end": "20260409T043000"
         },
         {
           "begin": "20260325T220000",
           "end": "20260326T043000"
+        },
+        {
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         }
       ],
       "messages": [
@@ -48,16 +48,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
-        },
-        {
           "begin": "20260408T220000",
           "end": "20260409T043000"
         },
         {
           "begin": "20260401T220000",
           "end": "20260402T043000"
+        },
+        {
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
         }
       ],
       "messages": [
@@ -90,16 +90,16 @@
           "end": "20260323T043000"
         },
         {
-          "begin": "20260329T220000",
-          "end": "20260330T043000"
-        },
-        {
           "begin": "20260405T220000",
           "end": "20260406T043000"
         },
         {
           "begin": "20260412T220000",
           "end": "20260413T043000"
+        },
+        {
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
         },
         {
           "begin": "20260315T220000",
@@ -139,40 +139,70 @@
       "messages": [
         {
           "text": "Métro 12 : Incident voyageur - Trafic perturbé",
-          "channel": "notification"
+          "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident voyageur  .</p>",
-          "channel": "moteur"
+          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
+          "channel": "notification"
         },
         {
           "text": "Trafic perturbé",
           "channel": "cbiv"
         },
         {
-          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
-          "channel": "titre"
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident voyageur  .</p>",
+          "channel": "moteur"
         }
       ]
     },
     {
-      "id": "280fa122-f4ba-4470-81e1-5b668e3fdac4",
+      "id": "e2088714-ea6f-4ba0-97d1-81771b013186",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260319T143703",
-          "end": "20260320T043000"
+          "begin": "20260319T145217",
+          "end": "20260319T145317"
         }
       ],
       "messages": [
         {
           "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
           "channel": "notification"
         },
         {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
           "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un bagage oublié dans un train à Mairie d'Aubervilliers .</p>",
+          "channel": "moteur"
+        }
+      ]
+    },
+    {
+      "id": "62463501-e0fe-40a8-b628-870901b09b7e",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260319T152202",
+          "end": "20260319T152302"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un malaise voyageur à bord du train à Saint-Lazare .</p>",
           "channel": "moteur"
         },
         {
@@ -180,7 +210,7 @@
           "channel": "cbiv"
         },
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
+          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
           "channel": "titre"
         }
       ]
