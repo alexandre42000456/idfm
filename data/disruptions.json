@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-19T05:12:28.060088Z",
+  "lastCheck": "2026-03-19T06:10:02.998482Z",
   "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
@@ -14,12 +14,12 @@
           "end": "20260402T043000"
         },
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
-        },
-        {
           "begin": "20260325T220000",
           "end": "20260326T043000"
+        },
+        {
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         }
       ],
       "messages": [
@@ -48,16 +48,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
-        },
-        {
           "begin": "20260325T220000",
           "end": "20260326T043000"
         },
         {
           "begin": "20260408T220000",
           "end": "20260409T043000"
+        },
+        {
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         }
       ],
       "messages": [
@@ -86,24 +86,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
-        },
-        {
-          "begin": "20260315T220000",
-          "end": "20260316T043000"
-        },
-        {
-          "begin": "20260322T220000",
-          "end": "20260323T043000"
+          "begin": "20260405T220000",
+          "end": "20260406T043000"
         },
         {
           "begin": "20260329T220000",
           "end": "20260330T043000"
         },
         {
-          "begin": "20260405T220000",
-          "end": "20260406T043000"
+          "begin": "20260322T220000",
+          "end": "20260323T043000"
+        },
+        {
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
+        },
+        {
+          "begin": "20260315T220000",
+          "end": "20260316T043000"
         }
       ],
       "messages": [
@@ -126,32 +126,32 @@
       ]
     },
     {
-      "id": "91676b3c-234e-11f1-8a6f-0a58a9feac02",
+      "id": "f0159c5a-2356-11f1-8a6f-0a58a9feac02",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260319T054451",
-          "end": "20260320T043000"
+          "begin": "20260319T064152",
+          "end": "20260319T064252"
         }
       ],
       "messages": [
         {
           "text": "Métro 12 : Manoeuvre de train retardée - Trafic perturbé",
-          "channel": "notification"
+          "channel": "titre"
         },
         {
           "text": "<p>Le trafic est perturbé  vers Mairie d'Issy en raison d'une manoeuvre de train retardée  .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
+          "text": "Métro 12 : Manoeuvre de train retardée - Trafic perturbé",
+          "channel": "notification"
         },
         {
-          "text": "Métro 12 : Manoeuvre de train retardée - Trafic perturbé",
-          "channel": "titre"
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     },
