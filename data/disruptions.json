@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-19T06:10:02.998482Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 5,
+  "lastCheck": "2026-03-19T07:12:13.394784Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
@@ -121,36 +121,6 @@
         },
         {
           "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "f0159c5a-2356-11f1-8a6f-0a58a9feac02",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260319T064152",
-          "end": "20260319T064252"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Manoeuvre de train retardée - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé  vers Mairie d'Issy en raison d'une manoeuvre de train retardée  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Manoeuvre de train retardée - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
