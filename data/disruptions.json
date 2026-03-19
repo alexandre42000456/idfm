@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-19T11:48:17.861660Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "lastCheck": "2026-03-19T12:27:36.200254Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 6,
   "disruptions": [
     {
       "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
@@ -122,6 +122,36 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "06190bfa-3457-4d79-972d-303e5fc9b455",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260319T131834",
+          "end": "20260320T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident voyageur à Madeleine .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
+          "channel": "titre"
         }
       ]
     },
