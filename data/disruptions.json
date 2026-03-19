@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-19T15:27:25.449813Z",
+  "lastCheck": "2026-03-19T16:13:29.327015Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
@@ -14,12 +14,12 @@
           "end": "20260409T043000"
         },
         {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
-        },
-        {
           "begin": "20260401T220000",
           "end": "20260402T043000"
+        },
+        {
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
         }
       ],
       "messages": [
@@ -48,12 +48,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
-        },
-        {
           "begin": "20260408T220000",
           "end": "20260409T043000"
+        },
+        {
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
         },
         {
           "begin": "20260401T220000",
@@ -86,6 +86,10 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260322T220000",
+          "end": "20260323T043000"
+        },
+        {
           "begin": "20260412T220000",
           "end": "20260413T043000"
         },
@@ -96,10 +100,6 @@
         {
           "begin": "20260329T220000",
           "end": "20260330T043000"
-        },
-        {
-          "begin": "20260322T220000",
-          "end": "20260323T043000"
         },
         {
           "begin": "20260315T220000",
@@ -121,36 +121,6 @@
         },
         {
           "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "62463501-e0fe-40a8-b628-870901b09b7e",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260319T152202",
-          "end": "20260319T152302"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un malaise voyageur à bord du train à Saint-Lazare .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
