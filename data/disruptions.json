@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-19T08:26:13.721586Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-03-19T09:06:07.976006Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
         },
         {
           "begin": "20260408T220000",
           "end": "20260409T043000"
         },
         {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         }
       ],
       "messages": [
@@ -52,12 +52,12 @@
           "end": "20260326T043000"
         },
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
-        },
-        {
           "begin": "20260401T220000",
           "end": "20260402T043000"
+        },
+        {
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         }
       ],
       "messages": [
@@ -86,24 +86,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260322T220000",
-          "end": "20260323T043000"
-        },
-        {
-          "begin": "20260329T220000",
-          "end": "20260330T043000"
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
         },
         {
           "begin": "20260405T220000",
           "end": "20260406T043000"
         },
         {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
-        },
-        {
           "begin": "20260315T220000",
           "end": "20260316T043000"
+        },
+        {
+          "begin": "20260322T220000",
+          "end": "20260323T043000"
+        },
+        {
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
         }
       ],
       "messages": [
@@ -152,6 +152,28 @@
         {
           "text": "Autre",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "40e3b250-2372-11f1-940a-0a58a9feac02",
+      "severity": "information",
+      "status": "active",
+      "cause": "information",
+      "application_periods": [
+        {
+          "begin": "20260319T100000",
+          "end": "20260320T200000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "<p><span style=\"color:hsl(0,0%,0%);\">En raison d'un dysfonctionnement technique, les prochains passages en temps réel sont perturbés.</span></p><p><span style=\"color:hsl(0,0%,0%);\">Les horaires proposées dans la recherche d'itinéraire sont issus des fiches horaires et sont fiables dans la limite des aléas de la circulation.</span></p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Perturbation des prochains passages en temps réel",
+          "channel": "titre"
         }
       ]
     }
