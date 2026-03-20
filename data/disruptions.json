@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-20T11:53:56.735379Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-03-20T12:27:02.060707Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
-        },
-        {
           "begin": "20260408T220000",
           "end": "20260409T043000"
         },
         {
           "begin": "20260401T220000",
           "end": "20260402T043000"
+        },
+        {
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
         }
       ],
       "messages": [
@@ -48,16 +48,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
-        },
-        {
           "begin": "20260325T220000",
           "end": "20260326T043000"
         },
         {
           "begin": "20260408T220000",
           "end": "20260409T043000"
+        },
+        {
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         }
       ],
       "messages": [
@@ -86,16 +86,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260329T220000",
-          "end": "20260330T043000"
-        },
-        {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
-        },
-        {
           "begin": "20260405T220000",
           "end": "20260406T043000"
+        },
+        {
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
         },
         {
           "begin": "20260322T220000",
@@ -104,6 +100,10 @@
         {
           "begin": "20260315T220000",
           "end": "20260316T043000"
+        },
+        {
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
         }
       ],
       "messages": [
@@ -122,6 +122,36 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "bf17287b-1b95-4ff8-9377-f21a9e921db6",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260320T130328",
+          "end": "20260320T130428"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident technique sur un train à Saint-Lazare et Mairie d'Issy .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
+          "channel": "titre"
         }
       ]
     },
