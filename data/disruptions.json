@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-20T04:19:26.138578Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-03-20T05:31:10.930959Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
+        },
+        {
           "begin": "20260401T220000",
           "end": "20260402T043000"
         },
         {
           "begin": "20260325T220000",
           "end": "20260326T043000"
-        },
-        {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
         }
       ],
       "messages": [
@@ -48,16 +48,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
         },
         {
           "begin": "20260401T220000",
           "end": "20260402T043000"
         },
         {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         }
       ],
       "messages": [
@@ -122,6 +122,36 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "369aadc3-6469-4754-b958-0a2c2e1f3774",
+      "severity": "bloquante",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260320T061005",
+          "end": "20260321T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié sur un quai - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Montparnasse Bienvenue et Porte de Versailles en raison d'un bagage oublié sur un quai à Pasteur. <br>Reprise estimée : 06:40.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié sur un quai - Trafic interrompu",
+          "channel": "titre"
         }
       ]
     },
