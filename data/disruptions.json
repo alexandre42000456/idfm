@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-20T06:11:26.821690Z",
+  "lastCheck": "2026-03-20T07:11:52.343257Z",
   "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
-        },
-        {
           "begin": "20260325T220000",
           "end": "20260326T043000"
         },
         {
           "begin": "20260401T220000",
           "end": "20260402T043000"
+        },
+        {
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         }
       ],
       "messages": [
@@ -52,12 +52,12 @@
           "end": "20260409T043000"
         },
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
-        },
-        {
           "begin": "20260325T220000",
           "end": "20260326T043000"
+        },
+        {
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         }
       ],
       "messages": [
@@ -86,6 +86,14 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
+        },
+        {
+          "begin": "20260405T220000",
+          "end": "20260406T043000"
+        },
+        {
           "begin": "20260329T220000",
           "end": "20260330T043000"
         },
@@ -96,14 +104,6 @@
         {
           "begin": "20260315T220000",
           "end": "20260316T043000"
-        },
-        {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
-        },
-        {
-          "begin": "20260405T220000",
-          "end": "20260406T043000"
         }
       ],
       "messages": [
@@ -126,32 +126,32 @@
       ]
     },
     {
-      "id": "22703764-3502-4891-a460-a3fa099aec31",
+      "id": "30158be0-ffa6-4c0f-8177-6703652fe905",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260320T064611",
-          "end": "20260321T043000"
+          "begin": "20260320T074726",
+          "end": "20260320T074826"
         }
       ],
       "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié sur un quai - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un bagage oublié sur un quai à Pasteur .</p>",
+          "channel": "moteur"
+        },
         {
           "text": "Trafic perturbé",
           "channel": "cbiv"
         },
         {
           "text": "Métro 12 : Bagage oublié sur un quai - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié sur un quai - Trafic perturbé",
           "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un bagage oublié sur un quai à Pasteur .</p>",
-          "channel": "moteur"
         }
       ]
     },
