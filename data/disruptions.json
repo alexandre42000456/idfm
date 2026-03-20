@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-20T20:39:29.080683Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-03-20T21:00:58.145854Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
-        },
-        {
           "begin": "20260401T220000",
           "end": "20260402T043000"
+        },
+        {
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         },
         {
           "begin": "20260325T220000",
@@ -48,12 +48,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
-        },
-        {
           "begin": "20260401T220000",
           "end": "20260402T043000"
+        },
+        {
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         },
         {
           "begin": "20260325T220000",
@@ -86,24 +86,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260329T220000",
-          "end": "20260330T043000"
-        },
-        {
           "begin": "20260315T220000",
           "end": "20260316T043000"
         },
         {
-          "begin": "20260322T220000",
-          "end": "20260323T043000"
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
         },
         {
           "begin": "20260405T220000",
           "end": "20260406T043000"
         },
         {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
+        },
+        {
+          "begin": "20260322T220000",
+          "end": "20260323T043000"
         }
       ],
       "messages": [
@@ -122,6 +122,36 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "d6038e8f-b8bc-4fb4-ba93-4d2dccfcec8b",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260320T214446",
+          "end": "20260321T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Personnes sur les voies - Reprise progressive / trafic reste perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion de personnes sur les voies à Marcadet - Poissonniers .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Personnes sur les voies - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
         }
       ]
     },
