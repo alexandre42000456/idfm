@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-21T19:59:33.148421Z",
+  "lastCheck": "2026-03-21T20:26:09.027875Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         },
         {
           "begin": "20260401T220000",
           "end": "20260402T043000"
         },
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
         }
       ],
       "messages": [
@@ -90,12 +90,12 @@
           "end": "20260330T043000"
         },
         {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
-        },
-        {
           "begin": "20260322T220000",
           "end": "20260323T043000"
+        },
+        {
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
         },
         {
           "begin": "20260405T220000",
@@ -118,36 +118,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "6e6ee846-ac48-4b53-9ab5-31b377c87abf",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260321T200133",
-          "end": "20260321T200233"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "titre"
         }
       ]
     },
