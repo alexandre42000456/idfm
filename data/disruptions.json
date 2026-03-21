@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-21T23:20:27.709003Z",
+  "lastCheck": "2026-03-21T23:42:37.277367Z",
   "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
@@ -122,14 +122,14 @@
       ]
     },
     {
-      "id": "aa670184-b4e5-4a94-a414-6e2beee5b9c5",
+      "id": "5d94f1cd-736c-467f-b762-45081a941688",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260322T001525",
-          "end": "20260322T043000"
+          "begin": "20260322T003601",
+          "end": "20260322T003701"
         }
       ],
       "messages": [
