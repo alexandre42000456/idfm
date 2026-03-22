@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-22T20:59:34.266752Z",
+  "lastCheck": "2026-03-22T21:26:11.442267Z",
   "hasNewDisruptions": false,
   "disruptionCount": 4,
   "disruptions": [
@@ -82,7 +82,7 @@
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
       "severity": "bloquante",
-      "status": "future",
+      "status": "active",
       "cause": "travaux",
       "application_periods": [
         {
