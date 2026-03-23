@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-23T16:11:02.764291Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-03-23T17:06:46.540157Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
@@ -14,12 +14,12 @@
           "end": "20260409T043000"
         },
         {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
-        },
-        {
           "begin": "20260401T220000",
           "end": "20260402T043000"
+        },
+        {
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
         }
       ],
       "messages": [
@@ -48,16 +48,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
-        },
-        {
           "begin": "20260408T220000",
           "end": "20260409T043000"
         },
         {
           "begin": "20260325T220000",
           "end": "20260326T043000"
+        },
+        {
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         }
       ],
       "messages": [
@@ -86,8 +86,8 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260329T220000",
-          "end": "20260330T043000"
+          "begin": "20260322T220000",
+          "end": "20260323T043000"
         },
         {
           "begin": "20260412T220000",
@@ -98,8 +98,8 @@
           "end": "20260406T043000"
         },
         {
-          "begin": "20260322T220000",
-          "end": "20260323T043000"
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
         }
       ],
       "messages": [
@@ -118,6 +118,36 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "b9398f4d-6d18-4634-a9b4-8f3b0aa6ed8d",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260323T175035",
+          "end": "20260323T175135"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé vers Mairie d'Aubervilliers en répercussion d'une gêne à la fermeture des portes d'un train à Porte de La Chapelle .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
+          "channel": "titre"
         }
       ]
     },
