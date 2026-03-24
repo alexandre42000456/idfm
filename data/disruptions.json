@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-24T08:27:37.037013Z",
+  "lastCheck": "2026-03-24T09:12:58.780869Z",
   "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
-        },
-        {
           "begin": "20260408T220000",
           "end": "20260409T043000"
+        },
+        {
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
         },
         {
           "begin": "20260401T220000",
@@ -48,16 +48,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
-        },
-        {
           "begin": "20260408T220000",
           "end": "20260409T043000"
         },
         {
           "begin": "20260401T220000",
           "end": "20260402T043000"
+        },
+        {
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
         }
       ],
       "messages": [
@@ -86,16 +86,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
         },
         {
           "begin": "20260322T220000",
           "end": "20260323T043000"
         },
         {
-          "begin": "20260329T220000",
-          "end": "20260330T043000"
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
         },
         {
           "begin": "20260405T220000",
@@ -122,14 +122,14 @@
       ]
     },
     {
-      "id": "b5e4bf51-e913-4376-820e-202e32d37745",
+      "id": "83f0ec0d-682e-47b1-b3f4-9bcbe0272bd1",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260324T091818",
-          "end": "20260325T043000"
+          "begin": "20260324T093333",
+          "end": "20260324T093433"
         }
       ],
       "messages": [
