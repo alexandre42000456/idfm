@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-24T09:12:58.780869Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 5,
+  "lastCheck": "2026-03-24T10:08:36.319272Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "fa8aeefc-1dfb-11f1-940a-0a58a9feac02",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
-        },
-        {
           "begin": "20260325T220000",
           "end": "20260326T043000"
+        },
+        {
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         },
         {
           "begin": "20260401T220000",
@@ -48,16 +48,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
+        },
+        {
           "begin": "20260408T220000",
           "end": "20260409T043000"
         },
         {
           "begin": "20260401T220000",
           "end": "20260402T043000"
-        },
-        {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
         }
       ],
       "messages": [
@@ -86,16 +86,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260329T220000",
-          "end": "20260330T043000"
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
         },
         {
           "begin": "20260322T220000",
           "end": "20260323T043000"
         },
         {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
         },
         {
           "begin": "20260405T220000",
@@ -118,36 +118,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "83f0ec0d-682e-47b1-b3f4-9bcbe0272bd1",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260324T093333",
-          "end": "20260324T093433"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Métro en panne - Trafic très perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est très perturbé sur toute la ligne en raison d'un métro en panne à Madeleine .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic très perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Métro en panne - Trafic très perturbé",
-          "channel": "titre"
         }
       ]
     },
