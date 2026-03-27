@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-27T05:26:29.159659Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-03-27T06:42:46.464388Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -79,6 +79,36 @@
         },
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "0d547493-df87-4eff-8157-66ea23e02c99",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260327T064004",
+          "end": "20260327T064104"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une gêne à la fermeture des portes d'un train à Corentin Celton .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
           "channel": "notification"
         }
       ]
