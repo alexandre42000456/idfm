@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-27T19:32:33.653881Z",
+  "lastCheck": "2026-03-27T20:00:29.542784Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260405T220000",
-          "end": "20260406T043000"
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
         },
         {
-          "begin": "20260322T220000",
-          "end": "20260323T043000"
+          "begin": "20260405T220000",
+          "end": "20260406T043000"
         },
         {
           "begin": "20260412T220000",
           "end": "20260413T043000"
         },
         {
-          "begin": "20260329T220000",
-          "end": "20260330T043000"
+          "begin": "20260322T220000",
+          "end": "20260323T043000"
         }
       ],
       "messages": [
@@ -80,36 +80,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "9f77d803-3db5-4d23-bf0e-5123ea1742ac",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260327T192511",
-          "end": "20260327T192611"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un ajustement de l'intervalle entre les trains  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     },
