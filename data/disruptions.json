@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-27T11:48:20.109152Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-03-27T12:29:47.030084Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
+        },
+        {
           "begin": "20260412T220000",
           "end": "20260413T043000"
         },
         {
           "begin": "20260322T220000",
           "end": "20260323T043000"
-        },
-        {
-          "begin": "20260329T220000",
-          "end": "20260330T043000"
         },
         {
           "begin": "20260405T220000",
@@ -52,16 +52,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
-        },
-        {
           "begin": "20260325T220000",
           "end": "20260326T043000"
         },
         {
           "begin": "20260408T220000",
           "end": "20260409T043000"
+        },
+        {
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         }
       ],
       "messages": [
@@ -110,6 +110,36 @@
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-03-28",
           "channel": "moteur"
+        }
+      ]
+    },
+    {
+      "id": "cdcebe26-d669-4cbc-b752-15b8ec629f6a",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260327T131947",
+          "end": "20260328T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic reprend progressivement sur toute la ligne en répercussion d'un bagage oublié dans un train à Montparnasse Bienvenue .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
+          "channel": "notification"
+        },
+        {
+          "text": "Reprise progressive",
+          "channel": "cbiv"
         }
       ]
     },
