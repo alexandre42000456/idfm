@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-27T06:42:46.464388Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "lastCheck": "2026-03-27T07:44:35.925330Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260322T220000",
-          "end": "20260323T043000"
-        },
-        {
           "begin": "20260412T220000",
           "end": "20260413T043000"
         },
         {
-          "begin": "20260405T220000",
-          "end": "20260406T043000"
+          "begin": "20260322T220000",
+          "end": "20260323T043000"
         },
         {
           "begin": "20260329T220000",
           "end": "20260330T043000"
+        },
+        {
+          "begin": "20260405T220000",
+          "end": "20260406T043000"
         }
       ],
       "messages": [
@@ -52,16 +52,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
+        },
+        {
           "begin": "20260325T220000",
           "end": "20260326T043000"
         },
         {
           "begin": "20260401T220000",
           "end": "20260402T043000"
-        },
-        {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
         }
       ],
       "messages": [
@@ -79,36 +79,6 @@
         },
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "0d547493-df87-4eff-8157-66ea23e02c99",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260327T064004",
-          "end": "20260327T064104"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une gêne à la fermeture des portes d'un train à Corentin Celton .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
           "channel": "notification"
         }
       ]
