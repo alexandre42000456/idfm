@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-27T22:03:42.428714Z",
+  "lastCheck": "2026-03-27T22:44:43.647317Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260329T220000",
-          "end": "20260330T043000"
-        },
-        {
           "begin": "20260405T220000",
           "end": "20260406T043000"
+        },
+        {
+          "begin": "20260322T220000",
+          "end": "20260323T043000"
         },
         {
           "begin": "20260412T220000",
           "end": "20260413T043000"
         },
         {
-          "begin": "20260322T220000",
-          "end": "20260323T043000"
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
         }
       ],
       "messages": [
@@ -80,36 +80,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "f0f882e0-ecf1-4133-9ada-f9aede6294ee",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260327T221245",
-          "end": "20260327T221345"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident voyageur  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     },
