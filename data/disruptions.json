@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-03-28T18:19:34.952540Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-03-28T19:01:33.070097Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
     {
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260329T220000",
-          "end": "20260330T043000"
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
         },
         {
           "begin": "20260405T220000",
           "end": "20260406T043000"
         },
         {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
         }
       ],
       "messages": [
@@ -52,12 +52,12 @@
           "end": "20260409T043000"
         },
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
-        },
-        {
           "begin": "20260325T220000",
           "end": "20260326T043000"
+        },
+        {
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         }
       ],
       "messages": [
@@ -80,27 +80,27 @@
       ]
     },
     {
-      "id": "2d73cd89-4312-42e5-b61e-188f5406e803",
+      "id": "cc1f4e39-04ab-4ed3-9afa-aa10088582bd",
       "severity": "perturbée",
-      "status": "past",
+      "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260328T184101",
-          "end": "20260328T184201"
+          "begin": "20260328T193950",
+          "end": "20260329T033000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Bagage oublié sur un quai - Trafic perturbé",
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un bagage oublié sur un quai à Pasteur .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Bagage oublié sur un quai - Trafic perturbé",
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "notification"
         },
         {
