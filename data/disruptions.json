@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-28T15:02:25.701657Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-03-28T15:37:33.319273Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -76,6 +76,36 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "9b9b2959-3786-41ce-8b40-3332e2219ca6",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260328T162400",
+          "end": "20260329T033000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Manoeuvre de train retardée - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une manoeuvre de train retardée à Saint-Georges .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Manoeuvre de train retardée - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     },
