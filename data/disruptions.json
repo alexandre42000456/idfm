@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-28T15:37:33.319273Z",
+  "lastCheck": "2026-03-28T15:58:31.180820Z",
   "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
@@ -52,12 +52,12 @@
           "end": "20260409T043000"
         },
         {
-          "begin": "20260325T220000",
-          "end": "20260326T043000"
-        },
-        {
           "begin": "20260401T220000",
           "end": "20260402T043000"
+        },
+        {
+          "begin": "20260325T220000",
+          "end": "20260326T043000"
         }
       ],
       "messages": [
@@ -80,14 +80,14 @@
       ]
     },
     {
-      "id": "9b9b2959-3786-41ce-8b40-3332e2219ca6",
+      "id": "b7c4da7a-72b9-42eb-a095-38cc4f5ab2ad",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260328T162400",
-          "end": "20260329T033000"
+          "begin": "20260328T163515",
+          "end": "20260328T163615"
         }
       ],
       "messages": [
@@ -96,16 +96,16 @@
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une manoeuvre de train retardée à Saint-Georges .</p>",
-          "channel": "moteur"
-        },
-        {
           "text": "Métro 12 : Manoeuvre de train retardée - Trafic perturbé",
           "channel": "notification"
         },
         {
           "text": "Trafic perturbé",
           "channel": "cbiv"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une manoeuvre de train retardée à Saint-Georges .</p>",
+          "channel": "moteur"
         }
       ]
     },
