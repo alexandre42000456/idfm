@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-03-29T18:03:54.067676Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-03-29T18:57:49.697939Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
     {
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
+        },
+        {
           "begin": "20260405T220000",
           "end": "20260406T043000"
         },
         {
           "begin": "20260329T220000",
           "end": "20260330T043000"
-        },
-        {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
         }
       ],
       "messages": [
@@ -48,16 +48,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
+        },
+        {
           "begin": "20260325T220000",
           "end": "20260326T043000"
         },
         {
           "begin": "20260408T220000",
           "end": "20260409T043000"
-        },
-        {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
         }
       ],
       "messages": [
@@ -80,27 +80,27 @@
       ]
     },
     {
-      "id": "3779a97b-8d8f-4a63-90d6-8e6481f3ea55",
+      "id": "56c40758-9e25-40e9-94f4-8673468ea7a3",
       "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260329T182828",
+          "begin": "20260329T202935",
           "end": "20260330T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trafic perturbé",
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un ajustement de l'intervalle entre les trains  .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trafic perturbé",
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "notification"
         },
         {
