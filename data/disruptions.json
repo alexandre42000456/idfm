@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-03-30T09:50:16.695558Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-03-30T10:49:08.721866Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -76,6 +76,66 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "8b6f37a6-8f51-4d6b-853f-5b58a906398a",
+      "severity": "bloquante",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260330T122254",
+          "end": "20260330T122354"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Mairie d'Aubervilliers et Front Populaire en raison d'un incident d'exploitation. <br>Reprise estimée : 12:30.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "c7bab60d-7fbf-4544-9cb7-273396cdc599",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260330T123717",
+          "end": "20260330T123817"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident d'exploitation - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un incident d'exploitation  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident d'exploitation - Reprise progressive / trafic reste perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
         }
       ]
     },
