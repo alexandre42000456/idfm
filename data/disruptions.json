@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-03-30T10:49:08.721866Z",
+  "lastCheck": "2026-03-30T11:41:55.614088Z",
   "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
@@ -80,36 +80,6 @@
       ]
     },
     {
-      "id": "8b6f37a6-8f51-4d6b-853f-5b58a906398a",
-      "severity": "bloquante",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260330T122254",
-          "end": "20260330T122354"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est interrompu entre Mairie d'Aubervilliers et Front Populaire en raison d'un incident d'exploitation. <br>Reprise estimée : 12:30.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
       "id": "c7bab60d-7fbf-4544-9cb7-273396cdc599",
       "severity": "perturbée",
       "status": "past",
@@ -135,6 +105,36 @@
         },
         {
           "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "edeba3d1-e537-461c-83d7-75db6e09cec8",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260330T131421",
+          "end": "20260330T131521"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un malaise voyageur à bord du train à Vaugirard .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
