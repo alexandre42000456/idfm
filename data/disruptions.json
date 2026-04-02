@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-02T07:49:24.895859Z",
+  "lastCheck": "2026-04-02T08:39:58.916320Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -76,44 +76,14 @@
       ]
     },
     {
-      "id": "341f315d-9d95-4acd-90c1-fa8accc6f309",
+      "id": "66760b89-cf12-479e-8b91-dae7670c1f24",
       "severity": "perturbée",
       "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260402T083450",
-          "end": "20260402T083550"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident technique sur un train à Volontaires .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "acb5258f-b8b4-490c-a304-5dddcd5232a9",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260402T093838",
-          "end": "20260403T043000"
+          "begin": "20260402T102142",
+          "end": "20260402T102242"
         }
       ],
       "messages": [
