@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-02T09:39:50.719836Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-04-02T10:32:59.254055Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -72,6 +72,36 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "c9d36427-7e10-4cc3-8912-ce58e46461eb",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260402T115245",
+          "end": "20260402T121603"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trains stationnent",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Des trains stationnent entre Mairie d'Issy et Pasteur vers Mairie d'Aubervilliers en raison d'un incident d'exploitation à Mairie d'Issy .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trains stationnent",
+          "channel": "notification"
+        },
+        {
+          "text": "Trains stationnent",
+          "channel": "cbiv"
         }
       ]
     },
