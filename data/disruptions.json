@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-02T06:42:46.217019Z",
+  "lastCheck": "2026-04-02T07:49:24.895859Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
+        },
+        {
           "begin": "20260405T220000",
           "end": "20260406T043000"
         },
         {
           "begin": "20260329T220000",
           "end": "20260330T043000"
-        },
-        {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
         }
       ],
       "messages": [
@@ -98,6 +98,36 @@
         {
           "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
           "channel": "titre"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "acb5258f-b8b4-490c-a304-5dddcd5232a9",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260402T093838",
+          "end": "20260403T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un malaise voyageur à bord du train à Volontaires .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
+          "channel": "notification"
         },
         {
           "text": "Trafic perturbé",
