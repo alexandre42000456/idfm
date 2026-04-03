@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-04-03T21:50:31.108951Z",
+  "lastCheck": "2026-04-03T22:17:01.015906Z",
   "hasNewDisruptions": false,
   "disruptionCount": 4,
   "disruptions": [
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
-        },
-        {
           "begin": "20260329T220000",
           "end": "20260330T043000"
         },
         {
           "begin": "20260405T220000",
           "end": "20260406T043000"
+        },
+        {
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
         }
       ],
       "messages": [
@@ -48,12 +48,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260408T220000",
-          "end": "20260409T043000"
-        },
-        {
           "begin": "20260401T220000",
           "end": "20260402T043000"
+        },
+        {
+          "begin": "20260408T220000",
+          "end": "20260409T043000"
         }
       ],
       "messages": [
@@ -88,8 +88,8 @@
       ],
       "messages": [
         {
-          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
-          "channel": "titre"
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         },
         {
           "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un malaise voyageur à bord du train  .</p>",
@@ -97,11 +97,11 @@
         },
         {
           "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
-          "channel": "notification"
+          "channel": "titre"
         },
         {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
+          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
+          "channel": "notification"
         }
       ]
     },
