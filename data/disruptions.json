@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-03T12:40:03.534266Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-04-03T13:47:26.917263Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260405T220000",
-          "end": "20260406T043000"
-        },
-        {
           "begin": "20260412T220000",
           "end": "20260413T043000"
+        },
+        {
+          "begin": "20260405T220000",
+          "end": "20260406T043000"
         },
         {
           "begin": "20260329T220000",
@@ -72,6 +72,66 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "416f7bc0-35f5-4282-84c0-874b0edf4645",
+      "severity": "bloquante",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260403T154101",
+          "end": "20260404T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Mairie d'Aubervilliers et Front Populaire en raison d'un bagage oublié dans un train à Mairie d'Aubervilliers. <br>Reprise estimée : 16:10.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "96f84f60-dceb-4e84-9b1f-ed6ab3eff308",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260403T145625",
+          "end": "20260403T145725"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident nécessitant l’intervention du conducteur à Jules Joffrin .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     },
