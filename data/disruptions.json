@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-03T15:50:05.556137Z",
+  "lastCheck": "2026-04-03T16:22:40.949893Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260329T220000",
-          "end": "20260330T043000"
-        },
-        {
           "begin": "20260412T220000",
           "end": "20260413T043000"
+        },
+        {
+          "begin": "20260329T220000",
+          "end": "20260330T043000"
         },
         {
           "begin": "20260405T220000",
@@ -48,12 +48,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
-        },
-        {
           "begin": "20260408T220000",
           "end": "20260409T043000"
+        },
+        {
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         }
       ],
       "messages": [
@@ -71,36 +71,6 @@
         },
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "5681c0da-8d68-4dee-8780-e753ee8b962f",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260403T163037",
-          "end": "20260404T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison de l'actionnement d'un signal d'alarme à Marcadet - Poissonniers .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
           "channel": "notification"
         }
       ]
