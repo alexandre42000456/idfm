@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-03T20:03:00.448670Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "lastCheck": "2026-04-03T20:48:06.568908Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -76,44 +76,14 @@
       ]
     },
     {
-      "id": "11119b06-ee5b-42a0-8d43-87ed4caa9e1b",
-      "severity": "bloquante",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260403T212133",
-          "end": "20260403T212233"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est interrompu entre Front Populaire et Mairie d'Aubervilliers en raison d'un bagage oublié dans un train. <br>Reprise estimée : 21:14.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "8b3ccdb0-476d-4f41-b6da-0d6a8803d5e4",
+      "id": "a5913dc1-dd73-43ce-a274-c2278bf90098",
       "severity": "perturbée",
       "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260403T212617",
-          "end": "20260403T212717"
+          "begin": "20260403T220329",
+          "end": "20260403T220429"
         }
       ],
       "messages": [
@@ -122,7 +92,7 @@
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé en répercussion d'un bagage oublié dans un train à Mairie d'Aubervilliers .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un bagage oublié dans un train à Mairie d'Aubervilliers .</p>",
           "channel": "moteur"
         },
         {
