@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-03T18:59:50.360990Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-04-03T19:38:02.396467Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -72,6 +72,66 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "11119b06-ee5b-42a0-8d43-87ed4caa9e1b",
+      "severity": "bloquante",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260403T212133",
+          "end": "20260403T212233"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Front Populaire et Mairie d'Aubervilliers en raison d'un bagage oublié dans un train. <br>Reprise estimée : 21:14.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "8b3ccdb0-476d-4f41-b6da-0d6a8803d5e4",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260403T212617",
+          "end": "20260403T212717"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé en répercussion d'un bagage oublié dans un train à Mairie d'Aubervilliers .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     },
