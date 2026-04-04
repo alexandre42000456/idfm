@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-04T17:48:19.972905Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-04-04T18:03:19.598444Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -68,6 +68,36 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "be724118-f85b-4c2e-82f1-0c0b3b09a068",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260404T195512",
+          "end": "20260404T195612"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     },
