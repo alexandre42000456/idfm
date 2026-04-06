@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-06T06:06:13.403157Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-04-06T07:58:31.218814Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -98,6 +98,36 @@
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-04-07 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
           "channel": "sms ascenseurs"
+        }
+      ]
+    },
+    {
+      "id": "e4d60906-d601-4619-847d-7ba152f04a19",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260406T094530",
+          "end": "20260407T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en raison d'un bagage oublié dans un train à Convention .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
         }
       ]
     },
