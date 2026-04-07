@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-07T20:02:36.723497Z",
+  "lastCheck": "2026-04-07T20:56:55.821256Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260405T220000",
-          "end": "20260406T043000"
-        },
-        {
           "begin": "20260412T220000",
           "end": "20260413T043000"
+        },
+        {
+          "begin": "20260405T220000",
+          "end": "20260406T043000"
         }
       ],
       "messages": [
@@ -64,36 +64,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "489c822b-7db5-4f88-ad28-09d5990d36db",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260407T204900",
-          "end": "20260407T205000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident d'exploitation à Mairie d'Aubervilliers .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     },
