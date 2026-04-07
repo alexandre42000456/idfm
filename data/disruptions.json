@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-04-07T01:55:49.617675Z",
+  "lastCheck": "2026-04-07T04:23:23.601398Z",
   "hasNewDisruptions": false,
   "disruptionCount": 4,
   "disruptions": [
@@ -44,12 +44,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260401T220000",
-          "end": "20260402T043000"
-        },
-        {
           "begin": "20260408T220000",
           "end": "20260409T043000"
+        },
+        {
+          "begin": "20260401T220000",
+          "end": "20260402T043000"
         }
       ],
       "messages": [
