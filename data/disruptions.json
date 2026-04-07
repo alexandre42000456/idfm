@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-04-07T18:09:03.535030Z",
+  "lastCheck": "2026-04-07T19:19:45.528793Z",
   "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
-        },
-        {
           "begin": "20260405T220000",
           "end": "20260406T043000"
+        },
+        {
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
         }
       ],
       "messages": [
@@ -68,14 +68,14 @@
       ]
     },
     {
-      "id": "55a90cb3-d182-45a8-93ca-af0814411e4a",
+      "id": "489c822b-7db5-4f88-ad28-09d5990d36db",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260407T194126",
-          "end": "20260408T043000"
+          "begin": "20260407T204900",
+          "end": "20260407T205000"
         }
       ],
       "messages": [
@@ -84,7 +84,7 @@
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation à Mairie d'Aubervilliers .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident d'exploitation à Mairie d'Aubervilliers .</p>",
           "channel": "moteur"
         },
         {
