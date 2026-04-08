@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-08T15:41:14.145378Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-04-08T16:43:28.333924Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -64,6 +64,36 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "1cdee1b8-86a7-41d5-8580-cf9fbb3952c8",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260408T180252",
+          "end": "20260408T180352"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trains stationnent",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Des trains stationnent entre Jules Joffrin et Mairie d'Aubervilliers vers Mairie d'Aubervilliers en raison d'un ajustement de l'intervalle entre les trains  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trains stationnent",
+          "channel": "notification"
+        },
+        {
+          "text": "Trains stationnent",
+          "channel": "cbiv"
         }
       ]
     },
