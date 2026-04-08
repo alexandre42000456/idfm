@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-04-08T16:43:28.333924Z",
+  "lastCheck": "2026-04-08T17:44:55.934945Z",
   "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
@@ -68,31 +68,31 @@
       ]
     },
     {
-      "id": "1cdee1b8-86a7-41d5-8580-cf9fbb3952c8",
+      "id": "4905861a-1ed2-4cbe-b5cf-46ba6f6a6edb",
       "severity": "perturbée",
-      "status": "past",
+      "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260408T180252",
-          "end": "20260408T180352"
+          "begin": "20260408T191016",
+          "end": "20260409T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trains stationnent",
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Des trains stationnent entre Jules Joffrin et Mairie d'Aubervilliers vers Mairie d'Aubervilliers en raison d'un ajustement de l'intervalle entre les trains  .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trains stationnent",
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "notification"
         },
         {
-          "text": "Trains stationnent",
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
