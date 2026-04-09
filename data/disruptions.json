@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-09T15:51:58.562980Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-04-09T16:53:41.666730Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 7,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
-        },
-        {
           "begin": "20260405T220000",
           "end": "20260406T043000"
+        },
+        {
+          "begin": "20260412T220000",
+          "end": "20260413T043000"
         }
       ],
       "messages": [
@@ -29,6 +29,126 @@
         },
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "1c1fa9a6-07ca-4f35-ac26-d110a4bc48af",
+      "severity": "bloquante",
+      "status": "past",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260409T182325",
+          "end": "20260409T184802"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Jusqu'au 12 avril inclus, le trafic est interrompu entre Concorde et Jules Joffrin en raison de travaux.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Travaux - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "7b84f424-5bdc-4454-b3fc-74a78daa0b9e",
+      "severity": "bloquante",
+      "status": "past",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260409T182326",
+          "end": "20260409T182426"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Du 10 avril au 12 avril inclus, le trafic sera interrompu entre Concorde et Jules Joffrin en raison de travaux.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Travaux - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "0ede8a54-0ad4-425d-b81f-02e287b28a06",
+      "severity": "bloquante",
+      "status": "past",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260409T184634",
+          "end": "20260409T184734"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Jusqu'au 25 avril inclus, le trafic est interrompu entre Concorde et Jules Joffrin en raison de travaux.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Travaux - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "8f3a40a5-813f-4e2c-8750-31eee5f266fc",
+      "severity": "bloquante",
+      "status": "past",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260409T184634",
+          "end": "20260409T184734"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Du 15 avril au 25 avril inclus, le trafic sera interrompu entre Concorde et Jules Joffrin en raison de travaux.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Travaux - Trafic interrompu",
           "channel": "notification"
         },
         {
