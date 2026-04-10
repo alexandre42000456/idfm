@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-04-10T16:03:42.260611Z",
+  "lastCheck": "2026-04-10T16:58:53.598189Z",
   "hasNewDisruptions": true,
   "disruptionCount": 3,
   "disruptions": [
@@ -38,31 +38,31 @@
       ]
     },
     {
-      "id": "4aebe57d-9f6a-4d06-89bf-47d6c3c8dceb",
+      "id": "b7544435-4ec5-4aa6-96bd-8307db04bdb5",
       "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260410T175338",
+          "begin": "20260410T181957",
           "end": "20260411T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste très perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic reprend mais reste très perturbé sur toute la ligne en répercussion d'un bagage oublié dans un train à Saint-Lazare .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un bagage oublié dans un train à Saint-Lazare .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste très perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
           "channel": "notification"
         },
         {
-          "text": "Reprise progressive / trafic reste très perturbé",
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
