@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-11T04:28:55.835678Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 2,
+  "lastCheck": "2026-04-11T05:44:03.660526Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -9,10 +9,6 @@
       "status": "future",
       "cause": "travaux",
       "application_periods": [
-        {
-          "begin": "20260405T220000",
-          "end": "20260406T043000"
-        },
         {
           "begin": "20260412T220000",
           "end": "20260413T043000"
@@ -34,6 +30,66 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "c6451e2f-f9d9-4c97-bec5-863acd965df5",
+      "severity": "bloquante",
+      "status": "future",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260510T220000",
+          "end": "20260511T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "<p>Du 10 mai au 17 mai inclus, le dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "e9860674-6c23-4bc6-9710-385d7ef54152",
+      "severity": "bloquante",
+      "status": "future",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260510T220000",
+          "end": "20260511T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Du 10 mai au 17 mai inclus, le dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
+          "channel": "moteur"
         }
       ]
     },
