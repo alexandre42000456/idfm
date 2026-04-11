@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-04-11T15:05:16.995973Z",
-  "hasNewDisruptions": true,
+  "lastCheck": "2026-04-11T15:42:35.467426Z",
+  "hasNewDisruptions": false,
   "disruptionCount": 5,
   "disruptions": [
     {
@@ -106,8 +106,8 @@
       ],
       "messages": [
         {
-          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
-          "channel": "titre"
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         },
         {
           "text": "<p>Le trafic est perturbé sur toute la ligne en raison de l'actionnement d'un signal d'alarme à Sèvres - Babylone .</p>",
@@ -118,8 +118,8 @@
           "channel": "notification"
         },
         {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
+          "channel": "titre"
         }
       ]
     },
