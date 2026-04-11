@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-11T22:00:04.165378Z",
+  "lastCheck": "2026-04-11T22:33:20.407669Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -90,36 +90,6 @@
         {
           "text": "<p>Du 10 mai au 17 mai inclus, le dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "aace2ae7-9dc0-42ba-befb-3e147df5ab64",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260411T231255",
-          "end": "20260411T231355"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en raison d'un bagage oublié dans un train à Mairie d'Issy .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Reprise progressive / trafic reste perturbé",
-          "channel": "cbiv"
         }
       ]
     },
