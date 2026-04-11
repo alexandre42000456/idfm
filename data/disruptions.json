@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-04-11T21:02:41.720597Z",
+  "lastCheck": "2026-04-11T21:41:20.225964Z",
   "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
@@ -94,31 +94,31 @@
       ]
     },
     {
-      "id": "3fa1a489-bc54-4d0c-9861-b2f0bb18e3f6",
-      "severity": "bloquante",
-      "status": "active",
+      "id": "aace2ae7-9dc0-42ba-befb-3e147df5ab64",
+      "severity": "perturbée",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260411T224355",
-          "end": "20260412T043000"
+          "begin": "20260411T231255",
+          "end": "20260411T231355"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Porte de Versailles en raison d'un bagage oublié dans un train à Mairie d'Issy. <br>Reprise estimée : 23:20.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en raison d'un bagage oublié dans un train à Mairie d'Issy .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
           "channel": "notification"
         },
         {
-          "text": "Trafic interrompu",
+          "text": "Reprise progressive / trafic reste perturbé",
           "channel": "cbiv"
         }
       ]
