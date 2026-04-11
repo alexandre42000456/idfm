@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-11T15:42:35.467426Z",
+  "lastCheck": "2026-04-11T16:01:47.845529Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
@@ -90,36 +90,6 @@
         {
           "text": "<p>Du 10 mai au 17 mai inclus, le dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "d700c406-713d-4430-b8d2-afa59476e73a",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260411T164400",
-          "end": "20260411T164500"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison de l'actionnement d'un signal d'alarme à Sèvres - Babylone .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
-          "channel": "titre"
         }
       ]
     },
