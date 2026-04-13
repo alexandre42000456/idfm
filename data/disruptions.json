@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-13T08:31:03.767859Z",
+  "lastCheck": "2026-04-13T10:14:52.590313Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 3,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "c6451e2f-f9d9-4c97-bec5-863acd965df5",
@@ -64,31 +64,61 @@
       ]
     },
     {
-      "id": "487693f1-36d0-41a4-9d06-be0dd958dfc0",
+      "id": "8457d980-6186-4676-87ce-88cb2aac4cdc",
       "severity": "bloquante",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260413T113942",
+          "end": "20260413T114042"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident technique sur un train - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Porte de Versailles en raison d'un incident technique sur un train à Mairie d'Issy. <br>Reprise estimée : 12:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident technique sur un train - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "a1e73edf-3f23-4028-8117-ea85f5bb90d1",
+      "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260413T083847",
+          "begin": "20260413T110352",
           "end": "20260414T043000"
         }
       ],
       "messages": [
         {
-          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Montparnasse Bienvenue en raison d'un accident grave de personne à Corentin Celton. <br>Reprise estimée : 12:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Accident grave de personne - Trafic interrompu",
+          "text": "Métro 12 : Accident grave de personne - Reprise progressive / trafic reste très perturbé",
           "channel": "titre"
         },
         {
-          "text": "Métro 12 : Accident grave de personne - Trafic interrompu",
+          "text": "<p>Le trafic reprend mais reste très perturbé sur toute la ligne en répercussion d'un accident grave de personne à Corentin Celton .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Accident grave de personne - Reprise progressive / trafic reste très perturbé",
           "channel": "notification"
         },
         {
-          "text": "Trafic interrompu",
+          "text": "Reprise progressive / trafic reste très perturbé",
           "channel": "cbiv"
         }
       ]
