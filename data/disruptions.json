@@ -1,38 +1,8 @@
 {
-  "lastCheck": "2026-04-13T01:27:11.013847Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-04-13T04:37:09.296867Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
-    {
-      "id": "4247e7e6-20b2-11f1-b269-0a58a9feac02",
-      "severity": "bloquante",
-      "status": "active",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20260412T220000",
-          "end": "20260413T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Jusqu'au 12 avril inclus, le dimanche dès 22:00, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
     {
       "id": "c6451e2f-f9d9-4c97-bec5-863acd965df5",
       "severity": "bloquante",
@@ -94,31 +64,61 @@
       ]
     },
     {
-      "id": "6eaf3c4a-1bd9-11f1-a4ee-0a58a9feac02",
-      "severity": "information",
-      "status": "active",
-      "cause": "travaux",
+      "id": "8992ed35-83b1-4e36-978b-56d020fdc8fb",
+      "severity": "bloquante",
+      "status": "past",
+      "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260309T175855",
-          "end": "20260413T043000"
+          "begin": "20260413T055709",
+          "end": "20260413T055809"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Travaux de modernisation - Autre",
+          "text": "Métro 12 : Accident grave de personne - Trafic interrompu",
           "channel": "titre"
         },
         {
-          "text": "<p>Jusqu'au 12 avril, dès 22:00, tous les dimanches et certains mercredis et jeudis le trafic est interrompu sur toute la ligne en raison de travaux de modernisation. Détails et calendrier complet sur RATP.fr.</p>",
+          "text": "<p>Trafic interrompu entre Mairie d’Issy et Montparnasse Bienvenue en raison d'un accident grave de pers. à Mairie d’Issy, Montparnasse Bienvenue et Corentin Celton. <br>Reprise estimée : 09:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Travaux de modernisation - Autre",
+          "text": "Métro 12 : Accident grave de personne - Trafic interrompu",
           "channel": "notification"
         },
         {
-          "text": "Autre",
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "72082d74-a8f5-4f5e-8914-cb5d6724bcbc",
+      "severity": "bloquante",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260413T060237",
+          "end": "20260414T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Accident grave de personne - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Montparnasse Bienvenue en raison d'un accident grave de personne à Corentin Celton. <br>Reprise estimée : 09:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Accident grave de personne - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
           "channel": "cbiv"
         }
       ]
