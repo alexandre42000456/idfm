@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-13T11:40:53.688423Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 3,
+  "lastCheck": "2026-04-13T12:44:14.557981Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "c6451e2f-f9d9-4c97-bec5-863acd965df5",
@@ -60,36 +60,6 @@
         {
           "text": "<p>Du 10 mai au 17 mai inclus, le dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "7369c1f1-c620-46fe-a79a-cb38369e05cc",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260413T123654",
-          "end": "20260413T123754"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Accident grave de personne - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un accident grave de personne à Corentin Celton .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Accident grave de personne - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     }
