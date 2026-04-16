@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-16T16:59:27.644010Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "lastCheck": "2026-04-16T18:07:23.067498Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "c6451e2f-f9d9-4c97-bec5-863acd965df5",
@@ -60,66 +60,6 @@
         {
           "text": "<p>Du 10 mai au 17 mai inclus, le dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "d39dc5a5-2587-4d42-9f65-041be43cb83f",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260416T180458",
-          "end": "20260416T180558"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé vers Mairie d'Aubervilliers en répercussion d'un incident technique sur un train à Rennes .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "9a6f4ed8-8d3c-43e1-8678-b63f0b3e365b",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260416T184928",
-          "end": "20260416T185028"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Malaise voyageur sur le quai - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un malaise voyageur sur le quai à Assemblée Nationale .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Malaise voyageur sur le quai - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     }
