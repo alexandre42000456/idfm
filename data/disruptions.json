@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-16T11:14:48.095019Z",
+  "lastCheck": "2026-04-16T12:08:35.530790Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "c6451e2f-f9d9-4c97-bec5-863acd965df5",
@@ -64,36 +64,6 @@
       ]
     },
     {
-      "id": "0222d0bd-c19f-47a0-8c70-6cbea3956894",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260415T200947",
-          "end": "20270415T200947"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "moteur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "email ascenseur"
-        },
-        {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "sms ascenseurs"
-        }
-      ]
-    },
-    {
       "id": "dae88935-9c04-4813-b919-5e52ee0fa9e7",
       "severity": "perturbée",
       "status": "past",
@@ -120,6 +90,66 @@
         {
           "text": "Reprise progressive / trafic reste perturbé",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "c0463d5a-0530-4c6c-ac61-c92b2c952a9e",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260416T131729",
+          "end": "20260416T131829"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé vers Mairie d'Issy en répercussion de l'actionnement d'un signal d'alarme à Porte de Versailles .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "a11fc030-ede5-45cc-a94b-3dfa4830e60f",
+      "severity": "information",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260416T140651",
+          "end": "20260416T141651"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Remise en marche d'un ascenseur",
+          "channel": "titre"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Remise en marche de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "moteur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Remise en marche de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "email ascenseur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Remise en état ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "sms ascenseurs"
         }
       ]
     }
