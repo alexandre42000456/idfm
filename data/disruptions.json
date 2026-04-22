@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-04-22T11:45:12.249986Z",
+  "lastCheck": "2026-04-22T12:45:09.515566Z",
   "hasNewDisruptions": true,
   "disruptionCount": 3,
   "disruptions": [
@@ -72,31 +72,31 @@
       ]
     },
     {
-      "id": "8024c8e3-36fa-462e-8d88-5021c8a23019",
+      "id": "c04ee11a-1a8f-42e7-bc13-9459ef5847a0",
       "severity": "perturbée",
-      "status": "past",
+      "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260422T130143",
-          "end": "20260422T130243"
+          "begin": "20260422T143417",
+          "end": "20260423T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
+          "text": "Métro 12 : Panne de portes de train - Reprise progressive / trafic reste perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un malaise voyageur à bord du train à Mairie d'Aubervilliers .</p>",
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'une panne de portes de train à Front Populaire .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
+          "text": "Métro 12 : Panne de portes de train - Reprise progressive / trafic reste perturbé",
           "channel": "notification"
         },
         {
-          "text": "Trafic perturbé",
+          "text": "Reprise progressive / trafic reste perturbé",
           "channel": "cbiv"
         }
       ]
