@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-22T10:50:03.587591Z",
+  "lastCheck": "2026-04-22T11:45:12.249986Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "c6451e2f-f9d9-4c97-bec5-863acd965df5",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260510T220000",
-          "end": "20260511T043000"
-        },
-        {
           "begin": "20260517T220000",
           "end": "20260518T043000"
+        },
+        {
+          "begin": "20260510T220000",
+          "end": "20260511T043000"
         }
       ],
       "messages": [
@@ -72,44 +72,14 @@
       ]
     },
     {
-      "id": "15d6dfa1-ec10-4fb1-993e-8e60e249f8aa",
+      "id": "8024c8e3-36fa-462e-8d88-5021c8a23019",
       "severity": "perturbée",
       "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260422T114300",
-          "end": "20260422T114400"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en raison d'un bagage oublié dans un train à Mairie d'Issy .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Reprise progressive / trafic reste perturbé",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "07fd3f45-a038-4f63-83d8-e7a07485be5f",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260422T121632",
-          "end": "20260423T043000"
+          "begin": "20260422T130143",
+          "end": "20260422T130243"
         }
       ],
       "messages": [
