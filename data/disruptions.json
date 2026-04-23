@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-04-23T21:56:22.450648Z",
+  "lastCheck": "2026-04-23T22:34:15.472851Z",
   "hasNewDisruptions": false,
   "disruptionCount": 3,
   "disruptions": [
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260510T220000",
-          "end": "20260511T043000"
-        },
-        {
           "begin": "20260517T220000",
           "end": "20260518T043000"
+        },
+        {
+          "begin": "20260510T220000",
+          "end": "20260511T043000"
         }
       ],
       "messages": [
@@ -84,6 +84,10 @@
       ],
       "messages": [
         {
+          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-04-26 situé Quai 2, dir. Mairie d'Issy",
+          "channel": "sms ascenseurs"
+        },
+        {
           "text": "Panne d'un ascenseur",
           "channel": "titre"
         },
@@ -94,10 +98,6 @@
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy, jusqu'au 2026-04-26",
           "channel": "email ascenseur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-04-26 situé Quai 2, dir. Mairie d'Issy",
-          "channel": "sms ascenseurs"
         }
       ]
     }
