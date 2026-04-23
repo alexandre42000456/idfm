@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-04-23T18:00:22.801018Z",
+  "lastCheck": "2026-04-23T19:12:18.391021Z",
   "hasNewDisruptions": true,
   "disruptionCount": 3,
   "disruptions": [
@@ -72,32 +72,32 @@
       ]
     },
     {
-      "id": "8bd59644-1c6a-4759-90b2-88e7c2a24bd1",
+      "id": "56bc0de0-4bc7-4788-b998-0631e0594244",
       "severity": "perturbée",
-      "status": "past",
+      "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260423T193938",
-          "end": "20260423T194038"
+          "begin": "20260423T200934",
+          "end": "20270423T200934"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "text": "Panne d'un ascenseur",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident d'exploitation à Mairie d'Aubervilliers .</p>",
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy, jusqu'au 2026-04-26",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "notification"
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy, jusqu'au 2026-04-26",
+          "channel": "email ascenseur"
         },
         {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
+          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-04-26 situé Quai 2, dir. Mairie d'Issy",
+          "channel": "sms ascenseurs"
         }
       ]
     }
