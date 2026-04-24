@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-04-24T15:39:10.539084Z",
+  "lastCheck": "2026-04-24T16:35:35.393178Z",
   "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260517T220000",
-          "end": "20260518T043000"
-        },
-        {
           "begin": "20260510T220000",
           "end": "20260511T043000"
+        },
+        {
+          "begin": "20260517T220000",
+          "end": "20260518T043000"
         }
       ],
       "messages": [
@@ -72,36 +72,6 @@
       ]
     },
     {
-      "id": "66eeec36-5fe1-4bf8-8ffb-4c986bf97d36",
-      "severity": "bloquante",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260424T173211",
-          "end": "20260425T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident technique en station - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est interrompu entre Mairie d'Aubervilliers et Front Populaire en raison d'un incident technique en station à Mairie d'Aubervilliers. <br>Reprise estimée : 18:30.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident technique en station - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
       "id": "56bc0de0-4bc7-4788-b998-0631e0594244",
       "severity": "perturbée",
       "status": "active",
@@ -128,6 +98,36 @@
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy, jusqu'au 2026-04-26",
           "channel": "email ascenseur"
+        }
+      ]
+    },
+    {
+      "id": "e5f3d795-359f-4c13-91e4-1d7e26f981eb",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260424T181840",
+          "end": "20260425T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident technique en station - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident technique en station à Mairie d'Aubervilliers .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident technique en station - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
