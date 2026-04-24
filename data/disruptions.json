@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-24T18:06:03.859258Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "lastCheck": "2026-04-24T19:07:56.870227Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "c6451e2f-f9d9-4c97-bec5-863acd965df5",
@@ -98,36 +98,6 @@
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy, jusqu'au 2026-04-26",
           "channel": "email ascenseur"
-        }
-      ]
-    },
-    {
-      "id": "24c77372-c70d-4784-8554-6d8e06d8e75c",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260424T193901",
-          "end": "20260424T194001"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident technique en station - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident technique en station à Mairie d'Aubervilliers .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident technique en station - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     }
