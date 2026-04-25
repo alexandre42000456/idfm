@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-25T18:28:49.528071Z",
+  "lastCheck": "2026-04-25T19:24:33.905157Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 3,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "c6451e2f-f9d9-4c97-bec5-863acd965df5",
@@ -97,6 +97,36 @@
         },
         {
           "text": "Reprise progressive / trafic reste très perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "0c3e58a2-f935-4c5b-b50f-83dd336da10d",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260425T210955",
+          "end": "20260425T211055"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
