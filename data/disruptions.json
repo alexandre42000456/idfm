@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-25T08:38:07.005749Z",
+  "lastCheck": "2026-04-25T09:32:34.614229Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "c6451e2f-f9d9-4c97-bec5-863acd965df5",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260517T220000",
-          "end": "20260518T043000"
-        },
-        {
           "begin": "20260510T220000",
           "end": "20260511T043000"
+        },
+        {
+          "begin": "20260517T220000",
+          "end": "20260518T043000"
         }
       ],
       "messages": [
@@ -44,12 +44,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260510T220000",
-          "end": "20260511T043000"
-        },
-        {
           "begin": "20260517T220000",
           "end": "20260518T043000"
+        },
+        {
+          "begin": "20260510T220000",
+          "end": "20260511T043000"
         }
       ],
       "messages": [
@@ -98,36 +98,6 @@
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy, jusqu'au 2026-04-26",
           "channel": "email ascenseur"
-        }
-      ]
-    },
-    {
-      "id": "08facf07-14cd-45de-b7bf-b16883c86f06",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260425T093451",
-          "end": "20260425T093551"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en raison d'un bagage oublié dans un train à Mairie d'Issy .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Reprise progressive / trafic reste perturbé",
-          "channel": "cbiv"
         }
       ]
     }
