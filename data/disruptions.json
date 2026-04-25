@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-25T11:49:28.324159Z",
+  "lastCheck": "2026-04-25T12:29:35.048073Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "c6451e2f-f9d9-4c97-bec5-863acd965df5",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260510T220000",
-          "end": "20260511T043000"
-        },
-        {
           "begin": "20260517T220000",
           "end": "20260518T043000"
+        },
+        {
+          "begin": "20260510T220000",
+          "end": "20260511T043000"
         }
       ],
       "messages": [
@@ -44,12 +44,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260517T220000",
-          "end": "20260518T043000"
-        },
-        {
           "begin": "20260510T220000",
           "end": "20260511T043000"
+        },
+        {
+          "begin": "20260517T220000",
+          "end": "20260518T043000"
         }
       ],
       "messages": [
@@ -68,36 +68,6 @@
         {
           "text": "<p>Du 10 mai au 17 mai inclus, le dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "56bc0de0-4bc7-4788-b998-0631e0594244",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260423T200934",
-          "end": "20270423T200934"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-04-26 situé Quai 2, dir. Mairie d'Issy",
-          "channel": "sms ascenseurs"
-        },
-        {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy, jusqu'au 2026-04-26",
-          "channel": "moteur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy, jusqu'au 2026-04-26",
-          "channel": "email ascenseur"
         }
       ]
     }
