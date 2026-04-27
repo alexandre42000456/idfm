@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-04-27T16:14:43.746036Z",
+  "lastCheck": "2026-04-27T17:41:24.320767Z",
   "hasNewDisruptions": true,
   "disruptionCount": 3,
   "disruptions": [
@@ -72,27 +72,27 @@
       ]
     },
     {
-      "id": "1a34475c-09ee-42be-91e0-eb773cc9f57b",
+      "id": "bc9f3372-7dc2-4509-af5e-fcd6adf60d00",
       "severity": "perturbée",
       "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260427T175451",
-          "end": "20260427T175551"
+          "begin": "20260427T191937",
+          "end": "20260427T192037"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Altercation entre voyageurs - Trafic perturbé",
+          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une altercation entre voyageurs à Aimé Césaire .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident nécessitant l’intervention du conducteur à Concorde .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Altercation entre voyageurs - Trafic perturbé",
+          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
           "channel": "notification"
         },
         {
