@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-28T21:15:07.456981Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 2,
+  "lastCheck": "2026-04-28T22:10:54.087938Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "c6451e2f-f9d9-4c97-bec5-863acd965df5",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260517T220000",
-          "end": "20260518T043000"
-        },
-        {
           "begin": "20260510T220000",
           "end": "20260511T043000"
+        },
+        {
+          "begin": "20260517T220000",
+          "end": "20260518T043000"
         }
       ],
       "messages": [
@@ -68,6 +68,36 @@
         {
           "text": "<p>Du 10 mai au 17 mai inclus, le dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
+        }
+      ]
+    },
+    {
+      "id": "307bf35b-e656-4702-a2b5-077a1a65fb90",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260428T235856",
+          "end": "20260429T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident technique sur un train  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
