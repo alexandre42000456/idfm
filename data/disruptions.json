@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-29T08:33:08.988239Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 5,
+  "lastCheck": "2026-04-29T10:26:40.702677Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "c6451e2f-f9d9-4c97-bec5-863acd965df5",
@@ -72,36 +72,6 @@
       ]
     },
     {
-      "id": "a1102e46-8044-4a16-bf80-044b5ca9abdd",
-      "severity": "bloquante",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260429T100954",
-          "end": "20260429T101054"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Montparnasse Bienvenue en raison d'un bagage oublié dans un train à Porte de Versailles. <br>Reprise estimée : 10:30.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
       "id": "43343545-8e19-42fd-8efe-2cb5904a00be",
       "severity": "perturbée",
       "status": "active",
@@ -128,36 +98,6 @@
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur situé Quai 2, dir. Mairie d'Issy",
           "channel": "sms ascenseurs"
-        }
-      ]
-    },
-    {
-      "id": "91af35aa-72e9-4860-859b-262659882a35",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260429T101626",
-          "end": "20260429T101726"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic reprend progressivement sur toute la ligne en répercussion d'un bagage oublié dans un train à Porte de Versailles .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
-          "channel": "notification"
-        },
-        {
-          "text": "Reprise progressive",
-          "channel": "cbiv"
         }
       ]
     }
