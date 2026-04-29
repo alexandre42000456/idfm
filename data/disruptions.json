@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-04-28T23:08:22.789527Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 3,
+  "lastCheck": "2026-04-29T00:03:43.960989Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "c6451e2f-f9d9-4c97-bec5-863acd965df5",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260517T220000",
-          "end": "20260518T043000"
-        },
-        {
           "begin": "20260510T220000",
           "end": "20260511T043000"
+        },
+        {
+          "begin": "20260517T220000",
+          "end": "20260518T043000"
         }
       ],
       "messages": [
@@ -44,12 +44,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260510T220000",
-          "end": "20260511T043000"
-        },
-        {
           "begin": "20260517T220000",
           "end": "20260518T043000"
+        },
+        {
+          "begin": "20260510T220000",
+          "end": "20260511T043000"
         }
       ],
       "messages": [
@@ -68,36 +68,6 @@
         {
           "text": "<p>Du 10 mai au 17 mai inclus, le dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "8fbdcc5a-ba53-4262-b49d-2bf5b6b27622",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260429T003413",
-          "end": "20260429T003513"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident technique sur un train  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident technique sur un train - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     }
