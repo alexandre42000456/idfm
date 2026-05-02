@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-02T16:07:47.644821Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 2,
+  "lastCheck": "2026-05-02T17:02:27.360003Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "e9860674-6c23-4bc6-9710-385d7ef54152",
@@ -64,6 +64,36 @@
         {
           "text": "<p>Le 31 mai, le trafic sera interrompu entre Porte de Versailles et Mairie d'Issy en raison de travaux de modernisation.<br>Bus de remplacement.</p>",
           "channel": "moteur"
+        }
+      ]
+    },
+    {
+      "id": "552ab2ca-31a2-4f13-90a0-51d73e2757e4",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260502T182253",
+          "end": "20260502T182353"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé vers Mairie d'Aubervilliers en répercussion de l'actionnement d'un signal d'alarme à Madeleine .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
