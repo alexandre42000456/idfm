@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-02T19:36:58.525780Z",
+  "lastCheck": "2026-05-02T20:06:50.404187Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "e9860674-6c23-4bc6-9710-385d7ef54152",
@@ -64,36 +64,6 @@
         {
           "text": "<p>Le 31 mai, le trafic sera interrompu entre Porte de Versailles et Mairie d'Issy en raison de travaux de modernisation.<br>Bus de remplacement.</p>",
           "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "6b26871a-1d7c-435c-b1c7-062ddb0f723b",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260502T202146",
-          "end": "20260502T202246"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic reprend progressivement sur toute la ligne en répercussion d'un bagage oublié dans un train à Mairie d'Aubervilliers .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
-          "channel": "notification"
-        },
-        {
-          "text": "Reprise progressive",
-          "channel": "cbiv"
         }
       ]
     }
