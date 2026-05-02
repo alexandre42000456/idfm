@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-05-02T17:51:41.800479Z",
+  "lastCheck": "2026-05-02T18:36:25.603180Z",
   "hasNewDisruptions": true,
   "disruptionCount": 3,
   "disruptions": [
@@ -68,31 +68,31 @@
       ]
     },
     {
-      "id": "b58f768e-9b4c-4990-ab86-d9edf3d18621",
+      "id": "6b26871a-1d7c-435c-b1c7-062ddb0f723b",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260502T194807",
-          "end": "20260503T043000"
+          "begin": "20260502T202146",
+          "end": "20260502T202246"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Trains stationnent",
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
           "channel": "titre"
         },
         {
-          "text": "<p>Des trains stationnent entre Jules Joffrin et Mairie d'Aubervilliers vers Mairie d'Aubervilliers en raison d'un bagage oublié dans un train à Mairie d'Aubervilliers .</p>",
+          "text": "<p>Le trafic reprend progressivement sur toute la ligne en répercussion d'un bagage oublié dans un train à Mairie d'Aubervilliers .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Trains stationnent",
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
           "channel": "notification"
         },
         {
-          "text": "Trains stationnent",
+          "text": "Reprise progressive",
           "channel": "cbiv"
         }
       ]
