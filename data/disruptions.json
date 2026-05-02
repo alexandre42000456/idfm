@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-02T06:23:45.653289Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 3,
+  "lastCheck": "2026-05-02T08:01:47.763895Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "e9860674-6c23-4bc6-9710-385d7ef54152",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260517T220000",
-          "end": "20260518T043000"
-        },
-        {
           "begin": "20260510T220000",
           "end": "20260511T043000"
+        },
+        {
+          "begin": "20260517T220000",
+          "end": "20260518T043000"
         }
       ],
       "messages": [
@@ -64,36 +64,6 @@
         {
           "text": "<p>Le 31 mai, le trafic sera interrompu entre Porte de Versailles et Mairie d'Issy en raison de travaux de modernisation.<br>Bus de remplacement.</p>",
           "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "d16e1d6a-1625-498c-b313-01aeb7859c6f",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260502T080152",
-          "end": "20260502T080252"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison de personnes sur les voies à Mairie d'Issy .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     }
