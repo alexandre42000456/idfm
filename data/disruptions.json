@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-02T22:05:05.155904Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 2,
+  "lastCheck": "2026-05-02T22:55:22.270693Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "e9860674-6c23-4bc6-9710-385d7ef54152",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260510T220000",
-          "end": "20260511T043000"
-        },
-        {
           "begin": "20260517T220000",
           "end": "20260518T043000"
+        },
+        {
+          "begin": "20260510T220000",
+          "end": "20260511T043000"
         }
       ],
       "messages": [
@@ -64,6 +64,36 @@
         {
           "text": "<p>Le 31 mai, le trafic sera interrompu entre Porte de Versailles et Mairie d'Issy en raison de travaux de modernisation.<br>Bus de remplacement.</p>",
           "channel": "moteur"
+        }
+      ]
+    },
+    {
+      "id": "db38af10-bf70-4167-a370-bd0d7aa180c0",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260503T003333",
+          "end": "20260503T003433"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
