@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-05-03T19:15:21.239023Z",
+  "lastCheck": "2026-05-03T19:59:09.737891Z",
   "hasNewDisruptions": false,
   "disruptionCount": 4,
   "disruptions": [
@@ -46,20 +46,20 @@
       ],
       "messages": [
         {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
         },
         {
-          "text": "<p>Le 10 mai, le dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "titre"
         },
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
         },
         {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
+          "text": "<p>Le 10 mai, le dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
+          "channel": "moteur"
         }
       ]
     },
@@ -76,20 +76,20 @@
       ],
       "messages": [
         {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
           "text": "<p>Le 17 mai à partir de 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
         }
       ]
     },
