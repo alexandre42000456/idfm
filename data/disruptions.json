@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-05-03T16:38:05.682307Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-05-03T17:29:47.887920Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 3,
   "disruptions": [
     {
@@ -68,31 +68,31 @@
       ]
     },
     {
-      "id": "9f3c3a78-9a50-4d0e-80ae-4c15ef4497ee",
+      "id": "723569c0-9915-4fba-bd55-04f4095b3221",
       "severity": "perturbée",
       "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260503T173050",
-          "end": "20260503T173150"
+          "begin": "20260503T185416",
+          "end": "20260503T185516"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Bagage oublié sur un quai - Reprise progressive / trafic reste perturbé",
+          "text": "Métro 12 : Malaise voyageur - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un bagage oublié sur un quai entre Front Populaire et Mairie d'Aubervilliers .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un malaise voyageur à Madeleine .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Bagage oublié sur un quai - Reprise progressive / trafic reste perturbé",
+          "text": "Métro 12 : Malaise voyageur - Trafic perturbé",
           "channel": "notification"
         },
         {
-          "text": "Reprise progressive / trafic reste perturbé",
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
