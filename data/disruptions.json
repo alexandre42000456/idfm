@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-04T04:50:08.764221Z",
+  "lastCheck": "2026-05-04T07:39:33.517439Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "disruptionCount": 6,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -120,6 +120,66 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "ac8cfa12-5b91-4703-80d6-baca337d158c",
+      "severity": "bloquante",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260504T091614",
+          "end": "20260505T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié sur un quai - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Montparnasse Bienvenue et Concorde en raison d'un bagage oublié sur un quai à Rennes. <br>Reprise estimée : 10:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié sur un quai - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "0d56b836-a375-465f-8b21-2de4121a50d4",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260504T091012",
+          "end": "20270504T091012"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
+          "channel": "moteur"
+        },
+        {
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
+          "channel": "email ascenseur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne ascenseur situé Quai <> Couloir, dir. Marie d'Aubervilliers",
+          "channel": "sms ascenseurs"
         }
       ]
     }
