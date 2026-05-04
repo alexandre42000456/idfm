@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-04T11:45:39.316559Z",
+  "lastCheck": "2026-05-04T13:12:38.903706Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -120,36 +120,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "0d56b836-a375-465f-8b21-2de4121a50d4",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260504T091012",
-          "end": "20270504T091012"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
-          "channel": "moteur"
-        },
-        {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers",
-          "channel": "email ascenseur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur situé Quai <> Couloir, dir. Marie d'Aubervilliers",
-          "channel": "sms ascenseurs"
         }
       ]
     }
