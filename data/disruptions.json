@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-05-05T21:10:19.421684Z",
+  "lastCheck": "2026-05-05T22:13:27.757504Z",
   "hasNewDisruptions": false,
   "disruptionCount": 6,
   "disruptions": [
@@ -166,20 +166,20 @@
       ],
       "messages": [
         {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-05-07",
-          "channel": "moteur"
-        },
-        {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-05-07",
           "channel": "email ascenseur"
         },
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-05-07 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud",
           "channel": "sms ascenseurs"
+        },
+        {
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-05-07",
+          "channel": "moteur"
         }
       ]
     }
