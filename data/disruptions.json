@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-08T23:41:46.908367Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 6,
+  "lastCheck": "2026-05-09T01:20:30.006357Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -150,36 +150,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "972f012c-b291-47f2-9848-9b890c7e79fd",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260509T005310",
-          "end": "20260509T005410"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison de personnes sur les voies à Madeleine .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     }
