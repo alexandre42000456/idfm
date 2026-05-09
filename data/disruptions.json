@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-09T18:11:16.633106Z",
+  "lastCheck": "2026-05-09T19:19:54.749027Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 6,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -40,12 +40,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
-        },
-        {
           "begin": "20260607T220000",
           "end": "20260608T043000"
+        },
+        {
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
         }
       ],
       "messages": [
@@ -154,36 +154,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "27e1ab41-f831-40f8-9996-e14ac35edb43",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260509T185909",
-          "end": "20260509T190009"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident nécessitant l’intervention du conducteur à Porte de La Chapelle .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     }
