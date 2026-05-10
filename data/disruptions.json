@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-05-10T21:55:04.268888Z",
+  "lastCheck": "2026-05-10T22:33:18.486843Z",
   "hasNewDisruptions": false,
   "disruptionCount": 5,
   "disruptions": [
@@ -140,8 +140,12 @@
       ],
       "messages": [
         {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
+          "channel": "notification"
         },
         {
           "text": "<p>Le 10 mai, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
@@ -149,11 +153,7 @@
         },
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
+          "channel": "titre"
         }
       ]
     }
