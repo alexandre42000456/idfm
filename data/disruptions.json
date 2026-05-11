@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-11T14:06:20.626729Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-05-11T16:39:08.598739Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -123,6 +123,36 @@
         },
         {
           "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "c79ed811-af33-44a5-803f-0d8afa356b68",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260511T172308",
+          "end": "20260511T172408"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion de personnes sur les voies à Porte de La Chapelle .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
