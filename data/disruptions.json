@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-05-12T12:04:24.889681Z",
+  "lastCheck": "2026-05-12T14:43:55.070829Z",
   "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
@@ -44,12 +44,12 @@
           "end": "20260608T043000"
         },
         {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
-        },
-        {
           "begin": "20260603T220000",
           "end": "20260604T043000"
+        },
+        {
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
         }
       ],
       "messages": [
@@ -102,32 +102,32 @@
       ]
     },
     {
-      "id": "c710c4a9-5fea-4752-aaae-9936f02ae4a0",
-      "severity": "bloquante",
+      "id": "5496fe93-b069-4ef8-9165-151260c22761",
+      "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260512T134915",
-          "end": "20260513T043000"
+          "begin": "20260512T140756",
+          "end": "20270512T140756"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic interrompu",
-          "channel": "titre"
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "email ascenseur"
         },
         {
-          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Porte de Versailles en raison d'un malaise voyageur à bord du train à Mairie d'Issy. <br>Reprise estimée : 14:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic interrompu",
-          "channel": "notification"
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
         },
         {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
+          "text": "Mairie d'Aubervilliers Panne ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "sms ascenseurs"
         }
       ]
     }
