@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-05-12T21:38:58.121642Z",
+  "lastCheck": "2026-05-12T22:42:48.402635Z",
   "hasNewDisruptions": false,
   "disruptionCount": 4,
   "disruptions": [
@@ -40,16 +40,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
+        },
+        {
           "begin": "20260610T220000",
           "end": "20260611T043000"
         },
         {
           "begin": "20260607T220000",
           "end": "20260608T043000"
-        },
-        {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
         }
       ],
       "messages": [
@@ -114,20 +114,20 @@
       ],
       "messages": [
         {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
-        },
-        {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-05-16",
           "channel": "moteur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-05-16 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "sms ascenseurs"
         },
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-05-16",
           "channel": "email ascenseur"
         },
         {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-05-16 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "sms ascenseurs"
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
         }
       ]
     }
