@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-12T16:55:38.816591Z",
+  "lastCheck": "2026-05-12T18:28:56.683805Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "id": "5496fe93-b069-4ef8-9165-151260c22761",
+      "id": "c847af57-4575-4ee7-9b48-b3d1fb6a9bf0",
       "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
@@ -114,50 +114,20 @@
       ],
       "messages": [
         {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "email ascenseur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "moteur"
-        },
-        {
           "text": "Panne d'un ascenseur",
           "channel": "titre"
         },
         {
-          "text": "Mairie d'Aubervilliers Panne ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "sms ascenseurs"
-        }
-      ]
-    },
-    {
-      "id": "ff67c782-39ae-4032-8370-2f17c90b5c0e",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260512T182344",
-          "end": "20260512T182444"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident technique sur un train - Trains stationnent",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Des trains stationnent entre Mairie d'Issy et Volontaires vers Mairie d'Issy en raison d'un incident technique sur un train à Mairie d'Issy .</p>",
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-05-16",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Incident technique sur un train - Trains stationnent",
-          "channel": "notification"
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-05-16",
+          "channel": "email ascenseur"
         },
         {
-          "text": "Trains stationnent",
-          "channel": "cbiv"
+          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-05-16 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "sms ascenseurs"
         }
       ]
     }
