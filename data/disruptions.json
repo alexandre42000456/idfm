@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-12T10:04:42.537947Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-05-12T12:04:24.889681Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -44,12 +44,12 @@
           "end": "20260608T043000"
         },
         {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
-        },
-        {
           "begin": "20260610T220000",
           "end": "20260611T043000"
+        },
+        {
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
         }
       ],
       "messages": [
@@ -93,6 +93,36 @@
         },
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "c710c4a9-5fea-4752-aaae-9936f02ae4a0",
+      "severity": "bloquante",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260512T134915",
+          "end": "20260513T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Porte de Versailles en raison d'un malaise voyageur à bord du train à Mairie d'Issy. <br>Reprise estimée : 14:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic interrompu",
           "channel": "notification"
         },
         {
