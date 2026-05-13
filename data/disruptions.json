@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-13T07:51:55.877230Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 5,
+  "lastCheck": "2026-05-13T10:09:25.839848Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -97,66 +97,6 @@
         },
         {
           "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "dc9159b9-ed7f-48ca-affa-d31e7a166d75",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260513T085126",
-          "end": "20260513T085226"
-        }
-      ],
-      "messages": [
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un métro en panne à Jules Joffrin .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Métro en panne - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Métro 12 : Métro en panne - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "ed195c20-9117-43d4-924c-2649f91d56b5",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260513T094153",
-          "end": "20260514T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident nécessitant l’intervention du conducteur à Trinité - d'Estienne d'Orves .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
