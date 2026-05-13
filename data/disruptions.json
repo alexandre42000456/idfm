@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-13T05:01:30.719099Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-05-13T07:51:55.877230Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -40,16 +40,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260607T220000",
-          "end": "20260608T043000"
-        },
-        {
           "begin": "20260603T220000",
           "end": "20260604T043000"
         },
         {
           "begin": "20260610T220000",
           "end": "20260611T043000"
+        },
+        {
+          "begin": "20260607T220000",
+          "end": "20260608T043000"
         }
       ],
       "messages": [
@@ -102,32 +102,62 @@
       ]
     },
     {
-      "id": "c847af57-4575-4ee7-9b48-b3d1fb6a9bf0",
+      "id": "dc9159b9-ed7f-48ca-affa-d31e7a166d75",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260513T085126",
+          "end": "20260513T085226"
+        }
+      ],
+      "messages": [
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un métro en panne à Jules Joffrin .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Métro en panne - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Métro 12 : Métro en panne - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "ed195c20-9117-43d4-924c-2649f91d56b5",
       "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260512T140756",
-          "end": "20270512T140756"
+          "begin": "20260513T094153",
+          "end": "20260514T043000"
         }
       ],
       "messages": [
         {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-05-16",
+          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident nécessitant l’intervention du conducteur à Trinité - d'Estienne d'Orves .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-05-16 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "sms ascenseurs"
+          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
+          "channel": "notification"
         },
         {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-05-16",
-          "channel": "email ascenseur"
-        },
-        {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
