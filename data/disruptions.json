@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-05-14T21:48:07.017592Z",
-  "hasNewDisruptions": true,
+  "lastCheck": "2026-05-14T22:42:32.986208Z",
+  "hasNewDisruptions": false,
   "disruptionCount": 4,
   "disruptions": [
     {
@@ -40,16 +40,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
+        },
+        {
           "begin": "20260610T220000",
           "end": "20260611T043000"
         },
         {
           "begin": "20260607T220000",
           "end": "20260608T043000"
-        },
-        {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
         }
       ],
       "messages": [
@@ -114,16 +114,16 @@
       ],
       "messages": [
         {
-          "text": "Métro 12 : Métro en panne - Reprise progressive / trafic reste perturbé",
-          "channel": "titre"
-        },
-        {
           "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un métro en panne à Convention .</p>",
           "channel": "moteur"
         },
         {
           "text": "Métro 12 : Métro en panne - Reprise progressive / trafic reste perturbé",
           "channel": "notification"
+        },
+        {
+          "text": "Métro 12 : Métro en panne - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
         },
         {
           "text": "Reprise progressive / trafic reste perturbé",
