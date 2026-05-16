@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-16T22:31:31.027679Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "lastCheck": "2026-05-16T23:27:51.312682Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -40,20 +40,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
         },
         {
-          "begin": "20260607T220000",
-          "end": "20260608T043000"
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
         },
         {
           "begin": "20260614T220000",
           "end": "20260615T043000"
         },
         {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
+          "begin": "20260607T220000",
+          "end": "20260608T043000"
         }
       ],
       "messages": [
@@ -102,36 +102,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "41f17058-0325-4548-973c-e4912514f72f",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260516T235756",
-          "end": "20260516T235856"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "titre"
         }
       ]
     }
