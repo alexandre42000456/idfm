@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-16T08:20:17.267796Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-05-16T09:52:17.190763Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -40,16 +40,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
+        },
+        {
           "begin": "20260614T220000",
           "end": "20260615T043000"
         },
         {
           "begin": "20260607T220000",
           "end": "20260608T043000"
-        },
-        {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
         },
         {
           "begin": "20260610T220000",
@@ -101,6 +101,66 @@
         },
         {
           "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "c9119783-5977-42ab-9011-caad135d0d9e",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260516T111547",
+          "end": "20260516T111647"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Reprise progressive / trafic reste très perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste très perturbé sur toute la ligne en répercussion de l'actionnement d'un signal d'alarme à Pasteur .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Reprise progressive / trafic reste très perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Reprise progressive / trafic reste très perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "796fce98-f238-4ac1-a62d-ed5929cbd310",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260516T111547",
+          "end": "20260516T111647"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Reprise progressive / trafic reste très perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste très perturbé sur toute la ligne en répercussion de l'actionnement d'un signal d'alarme à Pasteur .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Reprise progressive / trafic reste très perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Reprise progressive / trafic reste très perturbé",
           "channel": "cbiv"
         }
       ]
