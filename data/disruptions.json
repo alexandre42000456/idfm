@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-17T19:23:35.333306Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-05-17T20:10:31.051861Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -76,14 +76,74 @@
       ]
     },
     {
-      "id": "ce98752a-0247-4432-b9e9-0fe5101760a0",
+      "id": "44946725-063a-4cab-b2e6-6424c6bf02e0",
       "severity": "bloquante",
-      "status": "future",
+      "status": "past",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260517T215959",
+          "end": "20260517T220000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le 17 mai à partir de 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "e6287fc3-c0fb-4932-b6a0-8074dd628cb3",
+      "severity": "bloquante",
+      "status": "active",
       "cause": "travaux",
       "application_periods": [
         {
           "begin": "20260517T220000",
           "end": "20260518T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le 17 mai, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "cb626608-2f57-4bf9-89c1-7157cf5aed34",
+      "severity": "bloquante",
+      "status": "past",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260517T215959",
+          "end": "20260517T220000"
         }
       ],
       "messages": [
