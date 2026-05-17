@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-17T16:08:35.051596Z",
+  "lastCheck": "2026-05-17T17:10:39.764254Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -101,36 +101,6 @@
         },
         {
           "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "39fd9e4e-21ac-4435-9bfb-70b559af4a3e",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260517T170001",
-          "end": "20260517T170101"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident technique - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident technique  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident technique - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
