@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-17T09:13:25.759137Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-05-17T10:38:37.760903Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -40,20 +40,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260607T220000",
-          "end": "20260608T043000"
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
         },
         {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
+          "begin": "20260607T220000",
+          "end": "20260608T043000"
         },
         {
           "begin": "20260603T220000",
           "end": "20260604T043000"
         },
         {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
+          "begin": "20260614T220000",
+          "end": "20260615T043000"
         }
       ],
       "messages": [
@@ -101,6 +101,66 @@
         },
         {
           "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "a867fde5-719c-452d-9fdb-cacb06db37c6",
+      "severity": "bloquante",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260517T123101",
+          "end": "20260517T123201"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Personnes sur les voies - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Porte de Versailles en raison de personnes sur les voies à Mairie d'Issy. <br>Reprise estimée : 12:30.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Personnes sur les voies - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "9f062e9f-f1a1-4168-b2e1-0b22104ce759",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260517T123101",
+          "end": "20260517T123201"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Personnes sur les voies - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion de personnes sur les voies à Mairie d'Issy .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Personnes sur les voies - Reprise progressive / trafic reste perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Reprise progressive / trafic reste perturbé",
           "channel": "cbiv"
         }
       ]
