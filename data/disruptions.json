@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-17T12:38:19.289565Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "lastCheck": "2026-05-17T14:07:20.134555Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -40,20 +40,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
-        },
-        {
-          "begin": "20260607T220000",
-          "end": "20260608T043000"
-        },
-        {
           "begin": "20260603T220000",
           "end": "20260604T043000"
         },
         {
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
+        },
+        {
           "begin": "20260614T220000",
           "end": "20260615T043000"
+        },
+        {
+          "begin": "20260607T220000",
+          "end": "20260608T043000"
         }
       ],
       "messages": [
@@ -101,36 +101,6 @@
         },
         {
           "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "6107321d-64dd-46ed-9f4d-82be8b02f605",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260517T143029",
-          "end": "20260518T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié sur un quai - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un bagage oublié sur un quai à Porte de Versailles .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié sur un quai - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
