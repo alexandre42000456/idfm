@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-05-18T02:48:22.040117Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-05-18T06:40:00.114674Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 3,
   "disruptions": [
     {
@@ -40,20 +40,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
-        },
-        {
           "begin": "20260614T220000",
           "end": "20260615T043000"
         },
         {
-          "begin": "20260607T220000",
-          "end": "20260608T043000"
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
         },
         {
           "begin": "20260603T220000",
           "end": "20260604T043000"
+        },
+        {
+          "begin": "20260607T220000",
+          "end": "20260608T043000"
         }
       ],
       "messages": [
@@ -76,32 +76,32 @@
       ]
     },
     {
-      "id": "e6287fc3-c0fb-4932-b6a0-8074dd628cb3",
-      "severity": "bloquante",
-      "status": "past",
-      "cause": "travaux",
+      "id": "a2eaa049-7dbb-4b0d-a1cf-9687381c26a2",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260517T220000",
-          "end": "20260518T043000"
+          "begin": "20260518T083647",
+          "end": "20260519T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un malaise voyageur à bord du train  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
           "channel": "notification"
         },
         {
-          "text": "Trafic interrompu",
+          "text": "Trafic perturbé",
           "channel": "cbiv"
-        },
-        {
-          "text": "<p>Le 17 mai, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
         }
       ]
     }
