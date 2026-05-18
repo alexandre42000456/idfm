@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-05-18T14:19:11.704207Z",
+  "lastCheck": "2026-05-18T17:12:05.745629Z",
   "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
@@ -118,32 +118,32 @@
       ]
     },
     {
-      "id": "7c04e910-a32a-4074-bf51-741e57b3bead",
+      "id": "1019777d-462b-4e35-899a-44ffdfd92c24",
       "severity": "perturbée",
-      "status": "past",
+      "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260518T151501",
-          "end": "20260518T151601"
+          "begin": "20260518T185124",
+          "end": "20260519T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Personnes sur les voies - Reprise progressive / trafic reste perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Reprise progressive / trafic reste perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Personnes sur les voies - Reprise progressive / trafic reste perturbé",
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion de personnes sur les voies à Porte de Versailles .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison de l'actionnement d'un signal d'alarme  .</p>",
           "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
