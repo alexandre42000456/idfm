@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-05-17T23:58:02.126194Z",
+  "lastCheck": "2026-05-18T02:48:22.040117Z",
   "hasNewDisruptions": false,
   "disruptionCount": 3,
   "disruptions": [
@@ -40,16 +40,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
+        },
+        {
           "begin": "20260614T220000",
           "end": "20260615T043000"
         },
         {
           "begin": "20260607T220000",
           "end": "20260608T043000"
-        },
-        {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
         },
         {
           "begin": "20260603T220000",
@@ -78,7 +78,7 @@
     {
       "id": "e6287fc3-c0fb-4932-b6a0-8074dd628cb3",
       "severity": "bloquante",
-      "status": "active",
+      "status": "past",
       "cause": "travaux",
       "application_periods": [
         {
