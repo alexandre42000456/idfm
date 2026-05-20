@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-20T04:36:16.444708Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-05-20T08:02:28.140616Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -40,6 +40,14 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260614T220000",
+          "end": "20260615T043000"
+        },
+        {
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
+        },
+        {
           "begin": "20260607T220000",
           "end": "20260608T043000"
         },
@@ -50,14 +58,6 @@
         {
           "begin": "20260603T220000",
           "end": "20260604T043000"
-        },
-        {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
-        },
-        {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
         }
       ],
       "messages": [
@@ -86,6 +86,10 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
+        },
+        {
           "begin": "20260603T220000",
           "end": "20260604T043000"
         },
@@ -94,16 +98,12 @@
           "end": "20260608T043000"
         },
         {
-          "begin": "20260617T220000",
-          "end": "20260618T043000"
-        },
-        {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
-        },
-        {
           "begin": "20260614T220000",
           "end": "20260615T043000"
+        },
+        {
+          "begin": "20260617T220000",
+          "end": "20260618T043000"
         }
       ],
       "messages": [
@@ -122,6 +122,66 @@
         {
           "text": "<p>Du 3 juin au 17 juin inclus, les mercredi et dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
+        }
+      ]
+    },
+    {
+      "id": "d6ea0b08-730e-4a35-91d8-17c5f56cc60d",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260520T093157",
+          "end": "20260520T093257"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Manoeuvre de train retardée - Vitesse réduite",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Les trains circulent à vitesse réduite sur toute la ligne en raison d'une manoeuvre de train retardée à Mairie d'Aubervilliers .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Manoeuvre de train retardée - Vitesse réduite",
+          "channel": "notification"
+        },
+        {
+          "text": "Vitesse réduite",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "9724d675-0f60-4f2f-ab10-c4838494d2e2",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260520T094326",
+          "end": "20260520T094426"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Manoeuvre de train retardée - Vitesse réduite",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Les trains circulent à vitesse réduite sur toute la ligne en raison d'une manoeuvre de train retardée à Mairie d'Aubervilliers .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Manoeuvre de train retardée - Vitesse réduite",
+          "channel": "notification"
+        },
+        {
+          "text": "Vitesse réduite",
+          "channel": "cbiv"
         }
       ]
     }
