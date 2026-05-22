@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-22T15:57:25.566987Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-05-22T17:46:27.859937Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -48,16 +48,16 @@
           "end": "20260618T043000"
         },
         {
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
+        },
+        {
           "begin": "20260610T220000",
           "end": "20260611T043000"
         },
         {
           "begin": "20260614T220000",
           "end": "20260615T043000"
-        },
-        {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
         }
       ],
       "messages": [
@@ -86,24 +86,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
+          "begin": "20260617T220000",
+          "end": "20260618T043000"
         },
         {
           "begin": "20260610T220000",
           "end": "20260611T043000"
         },
         {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
-        },
-        {
-          "begin": "20260617T220000",
-          "end": "20260618T043000"
+          "begin": "20260614T220000",
+          "end": "20260615T043000"
         },
         {
           "begin": "20260607T220000",
           "end": "20260608T043000"
+        },
+        {
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
         }
       ],
       "messages": [
@@ -122,6 +122,36 @@
         {
           "text": "<p>Du 3 juin au 17 juin inclus, les mercredi et dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
+        }
+      ]
+    },
+    {
+      "id": "043b296c-2aee-4653-b8e6-f0153de7c740",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260522T193141",
+          "end": "20260522T193241"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident nécessitant l’intervention du conducteur à Volontaires .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
