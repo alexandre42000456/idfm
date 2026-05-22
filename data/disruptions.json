@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-05-22T17:46:27.859937Z",
+  "lastCheck": "2026-05-22T19:17:09.778673Z",
   "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
@@ -44,20 +44,20 @@
           "end": "20260608T043000"
         },
         {
-          "begin": "20260617T220000",
-          "end": "20260618T043000"
-        },
-        {
           "begin": "20260603T220000",
           "end": "20260604T043000"
         },
         {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
+          "begin": "20260617T220000",
+          "end": "20260618T043000"
         },
         {
           "begin": "20260614T220000",
           "end": "20260615T043000"
+        },
+        {
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
         }
       ],
       "messages": [
@@ -86,24 +86,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260617T220000",
-          "end": "20260618T043000"
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
         },
         {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
+          "begin": "20260617T220000",
+          "end": "20260618T043000"
         },
         {
           "begin": "20260614T220000",
           "end": "20260615T043000"
         },
         {
-          "begin": "20260607T220000",
-          "end": "20260608T043000"
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
         },
         {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
+          "begin": "20260607T220000",
+          "end": "20260608T043000"
         }
       ],
       "messages": [
@@ -126,31 +126,31 @@
       ]
     },
     {
-      "id": "043b296c-2aee-4653-b8e6-f0153de7c740",
+      "id": "1e0bed5d-d3f2-4bba-b9e3-013b46cf540d",
       "severity": "perturbée",
       "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260522T193141",
-          "end": "20260522T193241"
+          "begin": "20260522T204610",
+          "end": "20260522T204710"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident nécessitant l’intervention du conducteur à Volontaires .</p>",
+          "text": "<p>Le trafic reprend progressivement sur toute la ligne en répercussion d'un bagage oublié dans un train à Mairie d'Aubervilliers .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
           "channel": "notification"
         },
         {
-          "text": "Trafic perturbé",
+          "text": "Reprise progressive",
           "channel": "cbiv"
         }
       ]
