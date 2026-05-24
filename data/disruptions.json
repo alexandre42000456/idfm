@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-05-24T12:51:49.849909Z",
+  "lastCheck": "2026-05-24T14:15:30.270815Z",
   "hasNewDisruptions": true,
   "disruptionCount": 5,
   "disruptions": [
@@ -40,14 +40,6 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
-        },
-        {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
-        },
-        {
           "begin": "20260617T220000",
           "end": "20260618T043000"
         },
@@ -58,6 +50,14 @@
         {
           "begin": "20260607T220000",
           "end": "20260608T043000"
+        },
+        {
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
+        },
+        {
+          "begin": "20260614T220000",
+          "end": "20260615T043000"
         }
       ],
       "messages": [
@@ -90,16 +90,16 @@
           "end": "20260618T043000"
         },
         {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
         },
         {
           "begin": "20260614T220000",
           "end": "20260615T043000"
         },
         {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
         },
         {
           "begin": "20260607T220000",
@@ -138,10 +138,6 @@
       ],
       "messages": [
         {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
-        },
-        {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy",
           "channel": "moteur"
         },
@@ -152,35 +148,39 @@
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur situé Quai 2, dir. Mairie d'Issy",
           "channel": "sms ascenseurs"
+        },
+        {
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
         }
       ]
     },
     {
-      "id": "ceb6d87c-a524-4efc-8fd8-f52135b78a51",
+      "id": "7ca8413b-65a7-4e9c-83d5-a7be765d7d34",
       "severity": "perturbée",
-      "status": "past",
+      "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260524T142628",
-          "end": "20260524T142728"
+          "begin": "20260524T161012",
+          "end": "20260525T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
+          "text": "Métro 12 : Incident technique sur un train - Reprise progressive / trafic reste perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic reprend progressivement sur toute la ligne en répercussion d'un bagage oublié dans un train à Mairie d'Issy .</p>",
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un incident technique sur un train entre Porte de La Chapelle et Front Populaire .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
+          "text": "Métro 12 : Incident technique sur un train - Reprise progressive / trafic reste perturbé",
           "channel": "notification"
         },
         {
-          "text": "Reprise progressive",
+          "text": "Reprise progressive / trafic reste perturbé",
           "channel": "cbiv"
         }
       ]
