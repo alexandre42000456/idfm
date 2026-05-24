@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-24T10:53:17.493855Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-05-24T11:55:07.932505Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -40,10 +40,6 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
-        },
-        {
           "begin": "20260610T220000",
           "end": "20260611T043000"
         },
@@ -52,12 +48,16 @@
           "end": "20260615T043000"
         },
         {
-          "begin": "20260607T220000",
-          "end": "20260608T043000"
-        },
-        {
           "begin": "20260617T220000",
           "end": "20260618T043000"
+        },
+        {
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
+        },
+        {
+          "begin": "20260607T220000",
+          "end": "20260608T043000"
         }
       ],
       "messages": [
@@ -86,20 +86,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
-        },
-        {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
-        },
-        {
           "begin": "20260617T220000",
           "end": "20260618T043000"
         },
         {
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
+        },
+        {
           "begin": "20260614T220000",
           "end": "20260615T043000"
+        },
+        {
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
         },
         {
           "begin": "20260607T220000",
@@ -122,6 +122,36 @@
         {
           "text": "<p>Du 3 juin au 17 juin inclus, les mercredi et dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
+        }
+      ]
+    },
+    {
+      "id": "c2b08cf6-7871-48d8-a745-cf808de2f8be",
+      "severity": "bloquante",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260524T134602",
+          "end": "20260525T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Porte de Versailles en raison d'un bagage oublié dans un train à Mairie d'Issy. <br>Reprise estimée : 14:15.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
         }
       ]
     },
