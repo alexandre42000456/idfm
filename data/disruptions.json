@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-30T21:38:21.146149Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 6,
+  "lastCheck": "2026-05-30T22:34:44.085301Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 8,
   "disruptions": [
     {
       "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
@@ -78,16 +78,16 @@
           "end": "20260615T043000"
         },
         {
-          "begin": "20260617T220000",
-          "end": "20260618T043000"
+          "begin": "20260607T220000",
+          "end": "20260608T043000"
         },
         {
           "begin": "20260610T220000",
           "end": "20260611T043000"
         },
         {
-          "begin": "20260607T220000",
-          "end": "20260608T043000"
+          "begin": "20260617T220000",
+          "end": "20260618T043000"
         },
         {
           "begin": "20260603T220000",
@@ -154,20 +154,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
         },
         {
           "begin": "20260607T220000",
           "end": "20260608T043000"
         },
         {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
         },
         {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
+          "begin": "20260614T220000",
+          "end": "20260615T043000"
         },
         {
           "begin": "20260617T220000",
@@ -220,6 +220,66 @@
         {
           "text": "Panne d'un ascenseur",
           "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "0ccf7edd-ecb9-4042-8b0c-d8bef5671385",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260531T000104",
+          "end": "20260531T000204"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident nécessitant l’intervention du conducteur à Vaugirard .</p>",
+          "channel": "moteur"
+        }
+      ]
+    },
+    {
+      "id": "60396d2e-4448-48c0-a253-d354feee77c4",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260531T002423",
+          "end": "20260531T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Affluence liée à un événement exceptionnel - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une affluence liée à un événement exceptionnel  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Affluence liée à un événement exceptionnel - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
