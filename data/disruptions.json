@@ -1,38 +1,8 @@
 {
-  "lastCheck": "2026-05-31T01:35:35.945364Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-05-31T05:58:04.604498Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 6,
   "disruptions": [
-    {
-      "id": "c32cd38e-ff2a-470a-9753-408a213b83f5",
-      "severity": "bloquante",
-      "status": "future",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20260531T044500",
-          "end": "20260601T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le 31 mai, le trafic sera interrompu entre Porte de Versailles et Mairie d'Issy en raison de travaux de modernisation.<br>Bus de remplacement.</p>",
-          "channel": "moteur"
-        }
-      ]
-    },
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
       "severity": "bloquante",
@@ -40,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260628T220000",
-          "end": "20260629T043000"
-        },
-        {
           "begin": "20260624T220000",
           "end": "20260625T043000"
+        },
+        {
+          "begin": "20260628T220000",
+          "end": "20260629T043000"
         }
       ],
       "messages": [
@@ -74,24 +44,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
         },
         {
-          "begin": "20260607T220000",
-          "end": "20260608T043000"
+          "begin": "20260614T220000",
+          "end": "20260615T043000"
         },
         {
           "begin": "20260610T220000",
           "end": "20260611T043000"
         },
         {
-          "begin": "20260617T220000",
-          "end": "20260618T043000"
+          "begin": "20260607T220000",
+          "end": "20260608T043000"
         },
         {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
+          "begin": "20260617T220000",
+          "end": "20260618T043000"
         }
       ],
       "messages": [
@@ -120,12 +90,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260624T220000",
-          "end": "20260625T043000"
-        },
-        {
           "begin": "20260628T220000",
           "end": "20260629T043000"
+        },
+        {
+          "begin": "20260624T220000",
+          "end": "20260625T043000"
         }
       ],
       "messages": [
@@ -154,6 +124,10 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260617T220000",
+          "end": "20260618T043000"
+        },
+        {
           "begin": "20260603T220000",
           "end": "20260604T043000"
         },
@@ -168,10 +142,6 @@
         {
           "begin": "20260614T220000",
           "end": "20260615T043000"
-        },
-        {
-          "begin": "20260617T220000",
-          "end": "20260618T043000"
         }
       ],
       "messages": [
@@ -190,6 +160,36 @@
         {
           "text": "<p>Du 3 juin au 17 juin inclus, les mercredi et dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
+        }
+      ]
+    },
+    {
+      "id": "cee2310e-7cb2-410b-a578-cc897d8ebc6a",
+      "severity": "bloquante",
+      "status": "active",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260531T044500",
+          "end": "20260601T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "<p>Le 31 mai, le trafic est interrompu entre Porte de Versailles et Mairie d'Issy en raison de travaux de modernisation.<br>Bus de remplacement.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
         }
       ]
     },
