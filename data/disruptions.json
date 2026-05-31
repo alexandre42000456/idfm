@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-05-31T20:44:23.223611Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "lastCheck": "2026-05-31T21:40:07.462957Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 6,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260624T220000",
-          "end": "20260625T043000"
-        },
-        {
           "begin": "20260628T220000",
           "end": "20260629T043000"
+        },
+        {
+          "begin": "20260624T220000",
+          "end": "20260625T043000"
         }
       ],
       "messages": [
@@ -44,24 +44,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
-        },
-        {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
-        },
-        {
-          "begin": "20260607T220000",
-          "end": "20260608T043000"
+          "begin": "20260617T220000",
+          "end": "20260618T043000"
         },
         {
           "begin": "20260610T220000",
           "end": "20260611T043000"
         },
         {
-          "begin": "20260617T220000",
-          "end": "20260618T043000"
+          "begin": "20260607T220000",
+          "end": "20260608T043000"
+        },
+        {
+          "begin": "20260614T220000",
+          "end": "20260615T043000"
+        },
+        {
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
         }
       ],
       "messages": [
@@ -90,12 +90,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260624T220000",
-          "end": "20260625T043000"
-        },
-        {
           "begin": "20260628T220000",
           "end": "20260629T043000"
+        },
+        {
+          "begin": "20260624T220000",
+          "end": "20260625T043000"
         }
       ],
       "messages": [
@@ -124,12 +124,8 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260617T220000",
-          "end": "20260618T043000"
-        },
-        {
-          "begin": "20260607T220000",
-          "end": "20260608T043000"
+          "begin": "20260614T220000",
+          "end": "20260615T043000"
         },
         {
           "begin": "20260610T220000",
@@ -140,8 +136,12 @@
           "end": "20260604T043000"
         },
         {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
+          "begin": "20260617T220000",
+          "end": "20260618T043000"
+        },
+        {
+          "begin": "20260607T220000",
+          "end": "20260608T043000"
         }
       ],
       "messages": [
@@ -190,6 +190,36 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "f58b1ec5-5df6-4177-a4ce-a07e7c67ca0b",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260531T233319",
+          "end": "20260531T233419"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison de personnes sur les voies à Front Populaire .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
