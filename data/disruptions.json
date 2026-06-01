@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-01T01:57:57.643914Z",
+  "lastCheck": "2026-06-01T06:49:49.930082Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260624T220000",
-          "end": "20260625T043000"
-        },
-        {
           "begin": "20260628T220000",
           "end": "20260629T043000"
+        },
+        {
+          "begin": "20260624T220000",
+          "end": "20260625T043000"
         }
       ],
       "messages": [
@@ -44,24 +44,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
-        },
-        {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
-        },
-        {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
-        },
-        {
           "begin": "20260607T220000",
           "end": "20260608T043000"
         },
         {
           "begin": "20260617T220000",
           "end": "20260618T043000"
+        },
+        {
+          "begin": "20260614T220000",
+          "end": "20260615T043000"
+        },
+        {
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
+        },
+        {
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
         }
       ],
       "messages": [
@@ -128,20 +128,20 @@
           "end": "20260611T043000"
         },
         {
-          "begin": "20260607T220000",
-          "end": "20260608T043000"
+          "begin": "20260614T220000",
+          "end": "20260615T043000"
         },
         {
           "begin": "20260617T220000",
           "end": "20260618T043000"
         },
         {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
+          "begin": "20260607T220000",
+          "end": "20260608T043000"
         },
         {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
         }
       ],
       "messages": [
@@ -160,36 +160,6 @@
         {
           "text": "<p>Du 3 juin au 17 juin inclus, les mercredi et dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "cee2310e-7cb2-410b-a578-cc897d8ebc6a",
-      "severity": "bloquante",
-      "status": "active",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20260531T044500",
-          "end": "20260601T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "<p>Le 31 mai, le trafic est interrompu entre Porte de Versailles et Mairie d'Issy en raison de travaux de modernisation.<br>Bus de remplacement.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
         }
       ]
     }
