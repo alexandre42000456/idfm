@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-02T18:22:47.325646Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 5,
+  "lastCheck": "2026-06-02T21:26:01.102349Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -44,16 +44,8 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260617T220000",
-          "end": "20260618T043000"
-        },
-        {
           "begin": "20260610T220000",
           "end": "20260611T043000"
-        },
-        {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
         },
         {
           "begin": "20260607T220000",
@@ -62,6 +54,14 @@
         {
           "begin": "20260603T220000",
           "end": "20260604T043000"
+        },
+        {
+          "begin": "20260614T220000",
+          "end": "20260615T043000"
+        },
+        {
+          "begin": "20260617T220000",
+          "end": "20260618T043000"
         }
       ],
       "messages": [
@@ -90,12 +90,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260624T220000",
-          "end": "20260625T043000"
-        },
-        {
           "begin": "20260628T220000",
           "end": "20260629T043000"
+        },
+        {
+          "begin": "20260624T220000",
+          "end": "20260625T043000"
         }
       ],
       "messages": [
@@ -124,6 +124,10 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
+        },
+        {
           "begin": "20260617T220000",
           "end": "20260618T043000"
         },
@@ -132,16 +136,12 @@
           "end": "20260615T043000"
         },
         {
-          "begin": "20260607T220000",
-          "end": "20260608T043000"
-        },
-        {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
-        },
-        {
           "begin": "20260610T220000",
           "end": "20260611T043000"
+        },
+        {
+          "begin": "20260607T220000",
+          "end": "20260608T043000"
         }
       ],
       "messages": [
@@ -160,36 +160,6 @@
         {
           "text": "<p>Du 3 juin au 17 juin inclus, les mercredi et dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "61567cae-e2f4-4e27-b542-648e1a43740a",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260602T193833",
-          "end": "20260602T193933"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Panne de portes de train - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une panne de portes de train  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Panne de portes de train - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     }
