@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-03T11:27:41.036765Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-06-03T15:57:49.865738Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 5,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -44,20 +44,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260607T220000",
-          "end": "20260608T043000"
-        },
-        {
           "begin": "20260610T220000",
           "end": "20260611T043000"
         },
         {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
-        },
-        {
           "begin": "20260603T220000",
           "end": "20260604T043000"
+        },
+        {
+          "begin": "20260607T220000",
+          "end": "20260608T043000"
+        },
+        {
+          "begin": "20260614T220000",
+          "end": "20260615T043000"
         },
         {
           "begin": "20260617T220000",
@@ -124,24 +124,24 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
-        },
-        {
           "begin": "20260607T220000",
           "end": "20260608T043000"
+        },
+        {
+          "begin": "20260614T220000",
+          "end": "20260615T043000"
         },
         {
           "begin": "20260617T220000",
           "end": "20260618T043000"
         },
         {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
+          "begin": "20260603T220000",
+          "end": "20260604T043000"
         },
         {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
         }
       ],
       "messages": [
@@ -160,6 +160,36 @@
         {
           "text": "<p>Du 3 juin au 17 juin inclus, les mercredi et dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
+        }
+      ]
+    },
+    {
+      "id": "16d4aadf-0aa3-405a-8b73-e209f197561f",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260603T174145",
+          "end": "20260603T174245"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison de l'actionnement d'un signal d'alarme  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
