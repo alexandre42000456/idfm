@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-03T19:43:31.747895Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 4,
+  "lastCheck": "2026-06-03T22:15:15.732686Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -34,52 +34,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "titre"
-        }
-      ]
-    },
-    {
-      "id": "77b54cc2-bd94-4898-8899-7feb428aa737",
-      "severity": "bloquante",
-      "status": "future",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20260617T220000",
-          "end": "20260618T043000"
-        },
-        {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
-        },
-        {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
-        },
-        {
-          "begin": "20260607T220000",
-          "end": "20260608T043000"
-        },
-        {
-          "begin": "20260603T220000",
-          "end": "20260604T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "<p>Du 3 juin au 17 juin inclus, les mercredi et dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
         }
       ]
     },
@@ -118,11 +72,15 @@
       ]
     },
     {
-      "id": "8f4d7797-13d1-4008-a5b9-5621f72951c6",
+      "id": "e65ad4d7-288d-458b-9b8a-0c4dabb90fda",
       "severity": "bloquante",
-      "status": "future",
+      "status": "active",
       "cause": "travaux",
       "application_periods": [
+        {
+          "begin": "20260607T220000",
+          "end": "20260608T043000"
+        },
         {
           "begin": "20260614T220000",
           "end": "20260615T043000"
@@ -132,16 +90,12 @@
           "end": "20260604T043000"
         },
         {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
-        },
-        {
-          "begin": "20260607T220000",
-          "end": "20260608T043000"
-        },
-        {
           "begin": "20260617T220000",
           "end": "20260618T043000"
+        },
+        {
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
         }
       ],
       "messages": [
@@ -150,16 +104,16 @@
           "channel": "cbiv"
         },
         {
+          "text": "<p>Jusqu'au 28 mai inclus, certains mercredi et dimanche dès 22:00, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
+          "channel": "moteur"
+        },
+        {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
         },
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "titre"
-        },
-        {
-          "text": "<p>Du 3 juin au 17 juin inclus, les mercredi et dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
         }
       ]
     }
