@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-04T17:21:59.434826Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 5,
+  "lastCheck": "2026-06-04T19:33:08.918414Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -131,36 +131,6 @@
         },
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "1fc8dc52-c2a0-492b-8e99-d022ed4f6cee",
-      "severity": "bloquante",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260604T183954",
-          "end": "20260605T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié sur un quai - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est interrompu entre Montparnasse Bienvenue et Jules Joffrin en raison d'un bagage oublié sur un quai à Saint-Lazare. <br>Reprise estimée : 19:30.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié sur un quai - Trafic interrompu",
           "channel": "notification"
         },
         {
