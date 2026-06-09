@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-09T14:06:35.581990Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 7,
+  "lastCheck": "2026-06-09T16:38:55.004592Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 9,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -138,12 +138,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
           "begin": "20260705T220000",
           "end": "20260706T043000"
+        },
+        {
+          "begin": "20260701T220000",
+          "end": "20260702T043000"
         }
       ],
       "messages": [
@@ -206,20 +206,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
+          "begin": "20260617T220000",
+          "end": "20260618T043000"
         },
         {
           "begin": "20260607T220000",
           "end": "20260608T043000"
         },
         {
-          "begin": "20260610T220000",
-          "end": "20260611T043000"
+          "begin": "20260614T220000",
+          "end": "20260615T043000"
         },
         {
-          "begin": "20260617T220000",
-          "end": "20260618T043000"
+          "begin": "20260610T220000",
+          "end": "20260611T043000"
         }
       ],
       "messages": [
@@ -238,6 +238,66 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "933a1470-9c95-4956-ae21-5b32e9f5a751",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260609T173935",
+          "end": "20260609T174035"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Incident technique - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident technique à Mairie d'Issy .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident technique - Trafic perturbé",
+          "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "d27cb2d0-e0da-42cf-b41c-a399893eca4e",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260609T183054",
+          "end": "20260610T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un malaise voyageur à bord du train à Saint-Lazare .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
