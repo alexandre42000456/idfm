@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-12T20:31:23.088400Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 8,
+  "lastCheck": "2026-06-12T22:07:06.032101Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 7,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -246,36 +246,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "6c594344-62ab-4305-a079-8373ceb8c3df",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260612T215926",
-          "end": "20260612T220026"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic reprend progressivement sur toute la ligne en répercussion d'un bagage oublié dans un train à Mairie d'Aubervilliers .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
-          "channel": "notification"
-        },
-        {
-          "text": "Reprise progressive",
-          "channel": "cbiv"
         }
       ]
     }
