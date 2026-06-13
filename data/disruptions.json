@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-06-13T13:00:20.759565Z",
+  "lastCheck": "2026-06-13T15:01:14.348762Z",
   "hasNewDisruptions": true,
   "disruptionCount": 9,
   "disruptions": [
@@ -112,12 +112,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        },
-        {
           "begin": "20260709T220000",
           "end": "20260710T043000"
+        },
+        {
+          "begin": "20260708T220000",
+          "end": "20260709T043000"
         }
       ],
       "messages": [
@@ -146,12 +146,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
           "begin": "20260705T220000",
           "end": "20260706T043000"
+        },
+        {
+          "begin": "20260701T220000",
+          "end": "20260702T043000"
         }
       ],
       "messages": [
@@ -180,12 +180,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
           "begin": "20260705T220000",
           "end": "20260706T043000"
+        },
+        {
+          "begin": "20260701T220000",
+          "end": "20260702T043000"
         }
       ],
       "messages": [
@@ -214,16 +214,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
-        },
-        {
           "begin": "20260610T220000",
           "end": "20260611T043000"
         },
         {
           "begin": "20260617T220000",
           "end": "20260618T043000"
+        },
+        {
+          "begin": "20260614T220000",
+          "end": "20260615T043000"
         }
       ],
       "messages": [
@@ -246,36 +246,6 @@
       ]
     },
     {
-      "id": "0c938364-01d3-42d3-8b9b-5b0a0dbda731",
-      "severity": "bloquante",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260613T141442",
-          "end": "20260614T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident technique - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Porte de Versailles en raison d'un incident technique entre Corentin Celton et Porte de Versailles. <br>Reprise estimée : 16:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident technique - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
       "id": "56cce787-afbe-4757-a70e-d5e6d631406b",
       "severity": "perturbée",
       "status": "active",
@@ -288,20 +258,50 @@
       ],
       "messages": [
         {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy",
+          "channel": "email ascenseur"
         },
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy",
           "channel": "moteur"
         },
         {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy",
-          "channel": "email ascenseur"
-        },
-        {
           "text": "Mairie d'Aubervilliers Panne ascenseur situé Quai 2, dir. Mairie d'Issy",
           "channel": "sms ascenseurs"
+        },
+        {
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "a1f9567f-3636-4a5b-9820-5e538fd89a2b",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260613T165002",
+          "end": "20260614T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident technique - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un incident technique entre Corentin Celton et Porte de Versailles .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident technique - Reprise progressive / trafic reste perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
         }
       ]
     }
