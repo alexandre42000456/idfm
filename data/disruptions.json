@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-06-13T16:15:53.575186Z",
+  "lastCheck": "2026-06-13T17:45:57.828367Z",
   "hasNewDisruptions": true,
   "disruptionCount": 9,
   "disruptions": [
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260628T220000",
-          "end": "20260629T043000"
-        },
-        {
           "begin": "20260624T220000",
           "end": "20260625T043000"
+        },
+        {
+          "begin": "20260628T220000",
+          "end": "20260629T043000"
         }
       ],
       "messages": [
@@ -112,12 +112,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
           "begin": "20260708T220000",
           "end": "20260709T043000"
+        },
+        {
+          "begin": "20260709T220000",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -180,12 +180,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
           "begin": "20260705T220000",
           "end": "20260706T043000"
+        },
+        {
+          "begin": "20260701T220000",
+          "end": "20260702T043000"
         }
       ],
       "messages": [
@@ -214,16 +214,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260617T220000",
+          "end": "20260618T043000"
+        },
+        {
           "begin": "20260614T220000",
           "end": "20260615T043000"
         },
         {
           "begin": "20260610T220000",
           "end": "20260611T043000"
-        },
-        {
-          "begin": "20260617T220000",
-          "end": "20260618T043000"
         }
       ],
       "messages": [
@@ -276,27 +276,27 @@
       ]
     },
     {
-      "id": "601b761e-df92-483b-b6c6-bd79584af395",
+      "id": "139be0d5-df77-4033-8746-2297e438acca",
       "severity": "perturbée",
       "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260613T173515",
-          "end": "20260613T173615"
+          "begin": "20260613T183619",
+          "end": "20260613T183719"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Incident technique - Trafic perturbé",
+          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident technique entre Corentin Celton et Porte de Versailles .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison de personnes sur les voies à Marx Dormoy .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Incident technique - Trafic perturbé",
+          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
           "channel": "notification"
         },
         {
