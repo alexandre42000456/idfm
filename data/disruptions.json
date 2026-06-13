@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-13T17:45:57.828367Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 9,
+  "lastCheck": "2026-06-13T18:57:01.567228Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 7,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -242,66 +242,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "56cce787-afbe-4757-a70e-d5e6d631406b",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260613T140806",
-          "end": "20270613T140806"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy",
-          "channel": "email ascenseur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy",
-          "channel": "moteur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur situé Quai 2, dir. Mairie d'Issy",
-          "channel": "sms ascenseurs"
-        },
-        {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
-        }
-      ]
-    },
-    {
-      "id": "139be0d5-df77-4033-8746-2297e438acca",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260613T183619",
-          "end": "20260613T183719"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison de personnes sur les voies à Marx Dormoy .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     }
