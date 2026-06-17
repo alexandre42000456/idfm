@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-17T20:07:58.160651Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 11,
+  "lastCheck": "2026-06-17T22:08:34.505038Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 10,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260624T220000",
-          "end": "20260625T043000"
-        },
-        {
           "begin": "20260628T220000",
           "end": "20260629T043000"
+        },
+        {
+          "begin": "20260624T220000",
+          "end": "20260625T043000"
         }
       ],
       "messages": [
@@ -142,12 +142,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
           "begin": "20260708T220000",
           "end": "20260709T043000"
+        },
+        {
+          "begin": "20260709T220000",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -210,12 +210,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
           "begin": "20260705T220000",
           "end": "20260706T043000"
+        },
+        {
+          "begin": "20260701T220000",
+          "end": "20260702T043000"
         }
       ],
       "messages": [
@@ -244,12 +244,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260617T220000",
-          "end": "20260618T043000"
-        },
-        {
           "begin": "20260614T220000",
           "end": "20260615T043000"
+        },
+        {
+          "begin": "20260617T220000",
+          "end": "20260618T043000"
         }
       ],
       "messages": [
@@ -298,36 +298,6 @@
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-06-19 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
           "channel": "sms ascenseurs"
-        }
-      ]
-    },
-    {
-      "id": "d55d33c8-f339-468a-8c9b-d0fbe34d0168",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260617T212216",
-          "end": "20260617T214601"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident (intervention conducteur) - Train stationne",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Un train stationne entre Madeleine et Concorde vers Mairie d'Issy en raison d'un incident nécessitant l’intervention du conducteur  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident (intervention conducteur) - Train stationne",
-          "channel": "notification"
-        },
-        {
-          "text": "Train stationne",
-          "channel": "cbiv"
         }
       ]
     },
