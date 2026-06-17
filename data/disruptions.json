@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-17T17:58:51.414726Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 10,
+  "lastCheck": "2026-06-17T20:07:58.160651Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 11,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -240,7 +240,7 @@
     {
       "id": "1b74625e-e295-401b-90ec-21ee74166752",
       "severity": "bloquante",
-      "status": "future",
+      "status": "active",
       "cause": "travaux",
       "application_periods": [
         {
@@ -298,6 +298,36 @@
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-06-19 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
           "channel": "sms ascenseurs"
+        }
+      ]
+    },
+    {
+      "id": "d55d33c8-f339-468a-8c9b-d0fbe34d0168",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260617T212216",
+          "end": "20260617T214601"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident (intervention conducteur) - Train stationne",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Un train stationne entre Madeleine et Concorde vers Mairie d'Issy en raison d'un incident nécessitant l’intervention du conducteur  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident (intervention conducteur) - Train stationne",
+          "channel": "notification"
+        },
+        {
+          "text": "Train stationne",
+          "channel": "cbiv"
         }
       ]
     },
