@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-06-18T17:31:21.911945Z",
+  "lastCheck": "2026-06-18T19:38:44.384225Z",
   "hasNewDisruptions": true,
   "disruptionCount": 9,
   "disruptions": [
@@ -176,12 +176,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260705T220000",
-          "end": "20260706T043000"
-        },
-        {
           "begin": "20260701T220000",
           "end": "20260702T043000"
+        },
+        {
+          "begin": "20260705T220000",
+          "end": "20260706T043000"
         }
       ],
       "messages": [
@@ -268,27 +268,27 @@
       ]
     },
     {
-      "id": "14879388-d84a-4634-9579-722b306e6b9b",
+      "id": "22912238-6376-4281-8cbb-25258d520073",
       "severity": "perturbée",
-      "status": "past",
+      "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260618T192158",
-          "end": "20260618T192258"
+          "begin": "20260618T212057",
+          "end": "20260619T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
+          "text": "Métro 12 : Incident technique - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident voyageur à Notre-Dame-des-Champs .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident technique à Mairie d'Issy .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
+          "text": "Métro 12 : Incident technique - Trafic perturbé",
           "channel": "notification"
         },
         {
