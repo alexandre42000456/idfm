@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-18T11:08:39.354927Z",
+  "lastCheck": "2026-06-18T14:18:29.834843Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 10,
+  "disruptionCount": 9,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -268,61 +268,31 @@
       ]
     },
     {
-      "id": "a1a0f7ce-6cb7-4b57-9a1d-7a99c812e0a5",
+      "id": "20024cf1-b042-4feb-83ef-70bd6a4398c1",
       "severity": "perturbée",
-      "status": "past",
+      "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260618T120241",
-          "end": "20260618T120341"
+          "begin": "20260618T161406",
+          "end": "20260619T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'une panne de signalisation  .</p>",
+          "text": "<p>Le trafic reprend progressivement entre Porte de Versailles et Mairie d'Issy en répercussion d'un bagage oublié dans un train à Mairie d'Issy .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
           "channel": "notification"
         },
         {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "15fc531d-8cec-4521-b7c7-432ca44a6f65",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260618T124921",
-          "end": "20260618T125021"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident voyageur  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
+          "text": "Reprise progressive",
           "channel": "cbiv"
         }
       ]
