@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-18T19:38:44.384225Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 9,
+  "lastCheck": "2026-06-18T21:35:22.082073Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 8,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -142,12 +142,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        },
-        {
           "begin": "20260709T220000",
           "end": "20260710T043000"
+        },
+        {
+          "begin": "20260708T220000",
+          "end": "20260709T043000"
         }
       ],
       "messages": [
@@ -264,36 +264,6 @@
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-06-19 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
           "channel": "sms ascenseurs"
-        }
-      ]
-    },
-    {
-      "id": "22912238-6376-4281-8cbb-25258d520073",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260618T212057",
-          "end": "20260619T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident technique - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident technique à Mairie d'Issy .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident technique - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     }
