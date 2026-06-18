@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-18T02:04:05.794054Z",
+  "lastCheck": "2026-06-18T07:00:31.250911Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 10,
+  "disruptionCount": 8,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260624T220000",
-          "end": "20260625T043000"
-        },
-        {
           "begin": "20260628T220000",
           "end": "20260629T043000"
+        },
+        {
+          "begin": "20260624T220000",
+          "end": "20260625T043000"
         }
       ],
       "messages": [
@@ -44,12 +44,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260624T220000",
-          "end": "20260625T043000"
-        },
-        {
           "begin": "20260628T220000",
           "end": "20260629T043000"
+        },
+        {
+          "begin": "20260624T220000",
+          "end": "20260625T043000"
         }
       ],
       "messages": [
@@ -108,12 +108,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
           "begin": "20260708T220000",
           "end": "20260709T043000"
+        },
+        {
+          "begin": "20260709T220000",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -176,12 +176,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260705T220000",
-          "end": "20260706T043000"
-        },
-        {
           "begin": "20260701T220000",
           "end": "20260702T043000"
+        },
+        {
+          "begin": "20260705T220000",
+          "end": "20260706T043000"
         }
       ],
       "messages": [
@@ -210,12 +210,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
           "begin": "20260705T220000",
           "end": "20260706T043000"
+        },
+        {
+          "begin": "20260701T220000",
+          "end": "20260702T043000"
         }
       ],
       "messages": [
@@ -234,40 +234,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "1b74625e-e295-401b-90ec-21ee74166752",
-      "severity": "bloquante",
-      "status": "active",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20260614T220000",
-          "end": "20260615T043000"
-        },
-        {
-          "begin": "20260617T220000",
-          "end": "20260618T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "<p>Jusqu'au 17 juin inclus, les mercredi et dimanche dès 22:00, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
         }
       ]
     },
@@ -298,36 +264,6 @@
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-06-19 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
           "channel": "sms ascenseurs"
-        }
-      ]
-    },
-    {
-      "id": "47309896-6ec0-4af7-b178-5af2cc295586",
-      "severity": "information",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260617T120000",
-          "end": "20260618T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Autre",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Manifestation sportive - Autre",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Finales de Playoffs :<br>En fin de match, la ligne 12 sera interrompue en raison de travaux. Pour repartir de l'Arena La Chapelle, privilégiez la ligne 4 ou le T3b.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Manifestation sportive - Autre",
-          "channel": "notification"
         }
       ]
     }
