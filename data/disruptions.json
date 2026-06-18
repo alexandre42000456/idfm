@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-06-18T14:18:29.834843Z",
+  "lastCheck": "2026-06-18T17:31:21.911945Z",
   "hasNewDisruptions": true,
   "disruptionCount": 9,
   "disruptions": [
@@ -44,12 +44,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260624T220000",
-          "end": "20260625T043000"
-        },
-        {
           "begin": "20260628T220000",
           "end": "20260629T043000"
+        },
+        {
+          "begin": "20260624T220000",
+          "end": "20260625T043000"
         }
       ],
       "messages": [
@@ -142,12 +142,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
           "begin": "20260708T220000",
           "end": "20260709T043000"
+        },
+        {
+          "begin": "20260709T220000",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -176,12 +176,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
           "begin": "20260705T220000",
           "end": "20260706T043000"
+        },
+        {
+          "begin": "20260701T220000",
+          "end": "20260702T043000"
         }
       ],
       "messages": [
@@ -268,31 +268,31 @@
       ]
     },
     {
-      "id": "20024cf1-b042-4feb-83ef-70bd6a4398c1",
+      "id": "14879388-d84a-4634-9579-722b306e6b9b",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260618T161406",
-          "end": "20260619T043000"
+          "begin": "20260618T192158",
+          "end": "20260618T192258"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
+          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic reprend progressivement entre Porte de Versailles et Mairie d'Issy en répercussion d'un bagage oublié dans un train à Mairie d'Issy .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident voyageur à Notre-Dame-des-Champs .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
+          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
           "channel": "notification"
         },
         {
-          "text": "Reprise progressive",
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
