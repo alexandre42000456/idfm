@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-19T20:10:51.868945Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 8,
+  "lastCheck": "2026-06-19T21:18:43.078710Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 10,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -238,6 +238,36 @@
       ]
     },
     {
+      "id": "c6431b66-3d52-4078-9880-7c9e178e0eaa",
+      "severity": "bloquante",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260619T224751",
+          "end": "20260620T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Mairie d'Aubervilliers et Jules Joffrin en raison d'un incident d'exploitation à Front Populaire. <br>Reprise estimée : 23:30.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
       "id": "10300fd8-0378-41b5-8ad6-c2ef154d8c40",
       "severity": "perturbée",
       "status": "active",
@@ -264,6 +294,36 @@
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-06-20",
           "channel": "email ascenseur"
+        }
+      ]
+    },
+    {
+      "id": "9147977c-2463-4c13-b89f-bcc58787f479",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260619T223242",
+          "end": "20260619T223342"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation à Madeleine .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
