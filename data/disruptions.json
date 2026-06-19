@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-19T21:18:43.078710Z",
+  "lastCheck": "2026-06-19T22:14:13.483112Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 10,
+  "disruptionCount": 9,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260624T220000",
-          "end": "20260625T043000"
-        },
-        {
           "begin": "20260628T220000",
           "end": "20260629T043000"
+        },
+        {
+          "begin": "20260624T220000",
+          "end": "20260625T043000"
         }
       ],
       "messages": [
@@ -44,12 +44,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260624T220000",
-          "end": "20260625T043000"
-        },
-        {
           "begin": "20260628T220000",
           "end": "20260629T043000"
+        },
+        {
+          "begin": "20260624T220000",
+          "end": "20260625T043000"
         }
       ],
       "messages": [
@@ -142,12 +142,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        },
-        {
           "begin": "20260709T220000",
           "end": "20260710T043000"
+        },
+        {
+          "begin": "20260708T220000",
+          "end": "20260709T043000"
         }
       ],
       "messages": [
@@ -176,12 +176,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260705T220000",
-          "end": "20260706T043000"
-        },
-        {
           "begin": "20260701T220000",
           "end": "20260702T043000"
+        },
+        {
+          "begin": "20260705T220000",
+          "end": "20260706T043000"
         }
       ],
       "messages": [
@@ -210,12 +210,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260705T220000",
-          "end": "20260706T043000"
-        },
-        {
           "begin": "20260701T220000",
           "end": "20260702T043000"
+        },
+        {
+          "begin": "20260705T220000",
+          "end": "20260706T043000"
         }
       ],
       "messages": [
@@ -230,36 +230,6 @@
         {
           "text": "<p>Du 1er juillet au 5 juillet inclus, les mercredi et dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "c6431b66-3d52-4078-9880-7c9e178e0eaa",
-      "severity": "bloquante",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260619T224751",
-          "end": "20260620T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est interrompu entre Mairie d'Aubervilliers et Jules Joffrin en raison d'un incident d'exploitation à Front Populaire. <br>Reprise estimée : 23:30.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic interrompu",
-          "channel": "notification"
         },
         {
           "text": "Trafic interrompu",
@@ -298,32 +268,32 @@
       ]
     },
     {
-      "id": "9147977c-2463-4c13-b89f-bcc58787f479",
+      "id": "64ad29d1-0afe-41c2-8348-bd296847c313",
       "severity": "perturbée",
-      "status": "past",
+      "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260619T223242",
-          "end": "20260619T223342"
+          "begin": "20260619T233900",
+          "end": "20260620T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation à Madeleine .</p>",
+          "text": "<p>Le trafic reprend mais reste très perturbé sur toute la ligne en raison d'un incident d'exploitation à Front Populaire .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "notification"
+          "text": "Reprise progressive / trafic reste très perturbé",
+          "channel": "cbiv"
         },
         {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
+          "text": "Métro 12 : Incident d'exploitation - Reprise progressive / trafic reste très perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "Métro 12 : Incident d'exploitation - Reprise progressive / trafic reste très perturbé",
+          "channel": "notification"
         }
       ]
     }
