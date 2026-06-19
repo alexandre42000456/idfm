@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-06-19T22:14:13.483112Z",
+  "lastCheck": "2026-06-19T23:13:31.215298Z",
   "hasNewDisruptions": true,
   "disruptionCount": 9,
   "disruptions": [
@@ -268,32 +268,32 @@
       ]
     },
     {
-      "id": "64ad29d1-0afe-41c2-8348-bd296847c313",
+      "id": "10da6381-f8c1-48cc-98de-4dc7ac3ca725",
       "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260619T233900",
+          "begin": "20260620T003448",
           "end": "20260620T043000"
         }
       ],
       "messages": [
         {
-          "text": "<p>Le trafic reprend mais reste très perturbé sur toute la ligne en raison d'un incident d'exploitation à Front Populaire .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Reprise progressive / trafic reste très perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Incident d'exploitation - Reprise progressive / trafic reste très perturbé",
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "Métro 12 : Incident d'exploitation - Reprise progressive / trafic reste très perturbé",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation à Front Populaire .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
