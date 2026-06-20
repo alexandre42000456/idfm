@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-06-20T00:19:01.326798Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-06-20T04:42:23.815184Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 9,
   "disruptions": [
     {
@@ -108,12 +108,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
           "begin": "20260708T220000",
           "end": "20260709T043000"
+        },
+        {
+          "begin": "20260709T220000",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -176,12 +176,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
           "begin": "20260705T220000",
           "end": "20260706T043000"
+        },
+        {
+          "begin": "20260701T220000",
+          "end": "20260702T043000"
         }
       ],
       "messages": [
@@ -268,27 +268,27 @@
       ]
     },
     {
-      "id": "10da6381-f8c1-48cc-98de-4dc7ac3ca725",
+      "id": "4fae7354-6458-4668-a511-4a2d601bd5e7",
       "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260620T003448",
-          "end": "20260620T043000"
+          "begin": "20260620T063618",
+          "end": "20260621T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation à Front Populaire .</p>",
+          "text": "<p>Le trafic est perturbé vers Mairie d'Issy en raison d'un incident nécessitant l’intervention du conducteur à Concorde .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
           "channel": "notification"
         },
         {
