@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-21T07:01:09.615677Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 8,
+  "lastCheck": "2026-06-21T10:32:04.251025Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 9,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -9,14 +9,8 @@
       "status": "future",
       "cause": "travaux",
       "application_periods": [
-        {
-          "begin": "20260624T220000",
-          "end": "20260625T043000"
-        },
-        {
-          "begin": "20260628T220000",
-          "end": "20260629T043000"
-        }
+        {},
+        {}
       ],
       "messages": [
         {
@@ -43,14 +37,8 @@
       "status": "future",
       "cause": "travaux",
       "application_periods": [
-        {
-          "begin": "20260624T220000",
-          "end": "20260625T043000"
-        },
-        {
-          "begin": "20260628T220000",
-          "end": "20260629T043000"
-        }
+        {},
+        {}
       ],
       "messages": [
         {
@@ -77,10 +65,7 @@
       "status": "future",
       "cause": "travaux",
       "application_periods": [
-        {
-          "begin": "20260716T044500",
-          "end": "20260727T043000"
-        }
+        {}
       ],
       "messages": [
         {
@@ -107,14 +92,8 @@
       "status": "future",
       "cause": "travaux",
       "application_periods": [
-        {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        }
+        {},
+        {}
       ],
       "messages": [
         {
@@ -141,14 +120,8 @@
       "status": "future",
       "cause": "travaux",
       "application_periods": [
-        {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        },
-        {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        }
+        {},
+        {}
       ],
       "messages": [
         {
@@ -175,14 +148,8 @@
       "status": "future",
       "cause": "travaux",
       "application_periods": [
-        {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
-          "begin": "20260705T220000",
-          "end": "20260706T043000"
-        }
+        {},
+        {}
       ],
       "messages": [
         {
@@ -209,14 +176,8 @@
       "status": "future",
       "cause": "travaux",
       "application_periods": [
-        {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
-          "begin": "20260705T220000",
-          "end": "20260706T043000"
-        }
+        {},
+        {}
       ],
       "messages": [
         {
@@ -238,32 +199,56 @@
       ]
     },
     {
-      "id": "05843d5e-852d-425d-8d29-ad48a51fc624",
+      "id": "7cd3e93d-b2ec-4f29-89d0-8f992665790a",
       "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
-        {
-          "begin": "20260617T090713",
-          "end": "20270617T090713"
-        }
+        {}
       ],
       "messages": [
         {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-06-21",
-          "channel": "moteur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-06-21 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "text": "Mairie d'Aubervilliers Panne ascenseur situé Quai 2, dir. Mairie d'Issy",
           "channel": "sms ascenseurs"
         },
         {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-06-21",
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy",
           "channel": "email ascenseur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy",
+          "channel": "moteur"
         },
         {
           "text": "Panne d'un ascenseur",
           "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "7f4023f6-98a9-4774-a380-3a07f4c1e212",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {}
+      ],
+      "messages": [
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "email ascenseur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "sms ascenseurs"
+        },
+        {
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "moteur"
         }
       ]
     }
