@@ -1,14 +1,14 @@
 {
   "disruption_ids": [
-    "7cd3e93d-b2ec-4f29-89d0-8f992665790a",
-    "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
-    "2803fe23-7d5c-4574-aeda-4e4ef55510aa",
-    "cd08d3f8-2bd0-46fb-a65f-18480f7a9daa",
     "82db42f5-ea15-4676-bf6a-8daa905a9443",
-    "ce105ffe-b6c4-403e-9543-136b6d5d69a9",
+    "2803fe23-7d5c-4574-aeda-4e4ef55510aa",
+    "7cd3e93d-b2ec-4f29-89d0-8f992665790a",
     "c863fbd6-1ec8-4797-a088-4abc614ef554",
+    "ce105ffe-b6c4-403e-9543-136b6d5d69a9",
+    "cd08d3f8-2bd0-46fb-a65f-18480f7a9daa",
+    "338b91bd-eb0a-46fa-ad06-16efa74ca858",
     "7f4023f6-98a9-4774-a380-3a07f4c1e212",
-    "338b91bd-eb0a-46fa-ad06-16efa74ca858"
+    "401e464f-d8e2-4aa5-a824-31b4dc4c24b7"
   ],
-  "last_update": "2026-06-22T01:42:18.409680Z"
+  "last_update": "2026-06-22T07:02:50.265692Z"
 }
