@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-24T17:44:03.948847Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 7,
+  "lastCheck": "2026-06-24T19:17:28.090639Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 9,
   "disruptions": [
     {
       "id": "401e464f-d8e2-4aa5-a824-31b4dc4c24b7",
@@ -44,12 +44,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260624T220000",
-          "end": "20260625T043000"
-        },
-        {
           "begin": "20260628T220000",
           "end": "20260629T043000"
+        },
+        {
+          "begin": "20260624T220000",
+          "end": "20260625T043000"
         }
       ],
       "messages": [
@@ -108,12 +108,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
           "begin": "20260708T220000",
           "end": "20260709T043000"
+        },
+        {
+          "begin": "20260709T220000",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -210,12 +210,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260705T220000",
-          "end": "20260706T043000"
-        },
-        {
           "begin": "20260701T220000",
           "end": "20260702T043000"
+        },
+        {
+          "begin": "20260705T220000",
+          "end": "20260706T043000"
         }
       ],
       "messages": [
@@ -234,6 +234,66 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "88610cc3-e7c5-43ec-a1af-5ccb98c6e1c3",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260624T201142",
+          "end": "20270624T201142"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "moteur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "email ascenseur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "sms ascenseurs"
+        }
+      ]
+    },
+    {
+      "id": "a520fd86-0f1a-4952-9e31-00173d91e613",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260624T201150",
+          "end": "20270624T201150"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud",
+          "channel": "moteur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud",
+          "channel": "email ascenseur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud",
+          "channel": "sms ascenseurs"
         }
       ]
     }
