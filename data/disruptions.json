@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-25T13:27:11.353614Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 8,
+  "lastCheck": "2026-06-25T15:58:09.545755Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 9,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -40,12 +40,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        },
-        {
           "begin": "20260709T220000",
           "end": "20260710T043000"
+        },
+        {
+          "begin": "20260708T220000",
+          "end": "20260709T043000"
         }
       ],
       "messages": [
@@ -142,12 +142,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
           "begin": "20260705T220000",
           "end": "20260706T043000"
+        },
+        {
+          "begin": "20260701T220000",
+          "end": "20260702T043000"
         }
       ],
       "messages": [
@@ -260,6 +260,36 @@
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-06-27",
           "channel": "email ascenseur"
+        }
+      ]
+    },
+    {
+      "id": "0a67e333-df97-4285-b342-ebcceffd917b",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260625T173046",
+          "end": "20260626T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Panne de portes de train - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'une panne de portes de train à Pasteur .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Panne de portes de train - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
