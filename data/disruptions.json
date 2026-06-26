@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-26T19:04:04.396334Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 7,
+  "lastCheck": "2026-06-26T20:49:04.138170Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 8,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -40,12 +40,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
           "begin": "20260708T220000",
           "end": "20260709T043000"
+        },
+        {
+          "begin": "20260709T220000",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -230,6 +230,36 @@
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-06-27",
           "channel": "email ascenseur"
+        }
+      ]
+    },
+    {
+      "id": "6c966fe1-6690-4aa4-8745-d83f997517bd",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260626T222431",
+          "end": "20260626T222531"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une gêne à la fermeture des portes d'un train à Vaugirard .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
