@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-26T04:41:54.033219Z",
+  "lastCheck": "2026-06-26T08:18:24.839706Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 9,
+  "disruptionCount": 7,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -40,12 +40,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        },
-        {
           "begin": "20260709T220000",
           "end": "20260710T043000"
+        },
+        {
+          "begin": "20260708T220000",
+          "end": "20260709T043000"
         }
       ],
       "messages": [
@@ -74,12 +74,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
           "begin": "20260708T220000",
           "end": "20260709T043000"
+        },
+        {
+          "begin": "20260709T220000",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -142,12 +142,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
           "begin": "20260705T220000",
           "end": "20260706T043000"
+        },
+        {
+          "begin": "20260701T220000",
+          "end": "20260702T043000"
         }
       ],
       "messages": [
@@ -176,12 +176,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260628T220000",
-          "end": "20260629T043000"
-        },
-        {
           "begin": "20260624T220000",
           "end": "20260625T043000"
+        },
+        {
+          "begin": "20260628T220000",
+          "end": "20260629T043000"
         }
       ],
       "messages": [
@@ -199,36 +199,6 @@
         },
         {
           "text": "<p>Jusqu'au 28 juin inclus, les mercredi et dimanche dès 22:00, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "4af19c00-67b4-42d2-817a-5de76af0d6f1",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260624T201142",
-          "end": "20270624T201142"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-06-27 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "sms ascenseurs"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-06-27",
-          "channel": "email ascenseur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-06-27",
           "channel": "moteur"
         }
       ]
@@ -260,36 +230,6 @@
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-06-27",
           "channel": "email ascenseur"
-        }
-      ]
-    },
-    {
-      "id": "1a4be953-a745-43da-84cc-038031b40a7e",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260625T201034",
-          "end": "20270625T201034"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-06-27 situé Quai 1, dir. Marie d'Aubervilliers",
-          "channel": "sms ascenseurs"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 1, direction Marie d'Aubervilliers, jusqu'au 2026-06-27",
-          "channel": "email ascenseur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 1, direction Marie d'Aubervilliers, jusqu'au 2026-06-27",
-          "channel": "moteur"
-        },
-        {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
         }
       ]
     }
