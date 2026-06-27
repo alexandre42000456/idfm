@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-27T17:45:03.315671Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 8,
+  "lastCheck": "2026-06-27T18:49:54.819894Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 9,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -260,6 +260,36 @@
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-06-28",
           "channel": "email ascenseur"
+        }
+      ]
+    },
+    {
+      "id": "c8157bd9-0d22-4ec4-9765-1a7c776b5e2b",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260627T201819",
+          "end": "20260627T201919"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
