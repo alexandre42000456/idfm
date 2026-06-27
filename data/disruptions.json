@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-06-27T12:57:44.460542Z",
-  "hasNewDisruptions": true,
+  "lastCheck": "2026-06-27T14:24:29.607099Z",
+  "hasNewDisruptions": false,
   "disruptionCount": 8,
   "disruptions": [
     {
@@ -108,12 +108,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260705T220000",
-          "end": "20260706T043000"
-        },
-        {
           "begin": "20260701T220000",
           "end": "20260702T043000"
+        },
+        {
+          "begin": "20260705T220000",
+          "end": "20260706T043000"
         }
       ],
       "messages": [
@@ -142,12 +142,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260705T220000",
-          "end": "20260706T043000"
-        },
-        {
           "begin": "20260701T220000",
           "end": "20260702T043000"
+        },
+        {
+          "begin": "20260705T220000",
+          "end": "20260706T043000"
         }
       ],
       "messages": [
@@ -246,20 +246,20 @@
       ],
       "messages": [
         {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
-        },
-        {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-06-28",
           "channel": "moteur"
         },
         {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-06-28",
-          "channel": "email ascenseur"
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
         },
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-06-28 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud",
           "channel": "sms ascenseurs"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-06-28",
+          "channel": "email ascenseur"
         }
       ]
     }
