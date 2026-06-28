@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-28T08:12:11.947882Z",
+  "lastCheck": "2026-06-28T10:32:57.326847Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 8,
+  "disruptionCount": 9,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -40,12 +40,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        },
-        {
           "begin": "20260709T220000",
           "end": "20260710T043000"
+        },
+        {
+          "begin": "20260708T220000",
+          "end": "20260709T043000"
         }
       ],
       "messages": [
@@ -74,12 +74,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
           "begin": "20260708T220000",
           "end": "20260709T043000"
+        },
+        {
+          "begin": "20260709T220000",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -108,12 +108,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260705T220000",
-          "end": "20260706T043000"
-        },
-        {
           "begin": "20260701T220000",
           "end": "20260702T043000"
+        },
+        {
+          "begin": "20260705T220000",
+          "end": "20260706T043000"
         }
       ],
       "messages": [
@@ -142,12 +142,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
           "begin": "20260705T220000",
           "end": "20260706T043000"
+        },
+        {
+          "begin": "20260701T220000",
+          "end": "20260702T043000"
         }
       ],
       "messages": [
@@ -216,8 +216,8 @@
       ],
       "messages": [
         {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
+          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-06-30 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "sms ascenseurs"
         },
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-06-30",
@@ -228,8 +228,8 @@
           "channel": "email ascenseur"
         },
         {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-06-30 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "sms ascenseurs"
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
         }
       ]
     },
@@ -246,6 +246,10 @@
       ],
       "messages": [
         {
+          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-06-30 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud",
+          "channel": "sms ascenseurs"
+        },
+        {
           "text": "Panne d'un ascenseur",
           "channel": "titre"
         },
@@ -256,10 +260,36 @@
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-06-30",
           "channel": "email ascenseur"
+        }
+      ]
+    },
+    {
+      "id": "9185c672-ab45-45a0-bbb5-452d3d8aa7c0",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260628T121421",
+          "end": "20260628T121521"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
+          "channel": "titre"
         },
         {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-06-30 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud",
-          "channel": "sms ascenseurs"
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident nécessitant l’intervention du conducteur à Mairie d'Issy .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
