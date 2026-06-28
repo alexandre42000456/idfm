@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-28T10:32:57.326847Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 9,
+  "lastCheck": "2026-06-28T12:04:06.611510Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 8,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -260,36 +260,6 @@
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-06-30",
           "channel": "email ascenseur"
-        }
-      ]
-    },
-    {
-      "id": "9185c672-ab45-45a0-bbb5-452d3d8aa7c0",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260628T121421",
-          "end": "20260628T121521"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident nécessitant l’intervention du conducteur à Mairie d'Issy .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     }
