@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-28T17:48:06.918392Z",
+  "lastCheck": "2026-06-28T18:52:41.755412Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 8,
+  "disruptionCount": 6,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -40,12 +40,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
           "begin": "20260708T220000",
           "end": "20260709T043000"
+        },
+        {
+          "begin": "20260709T220000",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -176,12 +176,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260628T220000",
-          "end": "20260629T043000"
-        },
-        {
           "begin": "20260624T220000",
           "end": "20260625T043000"
+        },
+        {
+          "begin": "20260628T220000",
+          "end": "20260629T043000"
         }
       ],
       "messages": [
@@ -200,66 +200,6 @@
         {
           "text": "<p>Jusqu'au 28 juin inclus, les mercredi et dimanche dès 22:00, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "3c77f3ef-ebb4-4ff4-bcd7-f4bbc3cabcd5",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260627T091149",
-          "end": "20270627T091149"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-06-30 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "sms ascenseurs"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-06-30",
-          "channel": "moteur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-06-30",
-          "channel": "email ascenseur"
-        },
-        {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
-        }
-      ]
-    },
-    {
-      "id": "d047ef06-84fa-4981-b828-0d1b12b2c6aa",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260624T201150",
-          "end": "20270624T201150"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-06-30 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud",
-          "channel": "sms ascenseurs"
-        },
-        {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-06-30",
-          "channel": "moteur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-06-30",
-          "channel": "email ascenseur"
         }
       ]
     }
