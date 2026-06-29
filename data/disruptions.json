@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-06-29T13:55:07.029468Z",
+  "lastCheck": "2026-06-29T16:47:33.438342Z",
   "hasNewDisruptions": true,
   "disruptionCount": 6,
   "disruptions": [
@@ -108,12 +108,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
           "begin": "20260705T220000",
           "end": "20260706T043000"
+        },
+        {
+          "begin": "20260701T220000",
+          "end": "20260702T043000"
         }
       ],
       "messages": [
@@ -170,27 +170,27 @@
       ]
     },
     {
-      "id": "82876b61-684f-4b74-beb3-f3084dbcda3c",
+      "id": "67dd79e7-55a4-4daf-9651-86ef318fb297",
       "severity": "perturbée",
-      "status": "past",
+      "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260629T150332",
-          "end": "20260629T150432"
+          "begin": "20260629T182738",
+          "end": "20260630T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Personnes sur les voies - Reprise progressive / trafic reste perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion de personnes sur les voies à Madeleine .</p>",
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un bagage oublié dans un train à Mairie d'Issy .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Personnes sur les voies - Reprise progressive / trafic reste perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
           "channel": "notification"
         },
         {
