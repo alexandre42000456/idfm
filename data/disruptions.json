@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-06-30T11:33:44.457942Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "lastCheck": "2026-06-30T13:24:36.260556Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 6,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -40,12 +40,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        },
-        {
           "begin": "20260709T220000",
           "end": "20260710T043000"
+        },
+        {
+          "begin": "20260708T220000",
+          "end": "20260709T043000"
         }
       ],
       "messages": [
@@ -108,12 +108,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
           "begin": "20260705T220000",
           "end": "20260706T043000"
+        },
+        {
+          "begin": "20260701T220000",
+          "end": "20260702T043000"
         }
       ],
       "messages": [
@@ -165,6 +165,36 @@
         },
         {
           "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "6df0fc9b-9e73-49a0-9853-246b7c4b2493",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260630T151927",
+          "end": "20260701T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé vers Mairie d'Issy en répercussion de l'actionnement d'un signal d'alarme à Jules Joffrin .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
