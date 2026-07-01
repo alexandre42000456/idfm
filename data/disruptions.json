@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-07-01T06:12:41.977689Z",
+  "lastCheck": "2026-07-01T10:10:56.268317Z",
   "hasNewDisruptions": true,
   "disruptionCount": 6,
   "disruptions": [
@@ -40,12 +40,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        },
-        {
           "begin": "20260709T220000",
           "end": "20260710T043000"
+        },
+        {
+          "begin": "20260708T220000",
+          "end": "20260709T043000"
         }
       ],
       "messages": [
@@ -170,31 +170,31 @@
       ]
     },
     {
-      "id": "ef725752-723e-44a9-9fe8-d8d5b43dc195",
+      "id": "ff954902-68a1-4994-83c1-4cb16d1cff6c",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260701T080518",
-          "end": "20260702T043000"
+          "begin": "20260701T111318",
+          "end": "20260701T111418"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Personnes sur les voies - Trafic très perturbé",
+          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est très perturbé sur toute la ligne en raison de personnes sur les voies à Trinité - d'Estienne d'Orves .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une panne de signalisation à Concorde .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Personnes sur les voies - Trafic très perturbé",
+          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
           "channel": "notification"
         },
         {
-          "text": "Trafic très perturbé",
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
