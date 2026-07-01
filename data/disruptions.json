@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-07-01T10:10:56.268317Z",
+  "lastCheck": "2026-07-01T12:45:25.242388Z",
   "hasNewDisruptions": true,
   "disruptionCount": 6,
   "disruptions": [
@@ -40,12 +40,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
           "begin": "20260708T220000",
           "end": "20260709T043000"
+        },
+        {
+          "begin": "20260709T220000",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -74,12 +74,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
           "begin": "20260708T220000",
           "end": "20260709T043000"
+        },
+        {
+          "begin": "20260709T220000",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -170,14 +170,14 @@
       ]
     },
     {
-      "id": "ff954902-68a1-4994-83c1-4cb16d1cff6c",
+      "id": "983687a2-25f2-4fa6-9c33-c4e6fc2a9938",
       "severity": "perturbée",
       "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260701T111318",
-          "end": "20260701T111418"
+          "begin": "20260701T133321",
+          "end": "20260701T133421"
         }
       ],
       "messages": [
@@ -186,16 +186,16 @@
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une panne de signalisation à Concorde .</p>",
-          "channel": "moteur"
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         },
         {
           "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
           "channel": "notification"
         },
         {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'une panne de signalisation entre Concorde et Assemblée Nationale .</p>",
+          "channel": "moteur"
         }
       ]
     }
