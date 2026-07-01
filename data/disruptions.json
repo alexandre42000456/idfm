@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-01T01:53:54.071661Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "lastCheck": "2026-07-01T06:12:41.977689Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 6,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -40,12 +40,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
           "begin": "20260708T220000",
           "end": "20260709T043000"
+        },
+        {
+          "begin": "20260709T220000",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -108,12 +108,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260705T220000",
-          "end": "20260706T043000"
-        },
-        {
           "begin": "20260701T220000",
           "end": "20260702T043000"
+        },
+        {
+          "begin": "20260705T220000",
+          "end": "20260706T043000"
         }
       ],
       "messages": [
@@ -142,12 +142,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
           "begin": "20260705T220000",
           "end": "20260706T043000"
+        },
+        {
+          "begin": "20260701T220000",
+          "end": "20260702T043000"
         }
       ],
       "messages": [
@@ -165,6 +165,36 @@
         },
         {
           "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "ef725752-723e-44a9-9fe8-d8d5b43dc195",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260701T080518",
+          "end": "20260702T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Personnes sur les voies - Trafic très perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est très perturbé sur toute la ligne en raison de personnes sur les voies à Trinité - d'Estienne d'Orves .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Personnes sur les voies - Trafic très perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic très perturbé",
           "channel": "cbiv"
         }
       ]
