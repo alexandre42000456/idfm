@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-01T15:28:55.088085Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "lastCheck": "2026-07-01T17:27:05.096908Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 6,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -40,12 +40,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        },
-        {
           "begin": "20260709T220000",
           "end": "20260710T043000"
+        },
+        {
+          "begin": "20260708T220000",
+          "end": "20260709T043000"
         }
       ],
       "messages": [
@@ -74,12 +74,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        },
-        {
           "begin": "20260709T220000",
           "end": "20260710T043000"
+        },
+        {
+          "begin": "20260708T220000",
+          "end": "20260709T043000"
         }
       ],
       "messages": [
@@ -108,12 +108,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260705T220000",
-          "end": "20260706T043000"
-        },
-        {
           "begin": "20260701T220000",
           "end": "20260702T043000"
+        },
+        {
+          "begin": "20260705T220000",
+          "end": "20260706T043000"
         }
       ],
       "messages": [
@@ -142,12 +142,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260705T220000",
-          "end": "20260706T043000"
-        },
-        {
           "begin": "20260701T220000",
           "end": "20260702T043000"
+        },
+        {
+          "begin": "20260705T220000",
+          "end": "20260706T043000"
         }
       ],
       "messages": [
@@ -165,6 +165,36 @@
         },
         {
           "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "907d5ea5-7b5c-4478-96a9-b2287f5422d5",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260701T190949",
+          "end": "20260702T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une panne de signalisation  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
