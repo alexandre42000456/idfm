@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-02T11:06:53.649206Z",
+  "lastCheck": "2026-07-02T13:03:06.014130Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 5,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -30,40 +30,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "82db42f5-ea15-4676-bf6a-8daa905a9443",
-      "severity": "bloquante",
-      "status": "future",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        },
-        {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "<p>Du 8 juillet au 9 juillet inclus, les mercredi et jeudi dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
         }
       ]
     },
@@ -108,12 +74,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260701T220000",
-          "end": "20260702T043000"
-        },
-        {
           "begin": "20260705T220000",
           "end": "20260706T043000"
+        },
+        {
+          "begin": "20260701T220000",
+          "end": "20260702T043000"
         }
       ],
       "messages": [
@@ -132,36 +98,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "383073f8-08b9-4e1f-ac85-41daea3ee46c",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260702T091018",
-          "end": "20270702T091018"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy",
-          "channel": "moteur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur situé Quai 2, dir. Mairie d'Issy",
-          "channel": "sms ascenseurs"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy",
-          "channel": "email ascenseur"
-        },
-        {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
         }
       ]
     }
