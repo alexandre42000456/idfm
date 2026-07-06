@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-07-06T18:23:38.709421Z",
+  "lastCheck": "2026-07-06T20:17:24.957124Z",
   "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
@@ -68,36 +68,6 @@
       ]
     },
     {
-      "id": "6895aa11-f43c-4042-8792-e23a8df674c0",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260706T200122",
-          "end": "20260706T200222"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident voyageur à Concorde .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
       "id": "03d32f78-a618-4a05-b9b0-39a9502b7cea",
       "severity": "perturbée",
       "status": "active",
@@ -124,6 +94,36 @@
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-07-09 situé Quai 1, dir. Marie d'Aubervilliers",
           "channel": "sms ascenseurs"
+        }
+      ]
+    },
+    {
+      "id": "1ebc4c9e-6f1c-400e-a425-a34e488bf74c",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260706T215613",
+          "end": "20260706T215713"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en raison d'un bagage oublié dans un train à Mairie d'Aubervilliers .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
         }
       ]
     }
