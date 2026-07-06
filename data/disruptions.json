@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-07-06T21:48:15.599978Z",
+  "lastCheck": "2026-07-06T22:48:00.775658Z",
   "hasNewDisruptions": false,
   "disruptionCount": 3,
   "disruptions": [
@@ -40,12 +40,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
           "begin": "20260708T220000",
           "end": "20260709T043000"
+        },
+        {
+          "begin": "20260709T220000",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -80,20 +80,20 @@
       ],
       "messages": [
         {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 1, direction Marie d'Aubervilliers, jusqu'au 2026-07-09",
+          "channel": "moteur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-07-09 situé Quai 1, dir. Marie d'Aubervilliers",
+          "channel": "sms ascenseurs"
+        },
+        {
           "text": "Panne d'un ascenseur",
           "channel": "titre"
         },
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 1, direction Marie d'Aubervilliers, jusqu'au 2026-07-09",
-          "channel": "moteur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 1, direction Marie d'Aubervilliers, jusqu'au 2026-07-09",
           "channel": "email ascenseur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-07-09 situé Quai 1, dir. Marie d'Aubervilliers",
-          "channel": "sms ascenseurs"
         }
       ]
     }
