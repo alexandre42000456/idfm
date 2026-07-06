@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-06T13:05:56.610869Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 2,
+  "lastCheck": "2026-07-06T16:26:29.955558Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -63,6 +63,36 @@
         },
         {
           "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "4e6a05b0-17b2-4853-bcf8-a025730cac51",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260706T175310",
+          "end": "20260706T175410"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident voyageur à Concorde .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
