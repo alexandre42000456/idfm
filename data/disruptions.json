@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-06T20:17:24.957124Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "lastCheck": "2026-07-06T21:48:15.599978Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -94,36 +94,6 @@
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-07-09 situé Quai 1, dir. Marie d'Aubervilliers",
           "channel": "sms ascenseurs"
-        }
-      ]
-    },
-    {
-      "id": "1ebc4c9e-6f1c-400e-a425-a34e488bf74c",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260706T215613",
-          "end": "20260706T215713"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en raison d'un bagage oublié dans un train à Mairie d'Aubervilliers .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Reprise progressive / trafic reste perturbé",
-          "channel": "cbiv"
         }
       ]
     }
