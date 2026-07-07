@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-07T13:30:27.219648Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "lastCheck": "2026-07-07T16:01:12.567859Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -94,36 +94,6 @@
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy, jusqu'au 2026-07-10",
           "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "d1e0b7ad-bbe7-42dc-bf4f-c07c9e1ad214",
-      "severity": "information",
-      "status": "past",
-      "cause": "information",
-      "application_periods": [
-        {
-          "begin": "20260707T145345",
-          "end": "20260707T145445"
-        }
-      ],
-      "messages": [
-        {
-          "text": "<p>🌡 FORTES CHALEURS <br>NIVEAU ORANGE A COMPTER DU 7 JUILLET <br> ADOPTEZ LES BONS REFLEXES<br> Rafraîchissez-vous et buvez de l’eau fréquemment</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "VAL ORV - Funiculaire FUN - Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Information - Autre",
-          "channel": "titre"
-        },
-        {
-          "text": "Autre",
-          "channel": "cbiv"
-        },
-        {
-          "text": "VAL ORV - Funiculaire FUN - Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Information - Autre",
-          "channel": "notification"
         }
       ]
     }
