@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-07-07T05:11:05.219006Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-07-07T08:37:08.458810Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 3,
   "disruptions": [
     {
@@ -40,12 +40,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        },
-        {
           "begin": "20260709T220000",
           "end": "20260710T043000"
+        },
+        {
+          "begin": "20260708T220000",
+          "end": "20260709T043000"
         }
       ],
       "messages": [
@@ -68,23 +68,19 @@
       ]
     },
     {
-      "id": "03d32f78-a618-4a05-b9b0-39a9502b7cea",
+      "id": "4d0a244f-066d-4ce9-9fa2-5313252ecf37",
       "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260706T200711",
-          "end": "20270706T200711"
+          "begin": "20260707T090845",
+          "end": "20270707T090845"
         }
       ],
       "messages": [
         {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 1, direction Marie d'Aubervilliers, jusqu'au 2026-07-09",
-          "channel": "moteur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-07-09 situé Quai 1, dir. Marie d'Aubervilliers",
+          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-07-10 situé Quai 2, dir. Mairie d'Issy",
           "channel": "sms ascenseurs"
         },
         {
@@ -92,8 +88,12 @@
           "channel": "titre"
         },
         {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 1, direction Marie d'Aubervilliers, jusqu'au 2026-07-09",
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy, jusqu'au 2026-07-10",
           "channel": "email ascenseur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy, jusqu'au 2026-07-10",
+          "channel": "moteur"
         }
       ]
     }
