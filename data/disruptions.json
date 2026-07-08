@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-07-08T16:42:30.201952Z",
+  "lastCheck": "2026-07-08T18:05:06.921702Z",
   "hasNewDisruptions": true,
   "disruptionCount": 3,
   "disruptions": [
@@ -40,12 +40,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
           "begin": "20260708T220000",
           "end": "20260709T043000"
+        },
+        {
+          "begin": "20260709T220000",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -68,31 +68,31 @@
       ]
     },
     {
-      "id": "13376567-ed82-4dec-9290-5ca9211bdcfa",
+      "id": "cc97aaf0-b906-412a-8ea9-13895675ee06",
       "severity": "perturbée",
       "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260708T174132",
-          "end": "20260708T174232"
+          "begin": "20260708T193631",
+          "end": "20260708T193731"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic reprend progressivement sur toute la ligne en répercussion d'un bagage oublié dans un train à Mairie d'Issy .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "notification"
         },
         {
-          "text": "Reprise progressive",
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
