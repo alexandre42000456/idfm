@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-07-08T21:48:41.804855Z",
+  "lastCheck": "2026-07-08T22:45:23.388618Z",
   "hasNewDisruptions": false,
   "disruptionCount": 2,
   "disruptions": [
@@ -40,12 +40,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        },
-        {
           "begin": "20260709T220000",
           "end": "20260710T043000"
+        },
+        {
+          "begin": "20260708T220000",
+          "end": "20260709T043000"
         }
       ],
       "messages": [
@@ -54,16 +54,16 @@
           "channel": "titre"
         },
         {
-          "text": "<p>Jusqu'au 9 juillet inclus, les mercredi et jeudi dès 22:00, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
         },
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
         },
         {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
+          "text": "<p>Jusqu'au 9 juillet inclus, les mercredi et jeudi dès 22:00, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
+          "channel": "moteur"
         }
       ]
     }
