@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-09T18:17:36.525957Z",
+  "lastCheck": "2026-07-09T20:05:06.162360Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -36,16 +36,16 @@
     {
       "id": "bb3963fc-4897-4edc-b953-37a3cf1c1308",
       "severity": "bloquante",
-      "status": "future",
+      "status": "active",
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
           "begin": "20260708T220000",
           "end": "20260709T043000"
+        },
+        {
+          "begin": "20260709T220000",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -64,36 +64,6 @@
         {
           "text": "<p>Jusqu'au 9 juillet inclus, les mercredi et jeudi dès 22:00, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "4a4627fb-13e3-4e8e-a664-372aaa22b90b",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260709T182206",
-          "end": "20260710T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     }
