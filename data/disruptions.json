@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-07-09T16:31:12.500342Z",
-  "hasNewDisruptions": true,
+  "lastCheck": "2026-07-09T18:17:36.525957Z",
+  "hasNewDisruptions": false,
   "disruptionCount": 3,
   "disruptions": [
     {
@@ -40,12 +40,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        },
-        {
           "begin": "20260709T220000",
           "end": "20260710T043000"
+        },
+        {
+          "begin": "20260708T220000",
+          "end": "20260709T043000"
         }
       ],
       "messages": [
@@ -84,12 +84,12 @@
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
-          "channel": "moteur"
-        },
-        {
           "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
+          "channel": "moteur"
         },
         {
           "text": "Trafic perturbé",
