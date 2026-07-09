@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-07-09T14:03:13.390374Z",
+  "lastCheck": "2026-07-09T16:31:12.500342Z",
   "hasNewDisruptions": true,
   "disruptionCount": 3,
   "disruptions": [
@@ -68,14 +68,14 @@
       ]
     },
     {
-      "id": "6defeabf-8dfc-4d8a-8f39-4238705b3fc8",
+      "id": "4a4627fb-13e3-4e8e-a664-372aaa22b90b",
       "severity": "perturbée",
-      "status": "past",
+      "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260709T145009",
-          "end": "20260709T145109"
+          "begin": "20260709T182206",
+          "end": "20260710T043000"
         }
       ],
       "messages": [
@@ -84,12 +84,12 @@
           "channel": "titre"
         },
         {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "notification"
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
+          "channel": "moteur"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation à Mairie d'Issy .</p>",
-          "channel": "moteur"
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "channel": "notification"
         },
         {
           "text": "Trafic perturbé",
