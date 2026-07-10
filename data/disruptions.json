@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-07-10T11:27:09.592223Z",
+  "lastCheck": "2026-07-10T13:23:02.818451Z",
   "hasNewDisruptions": true,
   "disruptionCount": 2,
   "disruptions": [
@@ -34,32 +34,32 @@
       ]
     },
     {
-      "id": "0080d460-b705-4561-98f8-b07424587344",
+      "id": "d79653d3-7958-4f26-a102-6e7a6bf8d246",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260710T115311",
-          "end": "20260711T043000"
+          "begin": "20260710T143157",
+          "end": "20260710T143257"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison de l'actionnement d'un signal d'alarme à Concorde .</p>",
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un bagage oublié dans un train à Mairie d'Issy .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
+          "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
           "channel": "notification"
         },
         {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
         }
       ]
     }
