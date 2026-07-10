@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-10T01:18:25.072514Z",
+  "lastCheck": "2026-07-10T05:09:42.707054Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 2,
+  "disruptionCount": 1,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -30,40 +30,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "bb3963fc-4897-4edc-b953-37a3cf1c1308",
-      "severity": "bloquante",
-      "status": "active",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20260709T220000",
-          "end": "20260710T043000"
-        },
-        {
-          "begin": "20260708T220000",
-          "end": "20260709T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Jusqu'au 9 juillet inclus, les mercredi et jeudi dès 22:00, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
         }
       ]
     }
