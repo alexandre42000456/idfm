@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-11T10:31:42.256950Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 2,
+  "lastCheck": "2026-07-11T11:30:21.518070Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 1,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -29,36 +29,6 @@
         },
         {
           "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "644a7b63-de26-4a04-aa08-1fcf74db2cba",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260711T112355",
-          "end": "20260711T112455"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Métro en panne - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un métro en panne entre Rue du Bac et Sèvres - Babylone .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Métro en panne - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
