@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-12T20:10:00.817404Z",
+  "lastCheck": "2026-07-12T21:02:54.266160Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 2,
+  "disruptionCount": 1,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -29,36 +29,6 @@
         },
         {
           "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "a63a6f4a-48f0-49ca-89d0-060b9fdc636a",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260712T205553",
-          "end": "20260712T205653"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident nécessitant l’intervention du conducteur à Mairie d'Issy .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
