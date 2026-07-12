@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-07-12T07:10:20.928861Z",
+  "lastCheck": "2026-07-12T09:11:48.157874Z",
   "hasNewDisruptions": true,
   "disruptionCount": 2,
   "disruptions": [
@@ -34,31 +34,31 @@
       ]
     },
     {
-      "id": "ee324761-5e21-4cd0-8ef8-8cdb413ada95",
+      "id": "258b84ba-7b78-4a2c-923d-98be636b21f0",
       "severity": "perturbée",
       "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260712T080856",
-          "end": "20260712T080956"
+          "begin": "20260712T101313",
+          "end": "20260712T101413"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion de personnes sur les voies à Mairie d'Aubervilliers .</p>",
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un bagage oublié dans un train à Mairie d'Issy .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
           "channel": "notification"
         },
         {
-          "text": "Trafic perturbé",
+          "text": "Reprise progressive / trafic reste perturbé",
           "channel": "cbiv"
         }
       ]
