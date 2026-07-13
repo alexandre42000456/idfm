@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-13T07:50:32.180253Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 2,
+  "lastCheck": "2026-07-13T10:43:47.453648Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 1,
   "disruptions": [
     {
       "id": "338b91bd-eb0a-46fa-ad06-16efa74ca858",
@@ -29,36 +29,6 @@
         },
         {
           "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "24960d29-899c-451f-b7cd-5b5dcc87c0d4",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260713T094135",
-          "end": "20260713T094235"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé vers Mairie d'Issy en répercussion d'un incident nécessitant l’intervention du conducteur à Notre-Dame-des-Champs .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
