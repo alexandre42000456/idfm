@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-16T06:06:56.348876Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 2,
+  "lastCheck": "2026-07-16T08:28:11.628633Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 1,
   "disruptions": [
     {
       "id": "3f2fa801-b1d2-4e8f-bf9c-72d8d092a0c2",
@@ -30,36 +30,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "e0370b67-aba2-42c5-affa-148b6dd0adc6",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260716T070946",
-          "end": "20260716T071046"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation à Montparnasse Bienvenue .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     }
