@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-18T15:37:53.180153Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "lastCheck": "2026-07-18T16:32:09.629615Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "3f2fa801-b1d2-4e8f-bf9c-72d8d092a0c2",
@@ -60,66 +60,6 @@
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy",
           "channel": "email ascenseur"
-        }
-      ]
-    },
-    {
-      "id": "2763dba3-6e39-4c20-a8cb-553345924dcb",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260718T162934",
-          "end": "20260718T163034"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Reprise progressive / trafic reste très perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic reprend mais reste très perturbé sur toute la ligne en répercussion d'une gêne à la fermeture des portes d'un train à Solférino .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Reprise progressive / trafic reste très perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Reprise progressive / trafic reste très perturbé",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "9460f11e-33fb-40ff-9161-678ea8a5c51a",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260718T165438",
-          "end": "20260718T165538"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation à Corentin Celton .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     }
