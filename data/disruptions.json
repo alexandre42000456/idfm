@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-18T14:46:32.318383Z",
+  "lastCheck": "2026-07-18T15:37:53.180153Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 3,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "3f2fa801-b1d2-4e8f-bf9c-72d8d092a0c2",
@@ -89,6 +89,36 @@
         },
         {
           "text": "Reprise progressive / trafic reste très perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "9460f11e-33fb-40ff-9161-678ea8a5c51a",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260718T165438",
+          "end": "20260718T165538"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation à Corentin Celton .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
           "channel": "cbiv"
         }
       ]
