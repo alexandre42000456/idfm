@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-18T12:32:23.330977Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 2,
+  "lastCheck": "2026-07-18T13:58:13.844917Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "3f2fa801-b1d2-4e8f-bf9c-72d8d092a0c2",
@@ -34,6 +34,36 @@
       ]
     },
     {
+      "id": "b6c05859-91a2-4b67-87e3-8320d7efb0fc",
+      "severity": "bloquante",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260718T154804",
+          "end": "20260719T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Montparnasse Bienvenue et Jules Joffrin en raison d'une gêne à la fermeture des portes d'un train à Solférino. <br>Reprise estimée : 16:20.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Gêne à la fermeture des portes d'un train - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
       "id": "047b6a2f-7520-4c92-aca3-25f0fed92f66",
       "severity": "perturbée",
       "status": "active",
@@ -50,16 +80,16 @@
           "channel": "titre"
         },
         {
+          "text": "Mairie d'Aubervilliers Panne ascenseur situé Quai 2, dir. Mairie d'Issy",
+          "channel": "sms ascenseurs"
+        },
+        {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy",
           "channel": "moteur"
         },
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy",
           "channel": "email ascenseur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur situé Quai 2, dir. Mairie d'Issy",
-          "channel": "sms ascenseurs"
         }
       ]
     }
