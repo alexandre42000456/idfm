@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-22T08:41:32.783388Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "lastCheck": "2026-07-22T10:49:10.921101Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 4,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -90,6 +90,36 @@
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-07-23 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
           "channel": "sms ascenseurs"
+        }
+      ]
+    },
+    {
+      "id": "24c2da4c-3902-4aae-b029-3dc1525c0412",
+      "severity": "information",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260722T111624",
+          "end": "20260727T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Manifestation sportive - Autre",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Arrivée du Tour de France le dimanche 26 juillet: certaines stations seront fermées à la demande de la Préfecture de Police. Retrouvez les détails sur les sites et applis Ile de France Mobilités et RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Autre",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Manifestation sportive - Autre",
+          "channel": "titre"
         }
       ]
     }
