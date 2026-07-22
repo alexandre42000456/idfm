@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-07-22T12:15:15.480513Z",
+  "lastCheck": "2026-07-22T14:21:39.585443Z",
   "hasNewDisruptions": false,
   "disruptionCount": 4,
   "disruptions": [
@@ -106,16 +106,16 @@
       ],
       "messages": [
         {
+          "text": "Autre",
+          "channel": "cbiv"
+        },
+        {
           "text": "Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Manifestation sportive - Autre",
           "channel": "notification"
         },
         {
           "text": "<p>Arrivée du Tour de France le dimanche 26 juillet: certaines stations seront fermées à la demande de la Préfecture de Police. Retrouvez les détails sur les sites et applis Ile de France Mobilités et RATP.</p>",
           "channel": "moteur"
-        },
-        {
-          "text": "Autre",
-          "channel": "cbiv"
         },
         {
           "text": "Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Manifestation sportive - Autre",
