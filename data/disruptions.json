@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-07-22T14:21:39.585443Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-07-22T15:53:28.183862Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
     {
@@ -94,32 +94,32 @@
       ]
     },
     {
-      "id": "24c2da4c-3902-4aae-b029-3dc1525c0412",
+      "id": "8873d8e5-2843-4cf2-b02e-f72f438c6c17",
       "severity": "information",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260722T111624",
+          "begin": "20260722T161743",
           "end": "20260727T043000"
         }
       ],
       "messages": [
         {
-          "text": "Autre",
-          "channel": "cbiv"
+          "text": "<p>Arrivée du Tour de France le dimanche 26 juillet: certaines stations seront fermées dès prise de service, à la demande de la Préfecture de Police. Retrouvez les détails sur les sites et applis Ile de France Mobilités et RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Manifestation sportive - Autre",
+          "channel": "titre"
         },
         {
           "text": "Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Manifestation sportive - Autre",
           "channel": "notification"
         },
         {
-          "text": "<p>Arrivée du Tour de France le dimanche 26 juillet: certaines stations seront fermées à la demande de la Préfecture de Police. Retrouvez les détails sur les sites et applis Ile de France Mobilités et RATP.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Manifestation sportive - Autre",
-          "channel": "titre"
+          "text": "Autre",
+          "channel": "cbiv"
         }
       ]
     }
