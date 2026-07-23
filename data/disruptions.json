@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-07-23T06:43:09.560477Z",
-  "hasNewDisruptions": false,
+  "lastCheck": "2026-07-23T09:13:12.456480Z",
+  "hasNewDisruptions": true,
   "disruptionCount": 4,
   "disruptions": [
     {
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "id": "511c0755-b821-4317-a260-ba8d42f4ac0f",
+      "id": "eb39b4b0-479f-4dd8-96c1-f2efa1caf3b1",
       "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
@@ -76,50 +76,50 @@
       ],
       "messages": [
         {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-07-23",
-          "channel": "email ascenseur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-07-23",
-          "channel": "moteur"
-        },
-        {
           "text": "Panne d'un ascenseur",
           "channel": "titre"
         },
         {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-07-23 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "moteur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "email ascenseur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
           "channel": "sms ascenseurs"
         }
       ]
     },
     {
-      "id": "8873d8e5-2843-4cf2-b02e-f72f438c6c17",
+      "id": "5ae98a3b-926d-46d5-befe-c1e3dbd8affe",
       "severity": "information",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260722T161743",
-          "end": "20260727T043000"
+          "begin": "20260723T100723",
+          "end": "20260723T100823"
         }
       ],
       "messages": [
-        {
-          "text": "<p>Arrivée du Tour de France le dimanche 26 juillet: certaines stations seront fermées dès prise de service, à la demande de la Préfecture de Police. Retrouvez les détails sur les sites et applis Ile de France Mobilités et RATP.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Manifestation sportive - Autre",
-          "channel": "titre"
-        },
         {
           "text": "Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Manifestation sportive - Autre",
           "channel": "notification"
         },
         {
+          "text": "<p>Arrivée du Tour de France le dimanche 26 juillet: certaines stations seront fermées dès prise de service, à la demande de la Préfecture de Police. Retrouvez les détails sur les sites et applis Ile de France Mobilités et RATP.</p>",
+          "channel": "moteur"
+        },
+        {
           "text": "Autre",
           "channel": "cbiv"
+        },
+        {
+          "text": "Tramway T3B / T3A / T8 / T7 / T6 / T5 / T2 / T1 - Métro 7B / 3B / 14 / 13 / 12 / 11 / 10 / 9 / 8 / 7 / 6 / 5 / 4 / 3 / 2 / 1 : Manifestation sportive - Autre",
+          "channel": "titre"
         }
       ]
     }
