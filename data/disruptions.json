@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-07-23T22:11:04.818120Z",
+  "lastCheck": "2026-07-23T23:09:13.982681Z",
   "hasNewDisruptions": true,
   "disruptionCount": 3,
   "disruptions": [
@@ -64,32 +64,32 @@
       ]
     },
     {
-      "id": "bbb98af3-bf86-4ae3-98e0-72e939f1c9eb",
+      "id": "219b974a-d190-445a-8f6b-d0d9c4d3f0be",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260723T231941",
-          "end": "20260724T043000"
+          "begin": "20260724T002951",
+          "end": "20260724T003051"
         }
       ],
       "messages": [
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
         {
           "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "titre"
         },
         {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
+          "channel": "moteur"
+        },
+        {
           "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
