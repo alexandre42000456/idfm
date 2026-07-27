@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-27T01:03:42.274343Z",
+  "lastCheck": "2026-07-27T04:44:17.543525Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260823T220000",
-          "end": "20260824T043000"
-        },
-        {
           "begin": "20260819T220000",
           "end": "20260820T043000"
+        },
+        {
+          "begin": "20260823T220000",
+          "end": "20260824T043000"
         }
       ],
       "messages": [
@@ -30,36 +30,6 @@
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "3f2fa801-b1d2-4e8f-bf9c-72d8d092a0c2",
-      "severity": "bloquante",
-      "status": "active",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20260716T044500",
-          "end": "20260727T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "<p>Jusqu'au 26 juillet inclus, le trafic est interrompu entre Jules Joffrin et Concorde en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
         },
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
