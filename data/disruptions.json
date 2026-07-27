@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-07-27T08:06:11.813588Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 2,
+  "lastCheck": "2026-07-27T11:34:46.576123Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 1,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -34,36 +34,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "6a54dc7d-272c-44bd-8e15-186d39b581b3",
-      "severity": "bloquante",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260727T094945",
-          "end": "20260728T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est interrompu entre Montparnasse Bienvenue et Porte de Versailles et perturbé sur le reste de la ligne en raison d'un malaise voyageur à bord du train. <br>Reprise estimée : 10:30.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
         }
       ]
     }
