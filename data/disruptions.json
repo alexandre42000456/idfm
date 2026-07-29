@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-07-29T16:40:18.009535Z",
+  "lastCheck": "2026-07-29T17:51:58.507749Z",
   "hasNewDisruptions": true,
   "disruptionCount": 2,
   "disruptions": [
@@ -14,12 +14,12 @@
           "end": "20260820T043000"
         },
         {
-          "begin": "20260823T220000",
-          "end": "20260824T043000"
-        },
-        {
           "begin": "20260826T220000",
           "end": "20260827T043000"
+        },
+        {
+          "begin": "20260823T220000",
+          "end": "20260824T043000"
         }
       ],
       "messages": [
@@ -42,32 +42,32 @@
       ]
     },
     {
-      "id": "e39a905a-b4f1-4cf6-8579-bcb9a6ce5c06",
-      "severity": "bloquante",
-      "status": "active",
+      "id": "42699936-7702-4e2c-a279-eaebaba5d98d",
+      "severity": "perturbée",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260729T173935",
+          "begin": "20260729T184351",
           "end": "20260729T190000"
         }
       ],
       "messages": [
         {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
           "channel": "titre"
         },
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en raison d'un bagage oublié dans un train à Mairie d'Aubervilliers .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
           "channel": "notification"
         },
         {
-          "text": "<p>Le trafic est interrompu entre Front Populaire et Mairie d'Aubervilliers en raison d'un bagage oublié dans un train à Mairie d'Aubervilliers. <br>Reprise estimée : 19:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
-          "channel": "moteur"
+          "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
         }
       ]
     }
