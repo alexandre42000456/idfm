@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-07-29T15:21:46.852755Z",
+  "lastCheck": "2026-07-29T16:40:18.009535Z",
   "hasNewDisruptions": true,
   "disruptionCount": 2,
   "disruptions": [
@@ -14,12 +14,12 @@
           "end": "20260820T043000"
         },
         {
-          "begin": "20260826T220000",
-          "end": "20260827T043000"
-        },
-        {
           "begin": "20260823T220000",
           "end": "20260824T043000"
+        },
+        {
+          "begin": "20260826T220000",
+          "end": "20260827T043000"
         }
       ],
       "messages": [
@@ -42,32 +42,32 @@
       ]
     },
     {
-      "id": "410833cf-0e9e-4c88-85b1-02e60527c128",
+      "id": "e39a905a-b4f1-4cf6-8579-bcb9a6ce5c06",
       "severity": "bloquante",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260729T163911",
-          "end": "20260730T043000"
+          "begin": "20260729T173935",
+          "end": "20260729T190000"
         }
       ],
       "messages": [
-        {
-          "text": "<p>Le trafic est interrompu entre Front Populaire et Mairie d'Aubervilliers en raison d'un bagage oublié dans un train à Mairie d'Aubervilliers. <br>Reprise estimée : 17:30.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
-          "channel": "moteur"
-        },
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
         },
         {
           "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
-          "channel": "notification"
+          "channel": "titre"
         },
         {
           "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
-          "channel": "titre"
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Front Populaire et Mairie d'Aubervilliers en raison d'un bagage oublié dans un train à Mairie d'Aubervilliers. <br>Reprise estimée : 19:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
         }
       ]
     }
