@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-08-01T18:08:53.811772Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 1,
+  "lastCheck": "2026-08-01T19:23:13.638306Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260830T220000",
-          "end": "20260831T043000"
-        },
-        {
           "begin": "20260823T220000",
           "end": "20260824T043000"
         },
         {
-          "begin": "20260819T220000",
-          "end": "20260820T043000"
-        },
-        {
           "begin": "20260826T220000",
           "end": "20260827T043000"
+        },
+        {
+          "begin": "20260830T220000",
+          "end": "20260831T043000"
+        },
+        {
+          "begin": "20260819T220000",
+          "end": "20260820T043000"
         }
       ],
       "messages": [
@@ -42,6 +42,36 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "57eab374-49b7-4205-a39d-ba7da3d32a03",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260801T211849",
+          "end": "20260802T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un bagage oublié dans un train à Rennes .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
