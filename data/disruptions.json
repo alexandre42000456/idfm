@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-08-01T16:11:30.795973Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 1,
+  "lastCheck": "2026-08-01T17:11:30.701973Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260830T220000",
-          "end": "20260831T043000"
+          "begin": "20260823T220000",
+          "end": "20260824T043000"
         },
         {
           "begin": "20260826T220000",
           "end": "20260827T043000"
         },
         {
-          "begin": "20260819T220000",
-          "end": "20260820T043000"
+          "begin": "20260830T220000",
+          "end": "20260831T043000"
         },
         {
-          "begin": "20260823T220000",
-          "end": "20260824T043000"
+          "begin": "20260819T220000",
+          "end": "20260820T043000"
         }
       ],
       "messages": [
@@ -42,6 +42,36 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "15427a4e-a1a7-41b4-86e6-645b0e384fc8",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260801T185209",
+          "end": "20260801T185309"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié sur un quai - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un bagage oublié sur un quai à Porte de La Chapelle .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié sur un quai - Reprise progressive / trafic reste perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
         }
       ]
     }
