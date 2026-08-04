@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-08-04T21:34:22.474766Z",
+  "lastCheck": "2026-08-04T22:38:02.308453Z",
   "hasNewDisruptions": true,
   "disruptionCount": 2,
   "disruptions": [
@@ -46,13 +46,13 @@
       ]
     },
     {
-      "id": "5121894e-e02c-469c-bf33-1e430cd86a0a",
+      "id": "db47d610-c116-40c9-b2b2-1fb81a01ef44",
       "severity": "bloquante",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260804T222229",
+          "begin": "20260805T000703",
           "end": "20260805T043000"
         }
       ],
@@ -62,7 +62,7 @@
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Montparnasse Bienvenue en raison d'un accident grave de personne à Convention. <br>Reprise estimée : 00:20.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Montparnasse Bienvenue en raison d'un accident grave de personne à Convention. <br>Pas de reprise prévue d'ici la fin de service.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
           "channel": "moteur"
         },
         {
