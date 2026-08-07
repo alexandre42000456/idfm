@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-08-07T05:08:04.259397Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 4,
+  "lastCheck": "2026-08-07T06:14:37.419297Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260830T220000",
-          "end": "20260831T043000"
-        },
-        {
-          "begin": "20260826T220000",
-          "end": "20260827T043000"
-        },
-        {
           "begin": "20260819T220000",
           "end": "20260820T043000"
         },
         {
+          "begin": "20260830T220000",
+          "end": "20260831T043000"
+        },
+        {
           "begin": "20260823T220000",
           "end": "20260824T043000"
+        },
+        {
+          "begin": "20260826T220000",
+          "end": "20260827T043000"
         }
       ],
       "messages": [
@@ -42,36 +42,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "87ecc8e8-bce2-402b-b07b-eb08e90a3bed",
-      "severity": "bloquante",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260807T060140",
-          "end": "20260807T062604"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Incident technique - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Métro 12 : Incident technique - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est interrompu entre Pasteur et Saint-Lazare en raison d'un incident technique entre Pasteur et Saint-Lazare. <br>Reprise estimée : 06:05.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
-          "channel": "moteur"
         }
       ]
     },
@@ -102,36 +72,6 @@
         {
           "text": "Panne d'un ascenseur",
           "channel": "titre"
-        }
-      ]
-    },
-    {
-      "id": "8fc84ecb-9acb-42ca-a451-23be46e4a063",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260807T065249",
-          "end": "20260807T065349"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Métro en panne - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un métro en panne à Mairie d'Issy .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Métro en panne - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     }
