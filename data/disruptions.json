@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-08-07T11:55:49.137326Z",
+  "lastCheck": "2026-08-07T12:36:17.120029Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 2,
+  "disruptionCount": 1,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260826T220000",
-          "end": "20260827T043000"
+          "begin": "20260823T220000",
+          "end": "20260824T043000"
         },
         {
           "begin": "20260830T220000",
           "end": "20260831T043000"
         },
         {
-          "begin": "20260823T220000",
-          "end": "20260824T043000"
-        },
-        {
           "begin": "20260819T220000",
           "end": "20260820T043000"
+        },
+        {
+          "begin": "20260826T220000",
+          "end": "20260827T043000"
         }
       ],
       "messages": [
@@ -42,36 +42,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "7df549e1-1594-4e6e-a6df-1bbd8a7ef2df",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260806T200843",
-          "end": "20270806T200843"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy, jusqu'au 2026-08-08",
-          "channel": "moteur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy, jusqu'au 2026-08-08",
-          "channel": "email ascenseur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-08-08 situé Quai 2, dir. Mairie d'Issy",
-          "channel": "sms ascenseurs"
-        },
-        {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
         }
       ]
     }
