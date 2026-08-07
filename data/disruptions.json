@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-08-07T15:33:11.407969Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 2,
+  "lastCheck": "2026-08-07T16:25:57.815478Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 1,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260819T220000",
-          "end": "20260820T043000"
-        },
-        {
-          "begin": "20260823T220000",
-          "end": "20260824T043000"
+          "begin": "20260830T220000",
+          "end": "20260831T043000"
         },
         {
           "begin": "20260826T220000",
           "end": "20260827T043000"
         },
         {
-          "begin": "20260830T220000",
-          "end": "20260831T043000"
+          "begin": "20260823T220000",
+          "end": "20260824T043000"
+        },
+        {
+          "begin": "20260819T220000",
+          "end": "20260820T043000"
         }
       ],
       "messages": [
@@ -42,36 +42,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "68ab7169-113a-4f98-b540-e1e52b68e409",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260807T163601",
-          "end": "20260807T163701"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Panne de signalisation - Trains stationnent",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Des trains stationnent entre Notre-Dame-de-Lorette et Lamarck - Caulaincourt vers Mairie d'Issy en raison d'une panne de signalisation à Notre-Dame-de-Lorette .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Panne de signalisation - Trains stationnent",
-          "channel": "notification"
-        },
-        {
-          "text": "Trains stationnent",
-          "channel": "cbiv"
         }
       ]
     }
