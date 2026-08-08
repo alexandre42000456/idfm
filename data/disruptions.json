@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-08-08T13:04:17.066426Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 1,
+  "lastCheck": "2026-08-08T13:50:23.470423Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260819T220000",
+          "end": "20260820T043000"
+        },
+        {
           "begin": "20260823T220000",
           "end": "20260824T043000"
         },
         {
           "begin": "20260830T220000",
           "end": "20260831T043000"
-        },
-        {
-          "begin": "20260819T220000",
-          "end": "20260820T043000"
         },
         {
           "begin": "20260826T220000",
@@ -42,6 +42,36 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "146a8bab-9db2-49ca-91cb-ba308aed58db",
+      "severity": "bloquante",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260808T154447",
+          "end": "20260809T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Porte de Versailles en raison d'un bagage oublié dans un train à Mairie d'Issy. <br>Reprise estimée : 16:30.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
         }
       ]
     }
