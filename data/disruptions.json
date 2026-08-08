@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-08-08T13:50:23.470423Z",
+  "lastCheck": "2026-08-08T14:18:32.778361Z",
   "hasNewDisruptions": true,
   "disruptionCount": 2,
   "disruptions": [
@@ -14,16 +14,16 @@
           "end": "20260820T043000"
         },
         {
+          "begin": "20260826T220000",
+          "end": "20260827T043000"
+        },
+        {
           "begin": "20260823T220000",
           "end": "20260824T043000"
         },
         {
           "begin": "20260830T220000",
           "end": "20260831T043000"
-        },
-        {
-          "begin": "20260826T220000",
-          "end": "20260827T043000"
         }
       ],
       "messages": [
@@ -46,31 +46,31 @@
       ]
     },
     {
-      "id": "146a8bab-9db2-49ca-91cb-ba308aed58db",
-      "severity": "bloquante",
+      "id": "5692e754-04db-40cd-96b5-a850306ca2ec",
+      "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260808T154447",
+          "begin": "20260808T155812",
           "end": "20260809T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est interrompu entre Mairie d'Issy et Porte de Versailles en raison d'un bagage oublié dans un train à Mairie d'Issy. <br>Reprise estimée : 16:30.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "text": "<p>Le trafic reprend progressivement sur toute la ligne en répercussion d'un bagage oublié dans un train à Mairie d'Issy .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Bagage oublié dans un train - Trafic interrompu",
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
           "channel": "notification"
         },
         {
-          "text": "Trafic interrompu",
+          "text": "Reprise progressive",
           "channel": "cbiv"
         }
       ]
