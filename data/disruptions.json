@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-08-08T15:13:06.088992Z",
+  "lastCheck": "2026-08-08T15:43:31.983436Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 2,
+  "disruptionCount": 1,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260830T220000",
-          "end": "20260831T043000"
-        },
-        {
           "begin": "20260826T220000",
           "end": "20260827T043000"
         },
         {
           "begin": "20260819T220000",
           "end": "20260820T043000"
+        },
+        {
+          "begin": "20260830T220000",
+          "end": "20260831T043000"
         },
         {
           "begin": "20260823T220000",
@@ -42,36 +42,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "916a5a70-59fe-48b0-a323-e5905b9fedd1",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260808T161301",
-          "end": "20260808T161401"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic reprend progressivement sur toute la ligne en répercussion d'un bagage oublié dans un train à Mairie d'Issy .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive",
-          "channel": "notification"
-        },
-        {
-          "text": "Reprise progressive",
-          "channel": "cbiv"
         }
       ]
     }
