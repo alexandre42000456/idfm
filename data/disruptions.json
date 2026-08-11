@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-08-11T18:12:25.796847Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 1,
+  "lastCheck": "2026-08-11T19:17:04.862682Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
+          "begin": "20260823T220000",
+          "end": "20260824T043000"
+        },
+        {
           "begin": "20260830T220000",
           "end": "20260831T043000"
         },
         {
           "begin": "20260819T220000",
           "end": "20260820T043000"
-        },
-        {
-          "begin": "20260823T220000",
-          "end": "20260824T043000"
         },
         {
           "begin": "20260826T220000",
@@ -42,6 +42,36 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "95816d61-8837-40f0-9ece-318bc770dac6",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260811T203624",
+          "end": "20260811T203724"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion de personnes sur les voies à Pigalle .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
