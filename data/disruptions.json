@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-08-11T13:51:31.637884Z",
+  "lastCheck": "2026-08-11T14:45:52.943066Z",
   "hasNewDisruptions": true,
   "disruptionCount": 2,
   "disruptions": [
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260830T220000",
-          "end": "20260831T043000"
-        },
-        {
-          "begin": "20260823T220000",
-          "end": "20260824T043000"
-        },
-        {
           "begin": "20260826T220000",
           "end": "20260827T043000"
         },
         {
           "begin": "20260819T220000",
           "end": "20260820T043000"
+        },
+        {
+          "begin": "20260830T220000",
+          "end": "20260831T043000"
+        },
+        {
+          "begin": "20260823T220000",
+          "end": "20260824T043000"
         }
       ],
       "messages": [
@@ -46,14 +46,14 @@
       ]
     },
     {
-      "id": "4943820a-2214-4690-b7ae-6388cfc358a0",
+      "id": "b7d341d6-81ca-4c46-a8f4-81af10173988",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260811T154233",
-          "end": "20260812T043000"
+          "begin": "20260811T160334",
+          "end": "20260811T160434"
         }
       ],
       "messages": [
