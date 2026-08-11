@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-08-11T06:03:56.589399Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 1,
+  "lastCheck": "2026-08-11T07:20:08.579213Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -9,6 +9,10 @@
       "status": "future",
       "cause": "travaux",
       "application_periods": [
+        {
+          "begin": "20260823T220000",
+          "end": "20260824T043000"
+        },
         {
           "begin": "20260826T220000",
           "end": "20260827T043000"
@@ -20,10 +24,6 @@
         {
           "begin": "20260819T220000",
           "end": "20260820T043000"
-        },
-        {
-          "begin": "20260823T220000",
-          "end": "20260824T043000"
         }
       ],
       "messages": [
@@ -42,6 +42,36 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "ade529b1-ae13-41bb-ae42-88bf18fdd3bb",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260811T091126",
+          "end": "20270811T091126"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-08-12",
+          "channel": "moteur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-08-12",
+          "channel": "email ascenseur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-08-12 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "sms ascenseurs"
         }
       ]
     }
