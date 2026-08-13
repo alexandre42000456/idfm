@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-08-13T18:02:11.044686Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 1,
+  "lastCheck": "2026-08-13T19:09:27.506649Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -10,16 +10,16 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260826T220000",
-          "end": "20260827T043000"
+          "begin": "20260823T220000",
+          "end": "20260824T043000"
         },
         {
           "begin": "20260830T220000",
           "end": "20260831T043000"
         },
         {
-          "begin": "20260823T220000",
-          "end": "20260824T043000"
+          "begin": "20260826T220000",
+          "end": "20260827T043000"
         },
         {
           "begin": "20260819T220000",
@@ -42,6 +42,36 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "46993da5-fb83-4300-a192-0e25aeea94db",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260813T201124",
+          "end": "20270813T201124"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-08-15",
+          "channel": "moteur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-08-15",
+          "channel": "email ascenseur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-08-15 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud",
+          "channel": "sms ascenseurs"
         }
       ]
     }
