@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-08-15T11:56:37.224919Z",
+  "lastCheck": "2026-08-15T12:18:07.103281Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -42,36 +42,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "74dd64d9-ee9e-4518-9202-186dcac1fc18",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260814T201021",
-          "end": "20270814T201021"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "moteur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "sms ascenseurs"
-        },
-        {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "email ascenseur"
         }
       ]
     },
