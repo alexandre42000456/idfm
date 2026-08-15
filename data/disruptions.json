@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-08-15T18:00:37.569810Z",
+  "lastCheck": "2026-08-15T18:30:45.048657Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 2,
+  "disruptionCount": 1,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -10,20 +10,20 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260826T220000",
-          "end": "20260827T043000"
-        },
-        {
-          "begin": "20260823T220000",
-          "end": "20260824T043000"
+          "begin": "20260830T220000",
+          "end": "20260831T043000"
         },
         {
           "begin": "20260819T220000",
           "end": "20260820T043000"
         },
         {
-          "begin": "20260830T220000",
-          "end": "20260831T043000"
+          "begin": "20260826T220000",
+          "end": "20260827T043000"
+        },
+        {
+          "begin": "20260823T220000",
+          "end": "20260824T043000"
         }
       ],
       "messages": [
@@ -42,36 +42,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "98f2f086-6285-4cde-acae-0650f0761e3b",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260815T184659",
-          "end": "20260815T184759"
-        }
-      ],
-      "messages": [
-        {
-          "text": "<p>Le trafic est perturbé vers Mairie d'Aubervilliers en raison d'un incident nécessitant l’intervention du conducteur à Mairie d'Issy .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
         }
       ]
     }
