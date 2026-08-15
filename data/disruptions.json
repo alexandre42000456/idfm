@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-08-15T16:47:01.295069Z",
+  "lastCheck": "2026-08-15T17:01:00.353585Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 2,
+  "disruptionCount": 3,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -67,6 +67,36 @@
         },
         {
           "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "98f2f086-6285-4cde-acae-0650f0761e3b",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260815T184659",
+          "end": "20260815T184759"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé vers Mairie d'Aubervilliers en raison d'un incident nécessitant l’intervention du conducteur à Mairie d'Issy .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident (intervention conducteur) - Trafic perturbé",
           "channel": "notification"
         },
         {
