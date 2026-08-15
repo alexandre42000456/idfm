@@ -1,6 +1,6 @@
 {
-  "lastCheck": "2026-08-15T07:38:15.962729Z",
-  "hasNewDisruptions": true,
+  "lastCheck": "2026-08-15T07:55:46.902901Z",
+  "hasNewDisruptions": false,
   "disruptionCount": 2,
   "disruptions": [
     {
@@ -10,12 +10,12 @@
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260826T220000",
-          "end": "20260827T043000"
-        },
-        {
           "begin": "20260830T220000",
           "end": "20260831T043000"
+        },
+        {
+          "begin": "20260826T220000",
+          "end": "20260827T043000"
         },
         {
           "begin": "20260823T220000",
@@ -58,20 +58,20 @@
       ],
       "messages": [
         {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "moteur"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
+          "channel": "sms ascenseurs"
+        },
+        {
           "text": "Panne d'un ascenseur",
           "channel": "titre"
         },
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "moteur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
           "channel": "email ascenseur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "sms ascenseurs"
         }
       ]
     }
