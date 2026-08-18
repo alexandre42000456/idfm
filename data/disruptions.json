@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-08-18T07:57:27.165475Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 1,
+  "lastCheck": "2026-08-18T08:26:16.772746Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 2,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -42,6 +42,36 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "33326169-a429-43b0-88c2-588dd28ec02b",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260818T095152",
+          "end": "20260818T101600"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident (intervention agents) - Trains stationnent",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Des trains stationnent entre Sèvres - Babylone et Notre-Dame-des-Champs en raison d'un incident nécessitant l’intervention de nos agents à Rennes .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident (intervention agents) - Trains stationnent",
+          "channel": "notification"
+        },
+        {
+          "text": "Trains stationnent",
+          "channel": "cbiv"
         }
       ]
     }
