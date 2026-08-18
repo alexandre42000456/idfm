@@ -1,7 +1,7 @@
 {
-  "lastCheck": "2026-08-18T08:59:55.838440Z",
+  "lastCheck": "2026-08-18T09:31:54.277332Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 2,
+  "disruptionCount": 1,
   "disruptions": [
     {
       "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
@@ -14,16 +14,16 @@
           "end": "20260820T043000"
         },
         {
-          "begin": "20260830T220000",
-          "end": "20260831T043000"
+          "begin": "20260826T220000",
+          "end": "20260827T043000"
         },
         {
           "begin": "20260823T220000",
           "end": "20260824T043000"
         },
         {
-          "begin": "20260826T220000",
-          "end": "20260827T043000"
+          "begin": "20260830T220000",
+          "end": "20260831T043000"
         }
       ],
       "messages": [
@@ -42,36 +42,6 @@
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
-        }
-      ]
-    },
-    {
-      "id": "33326169-a429-43b0-88c2-588dd28ec02b",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260818T095152",
-          "end": "20260818T101600"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Incident (intervention agents) - Trains stationnent",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Des trains stationnent entre Sèvres - Babylone et Notre-Dame-des-Champs en raison d'un incident nécessitant l’intervention de nos agents à Rennes .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident (intervention agents) - Trains stationnent",
-          "channel": "notification"
-        },
-        {
-          "text": "Trains stationnent",
-          "channel": "cbiv"
         }
       ]
     }
