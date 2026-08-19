@@ -1,68 +1,8 @@
 {
-  "lastCheck": "2026-08-19T21:03:17.459002Z",
+  "lastCheck": "2026-08-19T21:32:33.039363Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 3,
+  "disruptionCount": 1,
   "disruptions": [
-    {
-      "id": "649540d3-b121-48ac-8173-ed1fac84db51",
-      "severity": "bloquante",
-      "status": "past",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20260819T215959",
-          "end": "20260819T220000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Du 19 août au 30 août inclus, les mercredi et dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "c3fdbbaf-65c4-4a2b-8ccb-177d3db3a05b",
-      "severity": "bloquante",
-      "status": "past",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20260819T215959",
-          "end": "20260819T220000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Du 19 août au 30 août inclus, les mercredi et dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
     {
       "id": "c89d9cb1-25cc-42ae-a4da-787bdb57d374",
       "severity": "bloquante",
