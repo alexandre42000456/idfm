@@ -1,47 +1,107 @@
 {
-  "lastCheck": "2026-08-19T19:56:48.389583Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 1,
+  "lastCheck": "2026-08-19T20:16:07.657713Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 3,
   "disruptions": [
     {
-      "id": "96a7ff45-abf6-4c0e-b00e-1852a87b0ab6",
+      "id": "649540d3-b121-48ac-8173-ed1fac84db51",
       "severity": "bloquante",
-      "status": "future",
+      "status": "past",
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260826T220000",
-          "end": "20260827T043000"
-        },
-        {
-          "begin": "20260823T220000",
-          "end": "20260824T043000"
-        },
-        {
-          "begin": "20260830T220000",
-          "end": "20260831T043000"
-        },
-        {
-          "begin": "20260819T220000",
-          "end": "20260820T043000"
+          "begin": "20260819T215959",
+          "end": "20260819T220000"
         }
       ],
       "messages": [
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "titre"
+        },
         {
           "text": "<p>Du 19 août au 30 août inclus, les mercredi et dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
           "channel": "moteur"
         },
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
+          "channel": "notification"
         },
         {
           "text": "Trafic interrompu",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "c3fdbbaf-65c4-4a2b-8ccb-177d3db3a05b",
+      "severity": "bloquante",
+      "status": "past",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260819T215959",
+          "end": "20260819T220000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Du 19 août au 30 août inclus, les mercredi et dimanche dès 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
+          "channel": "moteur"
         },
         {
           "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
           "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "c89d9cb1-25cc-42ae-a4da-787bdb57d374",
+      "severity": "bloquante",
+      "status": "active",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20260819T220000",
+          "end": "20260820T043000"
+        },
+        {
+          "begin": "20260823T220000",
+          "end": "20260824T043000"
+        },
+        {
+          "begin": "20260826T220000",
+          "end": "20260827T043000"
+        },
+        {
+          "begin": "20260830T220000",
+          "end": "20260831T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Jusqu'au 30 août inclus, les mercredi et dimanche dès 22:00, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
         }
       ]
     }
