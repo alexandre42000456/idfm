@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-08-24T13:29:14.024088Z",
+  "lastCheck": "2026-08-24T14:09:17.541918Z",
   "hasNewDisruptions": true,
   "disruptionCount": 2,
   "disruptions": [
@@ -46,31 +46,31 @@
       ]
     },
     {
-      "id": "1c7ba9d1-a8fd-4c51-9ed2-d16c8823a6b6",
-      "severity": "bloquante",
-      "status": "active",
+      "id": "92164522-98bd-4c30-b75a-d5714b6def29",
+      "severity": "perturbée",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260824T151156",
-          "end": "20260825T043000"
+          "begin": "20260824T152632",
+          "end": "20260824T152732"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Bagage oublié sur un quai - Trafic interrompu",
+          "text": "Métro 12 : Bagage oublié sur un quai - Reprise progressive / trafic reste perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est interrompu entre Front Populaire et Mairie d'Aubervilliers en raison d'un bagage oublié sur un quai à Mairie d'Aubervilliers. <br>Reprise estimée : 16:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié sur un quai - Trafic interrompu",
+          "text": "Métro 12 : Bagage oublié sur un quai - Reprise progressive / trafic reste perturbé",
           "channel": "notification"
         },
         {
-          "text": "Trafic interrompu",
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un bagage oublié sur un quai à Mairie d'Aubervilliers .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Reprise progressive / trafic reste perturbé",
           "channel": "cbiv"
         }
       ]
