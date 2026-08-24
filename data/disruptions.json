@@ -1,21 +1,21 @@
 {
-  "lastCheck": "2026-08-24T02:01:39.750484Z",
+  "lastCheck": "2026-08-24T03:06:54.698543Z",
   "hasNewDisruptions": false,
   "disruptionCount": 2,
   "disruptions": [
     {
       "id": "c89d9cb1-25cc-42ae-a4da-787bdb57d374",
       "severity": "bloquante",
-      "status": "active",
+      "status": "future",
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20260830T220000",
-          "end": "20260831T043000"
-        },
-        {
           "begin": "20260823T220000",
           "end": "20260824T043000"
+        },
+        {
+          "begin": "20260830T220000",
+          "end": "20260831T043000"
         },
         {
           "begin": "20260826T220000",
