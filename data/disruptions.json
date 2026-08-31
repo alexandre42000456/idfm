@@ -1,41 +1,6 @@
 {
-  "lastCheck": "2026-08-31T00:26:29.422444Z",
+  "lastCheck": "2026-08-31T05:50:24.692920Z",
   "hasNewDisruptions": false,
-  "disruptionCount": 1,
-  "disruptions": [
-    {
-      "id": "c89d9cb1-25cc-42ae-a4da-787bdb57d374",
-      "severity": "bloquante",
-      "status": "active",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20260830T220000",
-          "end": "20260831T043000"
-        },
-        {
-          "begin": "20260826T220000",
-          "end": "20260827T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "<p>Jusqu'au 30 août inclus, les mercredi et dimanche dès 22:00, le trafic est interrompu sur toute la ligne en raison de travaux de modernisation.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "Métro 12 : Travaux de modernisation - Trafic interrompu",
-          "channel": "notification"
-        }
-      ]
-    }
-  ]
+  "disruptionCount": 0,
+  "disruptions": []
 }
