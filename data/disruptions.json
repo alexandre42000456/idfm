@@ -1,6 +1,37 @@
 {
-  "lastCheck": "2026-09-01T21:20:18.118764Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 0,
-  "disruptions": []
+  "lastCheck": "2026-09-01T23:21:55.562900Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 1,
+  "disruptions": [
+    {
+      "id": "6372dd58-b87f-448e-9571-a3f0492d8ac0",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260902T003028",
+          "end": "20260902T003128"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison de l'actionnement d'un signal d'alarme  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Actionnement d'un signal d'alarme - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    }
+  ]
 }
