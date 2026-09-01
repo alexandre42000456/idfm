@@ -1,30 +1,30 @@
 {
-  "lastCheck": "2026-09-01T15:32:13.836160Z",
+  "lastCheck": "2026-09-01T18:44:32.415385Z",
   "hasNewDisruptions": true,
   "disruptionCount": 1,
   "disruptions": [
     {
-      "id": "d04d0a49-190d-45a7-84e6-405657518752",
+      "id": "d782e757-b2a7-4ac6-b0ad-48d164f4f974",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260901T171727",
-          "end": "20260902T043000"
+          "begin": "20260901T195715",
+          "end": "20260901T195815"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
+          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion de personnes sur les voies entre Corentin Celton et Mairie d'Issy .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un ajustement de l'intervalle entre les trains  .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
+          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trafic perturbé",
           "channel": "notification"
         },
         {
