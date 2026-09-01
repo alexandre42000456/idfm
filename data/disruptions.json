@@ -1,37 +1,6 @@
 {
-  "lastCheck": "2026-09-01T18:44:32.415385Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 1,
-  "disruptions": [
-    {
-      "id": "d782e757-b2a7-4ac6-b0ad-48d164f4f974",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260901T195715",
-          "end": "20260901T195815"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un ajustement de l'intervalle entre les trains  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        }
-      ]
-    }
-  ]
+  "lastCheck": "2026-09-01T21:20:18.118764Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 0,
+  "disruptions": []
 }
