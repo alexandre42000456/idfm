@@ -1,35 +1,65 @@
 {
-  "lastCheck": "2026-09-09T04:26:07.880479Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 1,
+  "lastCheck": "2026-09-09T09:02:53.279389Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 2,
   "disruptions": [
     {
-      "id": "12299e1a-04a9-4944-8429-36da5969100e",
+      "id": "7dd89f7f-621a-4eda-8265-1460272b767f",
       "severity": "perturbée",
-      "status": "active",
+      "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260908T200946",
-          "end": "20270908T200946"
+          "begin": "20260909T103429",
+          "end": "20260909T103529"
         }
       ],
       "messages": [
         {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-09-09",
-          "channel": "moteur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord, jusqu'au 2026-09-09",
-          "channel": "email ascenseur"
-        },
-        {
-          "text": "Panne d'un ascenseur",
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-09-09 situé Voirie <> Comptoir d'information <> Ligne de contrôle - Nord",
-          "channel": "sms ascenseurs"
+          "text": "<p>Le trafic est perturbé vers Mairie d'Issy en répercussion d'un bagage oublié dans un train  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "4bba3858-0fed-4144-95f7-238bc10ddec3",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260909T105029",
+          "end": "20260909T105129"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé vers Mairie d'Aubervilliers en raison d'un bagage oublié dans un train  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
