@@ -1,8 +1,38 @@
 {
-  "lastCheck": "2026-09-11T00:34:30.731900Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 1,
+  "lastCheck": "2026-09-11T05:06:27.169654Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 3,
   "disruptions": [
+    {
+      "id": "7a746444-5089-486a-9f27-7145be87267b",
+      "severity": "bloquante",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260911T060229",
+          "end": "20260911T060329"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Rail endommagé - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "<p>Le trafic est interrompu entre Jules Joffrin et Saint-Lazare en raison d'un rail endommagé à Saint-Georges. <br>Reprise estimée : 06:45.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Rail endommagé - Trafic interrompu",
+          "channel": "notification"
+        }
+      ]
+    },
     {
       "id": "3b8d7d0e-af39-452c-b61b-4279a24827bb",
       "severity": "perturbée",
@@ -30,6 +60,36 @@
         {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Voirie <> Comptoir d'information <> Ligne de contrôle - Sud, jusqu'au 2026-09-11",
           "channel": "moteur"
+        }
+      ]
+    },
+    {
+      "id": "039fba45-1e60-4ed3-8883-efd27ce2e46f",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260911T061627",
+          "end": "20260911T061727"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Rail endommagé - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un rail endommagé à Saint-Georges .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Rail endommagé - Reprise progressive / trafic reste perturbé",
+          "channel": "notification"
         }
       ]
     }
