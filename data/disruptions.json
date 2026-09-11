@@ -1,37 +1,6 @@
 {
-  "lastCheck": "2026-09-11T17:14:42.349514Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 1,
-  "disruptions": [
-    {
-      "id": "d1d66722-3672-410c-a720-9080c7b84788",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260911T173411",
-          "end": "20260912T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une panne de signalisation à Trinité - d'Estienne d'Orves .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        }
-      ]
-    }
-  ]
+  "lastCheck": "2026-09-11T19:42:20.237820Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 0,
+  "disruptions": []
 }
