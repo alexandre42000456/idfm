@@ -1,5 +1,5 @@
 {
-  "lastCheck": "2026-09-12T20:52:02.967882Z",
+  "lastCheck": "2026-09-12T22:38:06.100217Z",
   "hasNewDisruptions": false,
   "disruptionCount": 1,
   "disruptions": [
@@ -16,20 +16,20 @@
       ],
       "messages": [
         {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
-        },
-        {
           "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers, jusqu'au 2026-09-14",
           "channel": "moteur"
         },
         {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers, jusqu'au 2026-09-14",
-          "channel": "email ascenseur"
+          "text": "Panne d'un ascenseur",
+          "channel": "titre"
         },
         {
           "text": "Mairie d'Aubervilliers Panne ascenseur jusqu'au 2026-09-14 situé Quai <> Couloir, dir. Marie d'Aubervilliers",
           "channel": "sms ascenseurs"
+        },
+        {
+          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai <> Couloir, direction Marie d'Aubervilliers, jusqu'au 2026-09-14",
+          "channel": "email ascenseur"
         }
       ]
     }
