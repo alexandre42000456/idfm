@@ -1,6 +1,67 @@
 {
-  "lastCheck": "2026-09-12T06:05:26.209535Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 0,
-  "disruptions": []
+  "lastCheck": "2026-09-12T10:37:10.494683Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 2,
+  "disruptions": [
+    {
+      "id": "469eb070-8ec1-4e59-a1aa-fbbec978ec7e",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260912T112820",
+          "end": "20260912T112920"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident voyageur à Pigalle .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident voyageur - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "0ab0714f-7ccf-4274-b580-a613256a036f",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260912T114820",
+          "end": "20260912T114920"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident (intervention agents) - Trains stationnent",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Des trains stationnent entre Volontaires et Convention en raison d'un incident nécessitant l’intervention de nos agents  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident (intervention agents) - Trains stationnent",
+          "channel": "notification"
+        },
+        {
+          "text": "Trains stationnent",
+          "channel": "cbiv"
+        }
+      ]
+    }
+  ]
 }
