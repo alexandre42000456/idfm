@@ -1,37 +1,6 @@
 {
-  "lastCheck": "2026-09-16T10:28:53.511122Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 1,
-  "disruptions": [
-    {
-      "id": "66ce57b9-594e-431e-9dc6-a40608812021",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260916T121325",
-          "end": "20260916T121425"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trains stationnent",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Des trains stationnent entre Porte de La Chapelle et Mairie d'Aubervilliers vers Mairie d'Aubervilliers en raison d'un ajustement de l'intervalle entre les trains  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Ajustement de l'intervalle entre les trains - Trains stationnent",
-          "channel": "notification"
-        },
-        {
-          "text": "Trains stationnent",
-          "channel": "cbiv"
-        }
-      ]
-    }
-  ]
+  "lastCheck": "2026-09-16T15:06:38.146763Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 0,
+  "disruptions": []
 }
