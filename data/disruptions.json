@@ -1,37 +1,6 @@
 {
-  "lastCheck": "2026-09-17T22:27:04.987015Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 1,
-  "disruptions": [
-    {
-      "id": "0da3e84c-bf7b-4628-888d-b257bb75842c",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260917T232435",
-          "end": "20260917T232535"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
-          "channel": "notification"
-        }
-      ]
-    }
-  ]
+  "lastCheck": "2026-09-18T00:31:58.911185Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 0,
+  "disruptions": []
 }
