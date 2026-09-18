@@ -1,37 +1,6 @@
 {
-  "lastCheck": "2026-09-18T09:35:12.368594Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 1,
-  "disruptions": [
-    {
-      "id": "a5fcbddd-cfcd-49d8-9461-b31faf5206ed",
-      "severity": "perturbée",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260918T091021",
-          "end": "20270918T091021"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy",
-          "channel": "email ascenseur"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne ascenseur situé Quai 2, dir. Mairie d'Issy",
-          "channel": "sms ascenseurs"
-        },
-        {
-          "text": "Mairie d'Aubervilliers Panne de l'ascenseur situé Quai 2, direction Mairie d'Issy",
-          "channel": "moteur"
-        },
-        {
-          "text": "Panne d'un ascenseur",
-          "channel": "titre"
-        }
-      ]
-    }
-  ]
+  "lastCheck": "2026-09-18T13:46:06.208638Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 0,
+  "disruptions": []
 }
