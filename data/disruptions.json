@@ -1,6 +1,37 @@
 {
-  "lastCheck": "2026-09-18T13:46:06.208638Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 0,
-  "disruptions": []
+  "lastCheck": "2026-09-18T17:13:36.739753Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 1,
+  "disruptions": [
+    {
+      "id": "a9cac24a-5240-4f1d-a5b3-5afd7ef172df",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260918T184140",
+          "end": "20260918T184240"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un bagage oublié dans un train à Mairie d'Aubervilliers .</p>",
+          "channel": "moteur"
+        }
+      ]
+    }
+  ]
 }
