@@ -1,60 +1,30 @@
 {
-  "lastCheck": "2026-09-22T14:47:57.275762Z",
+  "lastCheck": "2026-09-22T18:19:17.353739Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 2,
+  "disruptionCount": 1,
   "disruptions": [
     {
-      "id": "fd075d8d-5b66-42c2-a9e5-f483b242c556",
-      "severity": "bloquante",
-      "status": "active",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20260922T163821",
-          "end": "20260923T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Personnes sur les voies - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Trafic interrompu entre Front Populaire et Aubervilliers et perturbé sur le reste de la ligne en raison de personnes sur voies à Aubervilliers. <br>Reprise estimée : 17:00.<br>Veuillez emprunter des itinéraires alternatifs et vous rapprocher des agents RATP.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Personnes sur les voies - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        }
-      ]
-    },
-    {
-      "id": "b6ba563a-15fb-4153-97c5-5e891a3bf229",
+      "id": "47f1e345-4273-444d-84fe-ca2d6aad2a18",
       "severity": "perturbée",
       "status": "past",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20260922T163215",
-          "end": "20260922T163315"
+          "begin": "20260922T194554",
+          "end": "20260922T194654"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Manoeuvre de train retardée - Trafic perturbé",
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé vers Mairie d'Issy en raison d'une manoeuvre de train retardée à Mairie d'Issy .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un incident d'exploitation à Mairie d'Issy .</p>",
           "channel": "moteur"
         },
         {
-          "text": "Métro 12 : Manoeuvre de train retardée - Trafic perturbé",
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "notification"
         },
         {
