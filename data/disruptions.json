@@ -1,6 +1,37 @@
 {
-  "lastCheck": "2026-09-24T14:59:51.933032Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 0,
-  "disruptions": []
+  "lastCheck": "2026-09-24T18:50:02.809342Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 1,
+  "disruptions": [
+    {
+      "id": "cc15371b-1130-488e-ac9e-2890586d7f97",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260924T200059",
+          "end": "20260924T202405"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trains stationnent",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Des trains stationnent entre Convention et Corentin Celton vers Mairie d'Issy en raison d'un incident d'exploitation à Corentin Celton .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trains stationnent",
+          "channel": "notification"
+        },
+        {
+          "text": "Trains stationnent",
+          "channel": "cbiv"
+        }
+      ]
+    }
+  ]
 }
