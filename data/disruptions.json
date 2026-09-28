@@ -1,6 +1,37 @@
 {
-  "lastCheck": "2026-09-28T04:14:49.538145Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 0,
-  "disruptions": []
+  "lastCheck": "2026-09-28T10:54:40.267215Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 1,
+  "disruptions": [
+    {
+      "id": "d297469a-f1ec-4355-bda1-d4805a657d8b",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20260928T124035",
+          "end": "20260929T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "<p>Le trafic reprend mais reste très perturbé sur toute la ligne en répercussion d'un incident affectant les voies à Madeleine .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Reprise progressive / trafic reste très perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Incident affectant les voies - Reprise progressive / trafic reste très perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Métro 12 : Incident affectant les voies - Reprise progressive / trafic reste très perturbé",
+          "channel": "titre"
+        }
+      ]
+    }
+  ]
 }
