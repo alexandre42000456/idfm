@@ -1,6 +1,37 @@
 {
-  "lastCheck": "2026-10-04T02:52:51.409651Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 0,
-  "disruptions": []
+  "lastCheck": "2026-10-04T08:51:37.839254Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 1,
+  "disruptions": [
+    {
+      "id": "9b9e734e-7818-4a99-8631-47e03896f535",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20261004T104426",
+          "end": "20261005T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié sur un quai - Reprise progressive / trafic reste très perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste très perturbé sur toute la ligne en répercussion d'un bagage oublié sur un quai  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié sur un quai - Reprise progressive / trafic reste très perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Reprise progressive / trafic reste très perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    }
+  ]
 }
