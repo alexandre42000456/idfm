@@ -1,37 +1,6 @@
 {
-  "lastCheck": "2026-10-06T13:59:18.043703Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 1,
-  "disruptions": [
-    {
-      "id": "0b583955-9b2e-4685-9c6e-9228e745516a",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20261006T154131",
-          "end": "20261006T155000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Reprise progressive / trafic reste perturbé",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un bagage oublié dans un train à Trinité - d'Estienne d'Orves .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
-          "channel": "notification"
-        }
-      ]
-    }
-  ]
+  "lastCheck": "2026-10-06T19:17:47.098530Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 0,
+  "disruptions": []
 }
