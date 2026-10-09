@@ -1,6 +1,37 @@
 {
-  "lastCheck": "2026-10-09T03:06:35.831846Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 0,
-  "disruptions": []
+  "lastCheck": "2026-10-09T10:23:14.565470Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 1,
+  "disruptions": [
+    {
+      "id": "38fdb1a0-352a-4399-87d6-b1a3a1bd2bb0",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20261009T120742",
+          "end": "20261009T120842"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Panne de portes de train - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une panne de portes de train à Rennes .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Panne de portes de train - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    }
+  ]
 }
