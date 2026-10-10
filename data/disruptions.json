@@ -1,35 +1,65 @@
 {
-  "lastCheck": "2026-10-10T13:17:48.891427Z",
+  "lastCheck": "2026-10-10T17:52:30.176938Z",
   "hasNewDisruptions": true,
-  "disruptionCount": 1,
+  "disruptionCount": 2,
   "disruptions": [
     {
-      "id": "4716b62d-b1cb-42a9-82db-355ee51e0fa2",
+      "id": "6eb07c45-3145-44cf-90cb-c70c88ff30c0",
       "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20261010T142356",
+          "begin": "20261010T184634",
           "end": "20261011T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Affluence liée à un événement exceptionnel - Trafic perturbé",
+          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "Métro 12 : Malaise voyageur à bord du train - Trafic perturbé",
           "channel": "notification"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un malaise voyageur à bord du train à Montparnasse Bienvenue .</p>",
+          "channel": "moteur"
         },
         {
           "text": "Trafic perturbé",
           "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "b86e6782-7038-4e9b-8d96-4e9d5f972218",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20261010T183936",
+          "end": "20261010T184036"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
+          "channel": "notification"
         },
         {
-          "text": "Métro 12 : Affluence liée à un événement exceptionnel - Trafic perturbé",
+          "text": "Métro 12 : Incident d'exploitation - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une affluence liée à un événement exceptionnel à Porte de Versailles  .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident d'exploitation  .</p>",
           "channel": "moteur"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
         }
       ]
     }
