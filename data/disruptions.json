@@ -1,6 +1,37 @@
 {
-  "lastCheck": "2026-10-10T06:59:49.873047Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 0,
-  "disruptions": []
+  "lastCheck": "2026-10-10T13:17:48.891427Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 1,
+  "disruptions": [
+    {
+      "id": "4716b62d-b1cb-42a9-82db-355ee51e0fa2",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20261010T142356",
+          "end": "20261011T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Affluence liée à un événement exceptionnel - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Affluence liée à un événement exceptionnel - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une affluence liée à un événement exceptionnel à Porte de Versailles  .</p>",
+          "channel": "moteur"
+        }
+      ]
+    }
+  ]
 }
