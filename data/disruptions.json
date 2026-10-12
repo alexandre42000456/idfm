@@ -1,6 +1,97 @@
 {
-  "lastCheck": "2026-10-12T02:10:37.585382Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 0,
-  "disruptions": []
+  "lastCheck": "2026-10-12T09:06:38.052674Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 3,
+  "disruptions": [
+    {
+      "id": "f26cc61a-1feb-4654-a720-b7763d18d5b4",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20261012T102349",
+          "end": "20261012T102449"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un bagage oublié dans un train à Mairie d'Issy .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Reprise progressive / trafic reste perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    },
+    {
+      "id": "cc7ac2bb-70d4-4d44-98f3-ae44ac017b9b",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20261012T095931",
+          "end": "20261012T100031"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Affluence liée à un événement exceptionnel - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une affluence liée à un événement exceptionnel  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Affluence liée à un événement exceptionnel - Trafic perturbé",
+          "channel": "notification"
+        }
+      ]
+    },
+    {
+      "id": "a8921e2a-eedb-4def-8aa2-b1949c88265a",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20261012T105535",
+          "end": "20261012T105635"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Intervention des équipes techniques - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en raison d'une intervention des équipes techniques à Rue du Bac .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Intervention des équipes techniques - Reprise progressive / trafic reste perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    }
+  ]
 }
