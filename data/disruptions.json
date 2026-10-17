@@ -1,6 +1,37 @@
 {
-  "lastCheck": "2026-10-17T18:08:03.229056Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 0,
-  "disruptions": []
+  "lastCheck": "2026-10-17T20:29:52.081961Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 1,
+  "disruptions": [
+    {
+      "id": "ee04d794-ce43-48c5-9358-339eebb5ca2f",
+      "severity": "perturbée",
+      "status": "active",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20261017T204042",
+          "end": "20261018T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Mesures de sécurité - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion de mesures de sécurité  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Mesures de sécurité - Trafic perturbé",
+          "channel": "notification"
+        }
+      ]
+    }
+  ]
 }
