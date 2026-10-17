@@ -1,35 +1,35 @@
 {
-  "lastCheck": "2026-10-17T20:29:52.081961Z",
+  "lastCheck": "2026-10-17T22:30:50.120886Z",
   "hasNewDisruptions": true,
   "disruptionCount": 1,
   "disruptions": [
     {
-      "id": "ee04d794-ce43-48c5-9358-339eebb5ca2f",
+      "id": "80d0ed42-b524-4180-91bb-afdd12b202ba",
       "severity": "perturbée",
       "status": "active",
       "cause": "perturbation",
       "application_periods": [
         {
-          "begin": "20261017T204042",
+          "begin": "20261018T002418",
           "end": "20261018T043000"
         }
       ],
       "messages": [
         {
-          "text": "Métro 12 : Mesures de sécurité - Trafic perturbé",
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
           "channel": "titre"
         },
         {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion de mesures de sécurité  .</p>",
+          "text": "<p>Le trafic est perturbé sur toute la ligne en répercussion d'un bagage oublié dans un train  .</p>",
           "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié dans un train - Trafic perturbé",
+          "channel": "notification"
         },
         {
           "text": "Trafic perturbé",
           "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Mesures de sécurité - Trafic perturbé",
-          "channel": "notification"
         }
       ]
     }
