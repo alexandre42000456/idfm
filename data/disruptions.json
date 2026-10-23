@@ -1,6 +1,37 @@
 {
-  "lastCheck": "2026-10-23T18:52:15.379190Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 0,
-  "disruptions": []
+  "lastCheck": "2026-10-23T21:43:09.160335Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 1,
+  "disruptions": [
+    {
+      "id": "137a5e2c-a0e5-41ce-a93d-dbbeb8a65421",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20261023T232956",
+          "end": "20261023T233056"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison de personnes sur les voies  .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Personnes sur les voies - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    }
+  ]
 }
