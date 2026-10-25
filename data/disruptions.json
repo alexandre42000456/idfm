@@ -1,37 +1,6 @@
 {
-  "lastCheck": "2026-10-24T23:10:04.456901Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 1,
-  "disruptions": [
-    {
-      "id": "9a95ec6f-40cc-4c7a-8fd3-aa41944bc842",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20261025T005752",
-          "end": "20261025T005852"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Affluence liée à un événement exceptionnel - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une affluence liée à un événement exceptionnel  .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Affluence liée à un événement exceptionnel - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        }
-      ]
-    }
-  ]
+  "lastCheck": "2026-10-25T01:04:41.820510Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 0,
+  "disruptions": []
 }
