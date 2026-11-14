@@ -1,6 +1,37 @@
 {
-  "lastCheck": "2026-11-14T14:26:47.357228Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 0,
-  "disruptions": []
+  "lastCheck": "2026-11-14T19:19:18.952352Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 1,
+  "disruptions": [
+    {
+      "id": "dc573675-d546-4352-9d1e-5ef81cf6d6be",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20261114T201049",
+          "end": "20261114T201149"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Bagage oublié sur un quai - Reprise progressive / trafic reste perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic reprend mais reste perturbé sur toute la ligne en répercussion d'un bagage oublié sur un quai à Mairie d'Issy .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Bagage oublié sur un quai - Reprise progressive / trafic reste perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Reprise progressive / trafic reste perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    }
+  ]
 }
