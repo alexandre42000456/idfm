@@ -1,6 +1,37 @@
 {
-  "lastCheck": "2026-11-16T00:58:21.666575Z",
-  "hasNewDisruptions": false,
-  "disruptionCount": 0,
-  "disruptions": []
+  "lastCheck": "2026-11-16T07:34:23.884840Z",
+  "hasNewDisruptions": true,
+  "disruptionCount": 1,
+  "disruptions": [
+    {
+      "id": "f6823916-e836-4637-b6fa-9b5f9bbf357b",
+      "severity": "perturbée",
+      "status": "past",
+      "cause": "perturbation",
+      "application_periods": [
+        {
+          "begin": "20261116T082027",
+          "end": "20261116T082127"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Incident technique - Trafic perturbé",
+          "channel": "titre"
+        },
+        {
+          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'un incident technique à Mairie d'Aubervilliers .</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Métro 12 : Incident technique - Trafic perturbé",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic perturbé",
+          "channel": "cbiv"
+        }
+      ]
+    }
+  ]
 }
