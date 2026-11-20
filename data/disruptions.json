@@ -1,37 +1,6 @@
 {
-  "lastCheck": "2026-11-20T09:04:55.133844Z",
-  "hasNewDisruptions": true,
-  "disruptionCount": 1,
-  "disruptions": [
-    {
-      "id": "7435b986-b225-47fe-8016-4dc884fa20be",
-      "severity": "perturbée",
-      "status": "past",
-      "cause": "perturbation",
-      "application_periods": [
-        {
-          "begin": "20261120T085724",
-          "end": "20261120T085824"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
-          "channel": "titre"
-        },
-        {
-          "text": "<p>Le trafic est perturbé sur toute la ligne en raison d'une panne de signalisation à Saint-Georges .</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Métro 12 : Panne de signalisation - Trafic perturbé",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic perturbé",
-          "channel": "cbiv"
-        }
-      ]
-    }
-  ]
+  "lastCheck": "2026-11-20T17:42:24.688186Z",
+  "hasNewDisruptions": false,
+  "disruptionCount": 0,
+  "disruptions": []
 }
