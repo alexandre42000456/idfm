@@ -1,128 +1,8 @@
 {
-  "lastCheck": "2026-11-28T04:45:08.933759Z",
+  "lastCheck": "2026-11-28T13:38:43.297433Z",
   "hasNewDisruptions": false,
   "disruptionCount": 7,
   "disruptions": [
-    {
-      "id": "ddf4a876-9711-4d46-93e9-c6c728e1d1ca",
-      "severity": "bloquante",
-      "status": "future",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20270103T220000",
-          "end": "20270104T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Travaux - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le 3 janvier à partir de 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux.</p>",
-          "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "9a9fa7ff-7b20-4ced-a292-2b5c21f5103c",
-      "severity": "bloquante",
-      "status": "future",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20270110T220000",
-          "end": "20270111T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Travaux - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le 10 janvier à partir de 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux.</p>",
-          "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "649e73ca-e517-49d3-ae6c-624035904fb3",
-      "severity": "bloquante",
-      "status": "future",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20270106T220000",
-          "end": "20270107T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux - Trafic interrompu",
-          "channel": "titre"
-        },
-        {
-          "text": "Métro 12 : Travaux - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "<p>Le 6 janvier à partir de 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux.</p>",
-          "channel": "moteur"
-        }
-      ]
-    },
-    {
-      "id": "d1b3dc7f-0fc4-45c5-b5d0-2ed6fe3381c3",
-      "severity": "bloquante",
-      "status": "future",
-      "cause": "travaux",
-      "application_periods": [
-        {
-          "begin": "20270120T220000",
-          "end": "20270121T043000"
-        }
-      ],
-      "messages": [
-        {
-          "text": "Métro 12 : Travaux - Trafic interrompu",
-          "channel": "notification"
-        },
-        {
-          "text": "<p>Le 20 janvier à partir de 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux.</p>",
-          "channel": "moteur"
-        },
-        {
-          "text": "Trafic interrompu",
-          "channel": "cbiv"
-        },
-        {
-          "text": "Métro 12 : Travaux - Trafic interrompu",
-          "channel": "titre"
-        }
-      ]
-    },
     {
       "id": "264a8ee2-23e4-457e-87f5-711c63e9441b",
       "severity": "bloquante",
@@ -154,14 +34,14 @@
       ]
     },
     {
-      "id": "125258c2-e8c8-4924-83d0-770cf776b449",
+      "id": "d1b3dc7f-0fc4-45c5-b5d0-2ed6fe3381c3",
       "severity": "bloquante",
       "status": "future",
       "cause": "travaux",
       "application_periods": [
         {
-          "begin": "20270127T220000",
-          "end": "20270128T043000"
+          "begin": "20270120T220000",
+          "end": "20270121T043000"
         }
       ],
       "messages": [
@@ -170,7 +50,7 @@
           "channel": "notification"
         },
         {
-          "text": "<p>Le 27 janvier à partir de 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux.</p>",
+          "text": "<p>Le 20 janvier à partir de 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux.</p>",
           "channel": "moteur"
         },
         {
@@ -210,6 +90,126 @@
         {
           "text": "Métro 12 : Travaux - Trafic interrompu",
           "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "9a9fa7ff-7b20-4ced-a292-2b5c21f5103c",
+      "severity": "bloquante",
+      "status": "future",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20270110T220000",
+          "end": "20270111T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Travaux - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le 10 janvier à partir de 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux.</p>",
+          "channel": "moteur"
+        }
+      ]
+    },
+    {
+      "id": "125258c2-e8c8-4924-83d0-770cf776b449",
+      "severity": "bloquante",
+      "status": "future",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20270127T220000",
+          "end": "20270128T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le 27 janvier à partir de 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux.</p>",
+          "channel": "moteur"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Travaux - Trafic interrompu",
+          "channel": "titre"
+        }
+      ]
+    },
+    {
+      "id": "ddf4a876-9711-4d46-93e9-c6c728e1d1ca",
+      "severity": "bloquante",
+      "status": "future",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20270103T220000",
+          "end": "20270104T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "Métro 12 : Travaux - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "<p>Le 3 janvier à partir de 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux.</p>",
+          "channel": "moteur"
+        }
+      ]
+    },
+    {
+      "id": "649e73ca-e517-49d3-ae6c-624035904fb3",
+      "severity": "bloquante",
+      "status": "future",
+      "cause": "travaux",
+      "application_periods": [
+        {
+          "begin": "20270106T220000",
+          "end": "20270107T043000"
+        }
+      ],
+      "messages": [
+        {
+          "text": "Métro 12 : Travaux - Trafic interrompu",
+          "channel": "titre"
+        },
+        {
+          "text": "Métro 12 : Travaux - Trafic interrompu",
+          "channel": "notification"
+        },
+        {
+          "text": "Trafic interrompu",
+          "channel": "cbiv"
+        },
+        {
+          "text": "<p>Le 6 janvier à partir de 22:00, le trafic sera interrompu sur toute la ligne en raison de travaux.</p>",
+          "channel": "moteur"
         }
       ]
     }
